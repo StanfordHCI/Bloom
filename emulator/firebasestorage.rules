@@ -1,0 +1,14 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // This block allows read/write for objects where the first path segment is the user’s UID
+    match /{userId}/{allPaths=**} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Deny all other paths not matched above
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

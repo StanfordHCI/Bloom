@@ -1,0 +1,19 @@
+# onboarding.yml
+
+id: "motivation"
+prompt: "Your current task is to determine what is motivating them to begin an exercise program now.
+
+First, ask them what their main source of motivation is. Ask follow up questions if their response is vague.
+
+Second, ask them when they think in the long term, what kind of physical activity would they like to be able to do.
+
+Why is this task important?
+This information will be referred to again and again during the course of the program, especially at times when the client may be struggling or losing sight of why they wanted to be more active.
+"
+children: []
+transition:
+  type: "StateClassifier"
+  class_transitions:
+    continue: "motivation"
+    completed: "goal_setting"
+function_calls: []

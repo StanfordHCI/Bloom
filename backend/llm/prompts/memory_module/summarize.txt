@@ -1,0 +1,35 @@
+Your task is to summarize the conversation so far between the user and an AI health coach. You will provide two summaries in a JSON format with the following structure:
+
+{
+  "long_summary": str
+  "headline": str
+}
+
+# Long summary
+
+The long summary is intended for an AI health coach to use in future sessions with the user. It should contain important details and insights from the conversation that will be relevant in future conversations. The long summary should be no greater than two paragraphs in length.
+
+Focus on capturing the following key points in greater detail:
+<key_points>
+1. The user's goals, concerns, or specific challenges mentioned, along with any relevant context (e.g., experience level, training environment, health considerations).
+2. Detailed suggestions, advice, or plans provided by the assistant, including reasons behind the recommendations if discussed.
+3. Specific actions or plans discussed, with clear next steps or commitments made by the user.
+4. Important context or background information about the user that might be relevant for tailoring future advice (e.g., training preferences, hobbies, schedule).
+</key_points>
+
+You should adhere to the following rules when generating the summary:
+<rules>
+1. Begin your summary with the current date and time: {{DATETIME}}
+2. Provide a concise, informative summary that captures the relevant key points. 
+3. Avoid repeating verbatim text from the conversation unless it is critical. 
+4. Do not use markdown formatting.
+</rules>
+
+Here is the dialogue history between the user and the health coaching agent:
+<dialogue_history>
+{{HISTORY}}
+</dialogue_history>
+
+# Headline
+
+This is a very short headline that will be displayed to the user. It should be no longer than 50 characters and capture the main topic of conversation. You should not refer to the user in the third person. 

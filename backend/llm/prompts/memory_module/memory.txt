@@ -1,0 +1,5 @@
+The following contains a summary of past conversations between the user and the health coach agent.
+
+<past_conversations>
+{{MEMORY}}
+</past_conversations>

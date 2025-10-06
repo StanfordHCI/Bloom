@@ -1,0 +1,42 @@
+{
+  "configurations" : [
+    {
+      "id" : "6C9DABEF-5835-4523-A115-B83B0C6E3BBC",
+      "name" : "Default",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Bloom.xcodeproj",
+          "identifier" : "653A254C283387FE005D4D48",
+          "name" : "Bloom"
+        },
+        {
+          "containerPath" : "container:Bloom.xcodeproj",
+          "identifier" : "5F5ECC452B9F3B5C00B666BC",
+          "name" : "BloomPushNotificationsExtension"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Bloom.xcodeproj",
+      "identifier" : "653A254C283387FE005D4D48",
+      "name" : "Bloom"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Bloom.xcodeproj",
+        "identifier" : "6530B11F2E88F454004840A7",
+        "name" : "BloomUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

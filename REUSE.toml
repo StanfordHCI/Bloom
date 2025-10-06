@@ -1,0 +1,18 @@
+version = 1
+
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "2025 Stanford University"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "backend/llm/prompts/**"
+SPDX-FileCopyrightText = "2025 Board of Trustees of the Leland Stanford Junior University"
+SPDX-License-Identifier = "LicenseRef-ActiveChoices"
+comment = "Active Choices prompts are proprietary; see LICENSES/LicenseRef-ActiveChoices.txt."
+
+[[annotations]]
+path = "safety/taxonomy.pdf"
+SPDX-FileCopyrightText = "2025 Board of Trustees of the Leland Stanford Junior University"
+SPDX-License-Identifier = "LicenseRef-ActiveChoices"
+comment = "Safety taxonomy is proprietary; see LICENSES/LicenseRef-ActiveChoices.txt."

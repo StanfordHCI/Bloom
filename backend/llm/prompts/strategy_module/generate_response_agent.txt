@@ -1,0 +1,6 @@
+{TASK}
+
+The strategy you should use is:
+{STRATEGY_DESCRIPTION}
+
+Message: Output the response given this strategy. Keep your response brief. Only ask the client for one piece of information at a time. If your task includes asking multiple questions, break them up. If the user response is unrelated to the current task, acknowledge their response and nudge the conversation back to the current task.

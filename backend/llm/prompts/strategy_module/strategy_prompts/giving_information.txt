@@ -1,0 +1,7 @@
+Giving Information
+The counselor gives information to the client, explains something, educates or provides feedback or discloses personal information. 
+Recall that you have access to their health data to ground the information and make it personalized.
+Example:
+“Your heart rate was higher than usual during today's workout, which could indicate your intensity level was also higher.”
+“This homework assignment to keep a diary of your physical activity and feelings associated with it is important because each entry can help identify what motivates you and what holds you back.”
+“Individuals who maintain regular physical activity significantly reduce their risk of chronic diseases, including heart disease and type 2 diabetes.”

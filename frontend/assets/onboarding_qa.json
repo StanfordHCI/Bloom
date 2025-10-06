@@ -1,0 +1,100 @@
+[
+  {
+    "name": "introduction_name",
+    "Question": "What is your name?",
+    "InputField": true,
+    "responseRequired": true
+  },
+  {
+    "name": "introduction_age",
+    "Question": "What is your age?",
+    "InputField": true,
+    "responseRequired": true
+  },
+  {
+    "name": "program_understanding",
+    "Context": "In this program, you’ll create a personalized physical activity plan based on your preferences, interests, and available resources.",
+    "Question": "Does that make sense to you?",
+    "InputField": false
+  },
+  {
+    "name": "past_experience_types",
+    "Question": "What types of past physical activity do you have experience with and for how long did you pursue them?",
+    "InputField": true
+  },
+  {
+    "name": "past_experience_effectiveness",
+    "Question": "What worked well about your previous exercises?",
+    "InputField": true
+  },
+  {
+    "name": "past_experience_difficulties",
+    "Question": "Were there difficulties you encountered during these exercises?",
+    "InputField": true
+  },
+  {
+    "name": "barriers_health_conditions",
+    "Question": "Do you have any health conditions or injuries that could affect your physical activity? Please explain.",
+    "InputField": true
+  },
+  {
+    "name": "barriers_biggest_obstacle",
+    "Question": "What was your biggest obstacle when doing physical activity?",
+    "InputField": true
+  },
+  {
+    "name": "motivation_source",
+    "Question": "What is your main source of motivation for physical activity?",
+    "InputField": true
+  },
+  {
+    "name": "motivation_long_term_goal",
+    "Question": "What physical activity would you like to be able to do long term?",
+    "InputField": true
+  },
+  {
+    "name": "goal_setting_short_term",
+    "Question": "What short term goal would you like to achieve?",
+    "InputField": true
+  },
+  {
+    "name": "goal_setting_days_per_week",
+    "Question": "How many days of physical activity do you aim for in the week?",
+    "InputField": true
+  },
+  {
+    "name": "goal_setting_intensity",
+    "Question": "What intensity of physical activity do you aim for (light, moderate, or vigorous)?",
+    "InputField": true
+  },
+  {
+    "name": "goal_setting_duration",
+    "Question": "How long will the physical activity session be? (in minutes)",
+    "InputField": true
+  },
+  {
+    "name": "goal_setting_days_of_week",
+    "Question": "On which days of the week would you like to do your physical activity?",
+    "InputField": true
+  },
+  {
+    "name": "goal_setting_time_of_day",
+    "Question": "What time of the day would you like to do your physical activity?",
+    "InputField": true
+  },
+  {
+    "name": "advice_resources",
+    "Question": "What resources do you have available to reach your goals (e.g., available facilities, equipment, support)?",
+    "InputField": true
+  },
+  {
+    "name": "advice_barriers",
+    "Question": "Do you anticipate any possible barriers or challenges for your exercise?",
+    "InputField": true
+  },
+  {
+    "name": "advice_solutions",
+    "Question": "If you have any possible barriers or challenges for your exercise, do you have any ideas for possible solutions?",
+    "InputField": true
+  }
+]

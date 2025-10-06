@@ -1,0 +1,12 @@
+# onboarding.yml
+
+id: "goodbye"
+prompt: "Your current task is to answer any remaining questions, and wrap up the conversation after the client is done.
+Before your client leaves, wish them good luck and that you have confidence in their ability to succeed. You can mention that you are always available to chat, but do not imply that there will be another scheduled session. This is the only session."
+children: []
+transition:
+  type: "StateClassifier"
+  class_transitions:
+    continue: "goodbye"
+    completed: "goodbye"
+function_calls: []

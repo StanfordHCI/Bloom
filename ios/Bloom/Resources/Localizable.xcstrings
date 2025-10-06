@@ -1,0 +1,316 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ACCOUNT_REQUIRED_ITEMS" : {
+      "extractionState" : "automatic",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email, Name, and Date of Birth are required."
+          }
+        }
+      }
+    },
+    "ACTIVE_ENERGY_BURNED" : {
+      "extractionState" : "manual"
+    },
+    "APPLE_EXERCISE_TIME_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every full minute of movement equal to or exceeding the intensity of a brisk walk for you counts towards your Exercise minutes. "
+          }
+        }
+      }
+    },
+    "APPLE_MOVE_TIME_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A Move minute is measured of how active you are each day. Earning a Move minute requires motion that is more than sedentary activities such as sitting and playing a game or doing arts and crafts. Move minutes are designed for users under the age of 13. They are measured by Apple Watch and are automatically added to Health. "
+          }
+        }
+      }
+    },
+    "APPLE_STAND_TIME_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stand minutes are the minutes in each hour that you're standing and moving. Looking at your Stand minutes over time can help you understand how active or sedentary you are. Apple Watch automatically tracks and logs Stand minutes in Health. Earning at least one Stand Minute each hour also earned you the hour in your Stand ring. "
+          }
+        }
+      }
+    },
+    "BASAL_ENERGY_BURNED_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This is an estimate of the energy your body uses each day while minimally active. Additional physical activity requires more energy over and above Resting Energy (see Active Energy)."
+          }
+        }
+      }
+    },
+    "BODY_TEMPERATURE_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal body temperature varies throughout the day—it's lower in the morning and higher in the late afternoon and evening. The average normal body temperature is 98.6°F (37°C). What's normal for you may be a degree or more higher or lower than this. Body temperature can be affected by many factors, including heavy exercise, outdoor heat and humidity, and menstrual cycles. Of course, your body temperature may also rise if you have an illness. This is known as a fever. "
+          }
+        }
+      }
+    },
+    "Bulk export complete: %@" : {
+
+    },
+    "FEATURES_AREA1_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The application will read data about your fitness from your Apple Watch."
+          }
+        }
+      }
+    },
+    "FEATURES_AREA1_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect to an Apple Watch"
+          }
+        }
+      }
+    },
+    "FEATURES_AREA2_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloom's chatbot can help you set goals and maintain healthy habits."
+          }
+        }
+      }
+    },
+    "FEATURES_AREA2_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chat about Physical Activity"
+          }
+        }
+      }
+    },
+    "FEATURES_AREA3_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloom can analyze your data for your and point out patterns that it finds."
+          }
+        }
+      }
+    },
+    "FEATURES_AREA3_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find Patterns in Your Data"
+          }
+        }
+      }
+    },
+    "FEATURES_BUTTON" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        }
+      }
+    },
+    "FEATURES_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloom supports the following features"
+          }
+        }
+      }
+    },
+    "FLIGHTS_CLIMBED_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A flight of stairs is counted as approximately 10 feet (3 meters) of elevation gain (approximately 16 steps). "
+          }
+        }
+      }
+    },
+    "HealthKit Authozation State: %@" : {
+
+    },
+    "HEART_RATE_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your heart beats approximately 100,000 times per day, accelerating and slowing through periods of rest and exertion. Your heart rate refers to how many times your heart beats per minute and can be an indicator of your cardiovascular health. Health visualizes a history of the heart rate data collected by Apple Watch or a heart rate monitor so you can see your patterns and variability over time and with different activities."
+          }
+        }
+      }
+    },
+    "HEART_RATE_VARIABILITY_SDNN_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heart Rate Variability (HRV) is a measure of the variation in the time interval between heart beats. Apple Watch calculates HRV by using the standard deviation of beat-to-beat measurements which are captured by the heart rate sensor. HRV is validated for users over the age of 18. Thirty party apps and devices can also add HRV to Health. "
+          }
+        }
+      }
+    },
+    "HK_UPLOAD_TEXT_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your health data is currently uploading. Please keep the app open and the screen unlocked until the upload is complete."
+          }
+        }
+      }
+    },
+    "HK_UPLOAD_TEXT_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To prevent your phone from automatically turning off, please open your Settings app and go to Settings > Display & Brightness > Auto-Lock > Never."
+          }
+        }
+      }
+    },
+    "NO_SURVEYS_MESSAGE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Currently there are no surveys available, you will be notified about upcoming surveys."
+          }
+        }
+      }
+    },
+    "OXYGEN_SATURATION_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blood oxygen is a measure of the amount of oxygen in the protein (hemoglobin) in your red blood cells. To function properly, your body needs a certain level of oxygen circulating in the blood. Your red blood cells are loaded (saturated) with oxygen in the lungs and carry it throughout your body."
+          }
+        }
+      }
+    },
+    "PRIVACY_CONTROLS_TITLE" : {
+      "comment" : "MARK: - Privacy Controls",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Controls"
+          }
+        }
+      }
+    },
+    "Request authozation" : {
+
+    },
+    "RESPIRATORY_RATE_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Also commonly called respiration rate or breathing rate, this refers to the number of times you breathe in a minute. When you inhale, your lungs fill with air and oxygen is added to your blood stream while carbon dioxide is removed from your blood. The carbon dioxide is then released from your lungs as you exhale. Your respiratory rate can increase when your body needs more oxygen, such as when you're exercising. It can also decrease when you need less-during sleep for example."
+          }
+        }
+      }
+    },
+    "RESTING_HEART_RATE_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A quantity sample type that measures the user’s resting heart rate."
+          }
+        }
+      }
+    },
+    "SLEEP_ANALYSIS_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sleep provides insight into your sleep habits. Sleep trackers and monitors can help you determine the amount of time you are in bed and asleep. These devices estimate your time in bed and your time asleep by analyzing changes in physical activity, including movement during the night. You can also keep track of your sleep by entering your own estimation of your bed time and sleep time manually. The \"In Bed\" period reflects the time period you are lying in bed with the intention to sleep. For most people it starts when you turn the lights off and it ends when you get out of bed. The \"Asleep\" period reflects the period (s) you are asleep."
+          }
+        }
+      }
+    },
+    "STEP_COUNT_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Step count is the number of steps you take throughout the day. Pedometers and digital activity trackers can help you determine your step count. These devices count steps for any activity that involves step-like movement, including walking, running, stair-climbing, cross-country skiing, and even movement as you go about your daily chores."
+          }
+        }
+      }
+    },
+    "WALKING_HEART_RATE_AVERAGE_DESCRIPTION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your walking heart rate is the average heart beats per minute measured by your Apple Watch during walks at a steady pace throughout the day.\nLike resting heart rate, a lower walking heart rate may indicate better heart health and cardiovascular fitness. Walking regularly has many health benefits, and you may see your walking heart rate lower over time by staying active, managing your weight, and reducing everyday stress."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

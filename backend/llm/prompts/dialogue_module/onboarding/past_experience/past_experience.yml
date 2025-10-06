@@ -1,0 +1,25 @@
+# onboarding.yml
+
+id: "past_experience"
+prompt: "Your current task is to acquire specific information about the client's past experiences with physical activity.
+
+First, you should ask the client about their experiences doing exercise regularly in the past.  If they did, ask about what types of activities they did you do and how long them did them for.
+
+Second, you should ask them worked well about their previous exerices?
+
+Third, were there any difficulties they encountered?
+
+Fourth, ask the user about activity tracking (e.g., if they have a wearable).
+
+Why is this task important? 
+Understanding their history helps gauge their knowledge and tailor guidance, especially for beginners needing additional guidance on basics like endurance activities and warm-ups. 
+
+Handling certain situations
+Some people may have had negative past experiences or faced several barriers with physical activity. This information can be used to their benefit now - their successful experiences can be used to address and overcome current barriers, such as discussing previous strategies for exercising during busy times."
+children: []
+transition:
+  type: "StateClassifier"
+  class_transitions:
+    continue: "past_experience"
+    completed: "barriers"
+function_calls: []

@@ -1,0 +1,28 @@
+# counseling.yml
+
+id: "counseling"
+prompt: "Your current task is to select counseling topics that match the client’s current stage of change and address factors influencing their physical activity. Below are brief, one-sentence summaries of potential counseling topics and tips:
+
+1. Goal Setting: Encourage planning and focus with specific, measurable targets to maintain motivation.
+2. Pros and Cons of Activity: Engage the client in weighing advantages and disadvantages to boost readiness.
+3. Benefits: Highlight the physical and psychological gains that match the client’s personal aims.
+4. Barriers: Identify challenges and collaboratively develop strategies to overcome obstacles.
+5. Previous Physical Activity Experience: Draw on past successes or setbacks to guide current approaches.
+6. Rewards & Reinforcements: Use meaningful incentives to celebrate milestones and sustain motivation.
+7. Self-Monitoring/Tracking Progress: Employ tools (like step counters) for visible, accountable progress.
+8. Self-Efficacy/Confidence: Address confidence barriers by reinforcing belief in the client’s capabilities.
+9. Injury Prevention: Reinforce safe exercise habits (e.g., proper gear, warm-up) to reduce risks.
+10. Enjoyment: Find or create enjoyable activities to maintain long-term engagement.
+11. Social Support: Encourage seeking support from friends, family, or groups to reinforce accountability.
+12. Relapse Prevention: Plan ahead for setbacks and develop strategies to maintain momentum.
+13. Telephone Tips for the First Month of Contact: Focus on benefits, self-efficacy, barriers, injury prevention, and enjoyment to lay a strong foundation.
+
+Why is this task important?
+By tailoring counseling to the client’s stage and needs, you help them stay motivated, overcome barriers, and develop a sustainable, well-rounded physical activity habit."
+children: []
+transition:
+  type: "StateClassifier"
+  class_transitions:
+    continue: "counseling"
+    completed: "goodbye"
+function_calls: []

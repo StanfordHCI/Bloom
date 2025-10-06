@@ -1,0 +1,171 @@
+{
+  "name": "weekly_plan",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "required": [
+      "rationale",
+      "message",
+      "start",
+      "end",
+      "workoutsByDay"
+    ],
+    "properties": {
+      "end": {
+        "type": "string",
+        "description": "MM-DD-YYYY formatted date string. The end date must be a Saturday."
+      },
+      "start": {
+        "type": "string",
+        "description": "MM-DD-YYYY formatted date string. The start date must be a Sunday."
+      },
+      "message": {
+        "type": "string",
+        "description": "A short message displayed the user before the workout is displayed. This message should summarize the workout and indicate how their preferences and constraints were incorporated."
+      },
+      "rationale": {
+        "type": "string",
+        "description": "A short justification explaining why this workout was generated according to the user's preferences and constraints. "
+      },
+      "workoutsByDay": {
+        "type": "object",
+        "required": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "properties": {
+          "Sunday": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "$ref": "#/definitions/Workout"
+            }
+          },
+          "Monday": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "$ref": "#/definitions/Workout"
+            }
+          },
+          "Tuesday": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "$ref": "#/definitions/Workout"
+            }
+          },
+          "Wednesday": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "$ref": "#/definitions/Workout"
+            }
+          },
+          "Thursday": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "$ref": "#/definitions/Workout"
+            }
+          },
+          "Friday": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "$ref": "#/definitions/Workout"
+            }
+          },
+          "Saturday": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "$ref": "#/definitions/Workout"
+            }
+          }
+        },
+        "description": "Dictionary of workouts by weekdays. If the day of the week has already passed, return null for that day's workout. For example, if today is Tuesday at 8AM, Sunday and Monday must be set to null and the Tuesday object cannot have a workout before 8AM, while Wednesday through Saturday may have a workout object.",
+        "additionalProperties": false
+      }
+    },
+    "definitions": {
+      "Workout": {
+        "type": "object",
+        "required": [
+          "durationMin",
+          "intensity",
+          "timeStart",
+          "type",
+          "location",
+          "completed",
+          "reminder"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "run",
+              "walk",
+              "swim",
+              "recovery"
+            ],
+            "type": "string",
+            "description": "The type of activity done in this workout."
+          },
+          "location": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "An optional description of the location. Only include if the user describes a specific location."
+          },
+          "reminder": {
+            "type": "boolean",
+            "description": "Whether the user wants to receive a push notification reminder for this workout."
+          },
+          "completed": {
+            "type": "boolean",
+            "description": "A flag marking whether the workout is completed. It should always be set to false on first generation."
+          },
+          "intensity": {
+            "enum": [
+              "light",
+              "moderate",
+              "vigorous"
+            ],
+            "type": "string",
+            "description": "The workout's intensity, determined by target HR or the talk test."
+          },
+          "timeStart": {
+            "type": "string",
+            "description": "The time of day that the workout should start in the user's local time in a 'hh:mm tt' format (e.g., 6:30 AM, 4:00 PM)."
+          },
+          "durationMin": {
+            "type": "integer",
+            "description": "How many minutes the workout lasts"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "additionalProperties": false
+  }
+}

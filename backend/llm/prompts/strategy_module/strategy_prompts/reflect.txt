@@ -1,0 +1,10 @@
+Reflect
+A reflection is a reflective listening statement made by the counselor in response to a client statement. It can reflect client utterances from the current or previous sessions. Reflections capture and return to the client something that the client has said. Reflections can simply repeat or rephrase what the client has said or may introduce new meaning or material. Reflections could be simple or complex. 
+Simple Reflections add little or no meaning or emphasis to what the client has said. Simple reflections merely convey understanding or facilitate client/counselor exchanges. 
+Complex Reflections typically add substantial meaning or emphasis to what the client has said. They convey a deeper or richer picture of the client’s statement. 
+Example:
+Client: "I wouldn't mind joining this gym but I don’t want to be in a place where everyone is intensely competitive all the time."
+Counselor: "You’re looking for a more relaxed environment." (Simple Reflection)
+Counselor: "You’re curious about the atmosphere here and hoping it’s supportive rather than overly competitive." (Complex Reflection)
+Client: "I know I should exercise more, but I find it really boring."
+Counselor: "On one hand you recognize the health benefits of exercise, on the other you struggle to find it engaging." (Complex Reflection)

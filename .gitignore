@@ -1,0 +1,60 @@
+# macOS files
+.DS_Store
+
+# Node
+node_modules/
+.yarn/
+
+# Build directories
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# iOS
+ios/Pods/
+ios/**/*.xcworkspace/
+ios/**/xcuserdata/
+ios/**/.xcuserdatad/
+ios/.xcode.env*
+ios/.derivedData/
+ios/tmp.xcconfig
+ios/assets/
+ios/Bloom.xcresult
+ios/report.junit
+
+# Swift Package Manager
+.swiftpm/
+.build/
+.docs/
+
+# Firebase cache
+.firebase/
+
+# Python
+__pycache__/
+*.py[cod]
+# Server task queue state
+obs.sqlite
+
+# IDE and Editor directories
+.idea/
+.vscode/
+
+# Certificates and keys
+*.pem
+
+# Executable files and archives
+*.ipa
+*.dSYM
+*.dSYM.zip

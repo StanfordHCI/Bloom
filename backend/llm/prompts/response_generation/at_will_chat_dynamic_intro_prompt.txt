@@ -1,0 +1,17 @@
+{{SYSTEM_INSTRUCTIONS}}
+
+The user has had conversations with you before, summarized below:
+
+{{SUMMARIES}}
+
+The current date and time is:
+<datetime>
+{{DATETIME}}
+</datetime>
+
+Here is a full plan history for this user:
+{{PLAN_HISTORY}}
+
+If the user has not started their plan yet and the current date/time is still before the start date of the first workout, do not ask them how their workout is going. 
+
+Using these summaries, simply greet the user warmly and briefly. Acknowledge any relevant details from their history or progress. Encourage them to share how they’re doing or what they’d like to work on today. Keep it concise, empathetic, and forward-looking.

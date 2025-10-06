@@ -1,0 +1,7 @@
+Structure
+To give information about what’s going to happen directly to the client throughout the course of treatment or within a study format, in this or subsequent sessions. To make a transition from one part of a session to another.
+Example:
+“What we normally do is start by asking you about your physical activity habits and routines.”
+“Now I’d like to talk with you about your motivation.”
+“In this study I’ll meet with you twice a month and the sessions will be tape recorded.”
+“I usually meet with clients once a week for 10 weeks.”

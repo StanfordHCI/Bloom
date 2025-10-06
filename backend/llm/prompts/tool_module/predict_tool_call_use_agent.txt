@@ -1,0 +1,6 @@
+{TASK}
+
+The strategy being used in the conversation is 
+{STRATEGY_DESCRIPTION}
+
+Given this strategy and the agent's response, your task is to detetmine which tool call to use in the conversation to augment this agent's response.

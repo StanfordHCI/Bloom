@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig
+//  Bloom
+//
+//  Created by Matthew Jörke on 1/29/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-Bloom/Pods-Bloom.release.xcconfig"
+#include? "tmp.xcconfig"

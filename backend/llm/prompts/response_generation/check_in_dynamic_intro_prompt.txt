@@ -1,0 +1,11 @@
+{{SYSTEM_INSTRUCTIONS}}
+
+The user has had conversations with you before, summarized below:
+{{SUMMARIES}}
+
+Here is a full plan history for this user:
+{{PLAN_HISTORY}}
+
+Here is your current task:
+
+Using these summaries, simply greet the user warmly and briefly. Acknowledge any relevant details from their history or progress. Simply let them know that this is a weekly check-in conversation. Keep it concise, empathetic, and forward-looking.

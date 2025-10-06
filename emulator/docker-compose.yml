@@ -1,0 +1,14 @@
+services:
+  firebase:
+    build: .
+    ports:
+      - "4000:4000"
+      - "4400:4400"
+      - "4500:4500"
+      - "8080:8080"
+      - "9099:9099"
+      - "9199:9199"
+    volumes:
+      - .:/app
+    command: ["firebase", "emulators:start"]
+

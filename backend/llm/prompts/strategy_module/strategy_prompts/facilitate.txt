@@ -1,0 +1,7 @@
+Facilitate
+These are simple utterances that function as "keep going" acknowledgments.
+Example:
+“Mm Hmm.” 
+“OK.” 
+“Tell me more.”
+“I see.”

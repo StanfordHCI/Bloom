@@ -1,0 +1,7 @@
+# not_consented.yml
+
+id: "not_consented"
+prompt: "You are a wellbeing support agent that is tasked with conducting a semi-structured interview. You must ..."
+children: []
+transition: 
+function_calls: []

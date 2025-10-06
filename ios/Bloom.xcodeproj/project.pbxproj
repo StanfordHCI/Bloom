@@ -1,0 +1,1803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F49B7762980407C00BCB272 /* Spezi in Frameworks */ = {isa = PBXBuildFile; productRef = 2F49B7752980407B00BCB272 /* Spezi */; };
+		2F5E32BD297E05EA003432F8 /* BloomDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E32BC297E05EA003432F8 /* BloomDelegate.swift */; };
+		2FA0BFED2ACC977500E0EF83 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2FA0BFEC2ACC977500E0EF83 /* Localizable.xcstrings */; };
+		2FB099AF2A875DF100B20952 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB099AE2A875DF100B20952 /* FirebaseAuth */; };
+		2FB099B12A875DF100B20952 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB099B02A875DF100B20952 /* FirebaseFirestore */; };
+		2FB099B62A875E2B00B20952 /* HealthKitOnFHIR in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB099B52A875E2B00B20952 /* HealthKitOnFHIR */; };
+		5F5ECC582B9F3EE900B666BC /* BloomPushNotificationsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5F5ECC462B9F3B5C00B666BC /* BloomPushNotificationsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5F5ECC5E2B9F3F9000B666BC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5F5ECC5D2B9F3F9000B666BC /* FirebaseFirestore */; };
+		5F5ECC622B9F53F600B666BC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5F5ECC612B9F53F600B666BC /* FirebaseAuth */; };
+		5FECE9592B6CCF0B00C06B13 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 5FECE9582B6CCF0B00C06B13 /* FirebaseMessaging */; };
+		653A2551283387FE005D4D48 /* Bloom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653A2550283387FE005D4D48 /* Bloom.swift */; };
+		653A255528338800005D4D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653A255428338800005D4D48 /* Assets.xcassets */; };
+		656DE87B2E78ED9D007CFB3C /* SpeziHealthKit in Frameworks */ = {isa = PBXBuildFile; productRef = 656DE87A2E78ED9D007CFB3C /* SpeziHealthKit */; };
+		656DE87D2E78ED9D007CFB3C /* SpeziHealthKitBulkExport in Frameworks */ = {isa = PBXBuildFile; productRef = 656DE87C2E78ED9D007CFB3C /* SpeziHealthKitBulkExport */; };
+		656DE8872E793DF4007CFB3C /* BloomDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656DE8862E793DF4007CFB3C /* BloomDebugView.swift */; };
+		656DE88A2E793E8F007CFB3C /* SpeziViews in Frameworks */ = {isa = PBXBuildFile; productRef = 656DE8892E793E8F007CFB3C /* SpeziViews */; };
+		65CA07F62E907B0800DA6305 /* SpeziNotifications in Frameworks */ = {isa = PBXBuildFile; productRef = 65CA07F52E907B0800DA6305 /* SpeziNotifications */; };
+		9739A0C62AD7B5730084BEA5 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9739A0C52AD7B5730084BEA5 /* FirebaseStorage */; };
+		D22A081428B1029C5F7F1DEF /* libPods-Bloom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D921B4083835ABF5BDC5AE /* libPods-Bloom.a */; };
+		E7FDE99EB96D292C83F13416 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 816105E5601DF2A365F9C949 /* PrivacyInfo.xcprivacy */; };
+		F813CA622D5F005F006C2376 /* BloomImageIntent.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = F813CA592D5F005F006C2376 /* BloomImageIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F832A5EC2E90AAB300D69031 /* Auth+UID.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5E22E90AAB300D69031 /* Auth+UID.swift */; };
+		F832A5ED2E90AAB300D69031 /* BloomModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5E32E90AAB300D69031 /* BloomModule.swift */; };
+		F832A5EE2E90AAB300D69031 /* BloomStandard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5E42E90AAB300D69031 /* BloomStandard.swift */; };
+		F832A5EF2E90AAB300D69031 /* BloomStandard+Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5E52E90AAB300D69031 /* BloomStandard+Account.swift */; };
+		F832A5F02E90AAB300D69031 /* BloomStandard+HealthKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5E62E90AAB300D69031 /* BloomStandard+HealthKit.swift */; };
+		F832A5F12E90AAB300D69031 /* BloomStandard+PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5E72E90AAB300D69031 /* BloomStandard+PushNotifications.swift */; };
+		F832A5F22E90AAB300D69031 /* Firestore+Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5E82E90AAB300D69031 /* Firestore+Path.swift */; };
+		F832A5F32E90AAB300D69031 /* HealthKitFirebaseUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5E92E90AAB300D69031 /* HealthKitFirebaseUploader.swift */; };
+		F832A5F42E90AAB300D69031 /* HKSample+ConvertToFirestoreResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5EA2E90AAB300D69031 /* HKSample+ConvertToFirestoreResource.swift */; };
+		F832A5F82E90AAB300D69031 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5F52E90AAB300D69031 /* Constants.swift */; };
+		F832A5F92E90AAB300D69031 /* HealthKitSampleTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5F62E90AAB300D69031 /* HealthKitSampleTypes.swift */; };
+		F832A5FA2E90AAB300D69031 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5F52E90AAB300D69031 /* Constants.swift */; };
+		F832A6012E90AAB300D69031 /* Binding+Negate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5FB2E90AAB300D69031 /* Binding+Negate.swift */; };
+		F832A6022E90AAB300D69031 /* Bundle+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5FC2E90AAB300D69031 /* Bundle+Image.swift */; };
+		F832A6032E90AAB300D69031 /* CodableArray+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5FD2E90AAB300D69031 /* CodableArray+RawRepresentable.swift */; };
+		F832A6042E90AAB300D69031 /* Date+ISOFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5FE2E90AAB300D69031 /* Date+ISOFormat.swift */; };
+		F832A6052E90AAB300D69031 /* String+HealthKitIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5FF2E90AAB300D69031 /* String+HealthKitIdentifier.swift */; };
+		F832A6062E90AAB300D69031 /* Date+ISOFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5FE2E90AAB300D69031 /* Date+ISOFormat.swift */; };
+		F832A6212E90AAB300D69031 /* HKQuantityQueryExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6072E90AAB300D69031 /* HKQuantityQueryExecutor.swift */; };
+		F832A6222E90AAB300D69031 /* HKQueryExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6082E90AAB300D69031 /* HKQueryExecutor.swift */; };
+		F832A6232E90AAB300D69031 /* HKQueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6092E90AAB300D69031 /* HKQueryParameters.swift */; };
+		F832A6242E90AAB300D69031 /* HKSleepQueryExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A60A2E90AAB300D69031 /* HKSleepQueryExecutor.swift */; };
+		F832A6252E90AAB300D69031 /* HKWorkoutFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A60B2E90AAB300D69031 /* HKWorkoutFetcher.swift */; };
+		F832A6262E90AAB300D69031 /* HKWorkoutQueryExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A60C2E90AAB300D69031 /* HKWorkoutQueryExecutor.swift */; };
+		F832A6272E90AAB300D69031 /* HKTypeMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A60E2E90AAB300D69031 /* HKTypeMapper.swift */; };
+		F832A6282E90AAB300D69031 /* HKUnitMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A60F2E90AAB300D69031 /* HKUnitMapper.swift */; };
+		F832A6292E90AAB300D69031 /* HKWorkoutActivityType+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6102E90AAB300D69031 /* HKWorkoutActivityType+Name.swift */; };
+		F832A62A2E90AAB300D69031 /* HealthKitModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6122E90AAB300D69031 /* HealthKitModule.swift */; };
+		F832A62B2E90AAB300D69031 /* AuthBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6142E90AAB300D69031 /* AuthBridge.swift */; };
+		F832A62C2E90AAB300D69031 /* AuthModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6152E90AAB300D69031 /* AuthModule.swift */; };
+		F832A62D2E90AAB300D69031 /* NotificationBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6162E90AAB300D69031 /* NotificationBridge.swift */; };
+		F832A62E2E90AAB300D69031 /* SpeechToTextModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6172E90AAB300D69031 /* SpeechToTextModule.swift */; };
+		F832A62F2E90AAB300D69031 /* ReactNativeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A61A2E90AAB300D69031 /* ReactNativeConfig.swift */; };
+		F832A6302E90AAB300D69031 /* ReactNativeEventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A61B2E90AAB300D69031 /* ReactNativeEventEmitter.swift */; };
+		F832A6312E90AAB300D69031 /* ReactNativeEventEmitterBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F832A61C2E90AAB300D69031 /* ReactNativeEventEmitterBridge.m */; };
+		F832A6322E90AAB300D69031 /* ReactNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A61D2E90AAB300D69031 /* ReactNativeView.swift */; };
+		F832A6332E90AAB300D69031 /* ReactNativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A61E2E90AAB300D69031 /* ReactNativeViewController.swift */; };
+		F832A6342E90AAB300D69031 /* WidgetBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A61F2E90AAB300D69031 /* WidgetBridge.swift */; };
+		F832A6372E90AAB300D69031 /* PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6352E90AAB300D69031 /* PushNotifications.swift */; };
+		F832A63C2E90AAB500D69031 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F832A6392E90AAB500D69031 /* GoogleService-Info.plist */; };
+		F832A63D2E90AAB500D69031 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F832A6392E90AAB500D69031 /* GoogleService-Info.plist */; };
+		F832A6402E90AAB800D69031 /* BloomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A63E2E90AAB800D69031 /* BloomUITests.swift */; };
+		F832A6452E90AAB800D69031 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6432E90AAB800D69031 /* NotificationService.swift */; };
+		F832A64B2E90AAB800D69031 /* BloomImageIntentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6472E90AAB800D69031 /* BloomImageIntentExtension.swift */; };
+		F832A64C2E90AAB800D69031 /* GenerateAmbientDisplayIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6482E90AAB800D69031 /* GenerateAmbientDisplayIntent.swift */; };
+		F832A6572E90AAB800D69031 /* AmbientDisplayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A64D2E90AAB800D69031 /* AmbientDisplayWidget.swift */; };
+		F832A6582E90AAB800D69031 /* BloomWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A64F2E90AAB800D69031 /* BloomWidgetBundle.swift */; };
+		F832A6592E90AAB800D69031 /* NextWorkoutLockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6522E90AAB800D69031 /* NextWorkoutLockWidget.swift */; };
+		F832A65A2E90AAB800D69031 /* WeeklyProgressLockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6532E90AAB800D69031 /* WeeklyProgressLockWidget.swift */; };
+		F832A65B2E90AAB800D69031 /* WidgetHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6542E90AAB800D69031 /* WidgetHelpers.swift */; };
+		F832A65C2E90AAB800D69031 /* WorkoutSymbolMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A6552E90AAB800D69031 /* WorkoutSymbolMapper.swift */; };
+		F832A65D2E90AAB800D69031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F832A64E2E90AAB800D69031 /* Assets.xcassets */; };
+		F83A51B42CD175F800C4504D /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = F83A51B32CD175F800C4504D /* SwiftDate */; };
+		F8738A532D3C800D00B8EC1D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8738A522D3C800D00B8EC1D /* WidgetKit.framework */; };
+		F8738A552D3C800D00B8EC1D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8738A542D3C800D00B8EC1D /* SwiftUI.framework */; };
+		F8738A602D3C800E00B8EC1D /* BloomWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F8738A512D3C800D00B8EC1D /* BloomWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F8C84CA72D31993400AB720F /* HankenGrotesk-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8C84CA32D31993400AB720F /* HankenGrotesk-Italic.ttf */; };
+		F8C84CA82D31993400AB720F /* HankenGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8C84CA22D31993400AB720F /* HankenGrotesk-Bold.ttf */; };
+		F8C84CA92D31993400AB720F /* HankenGrotesk-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8C84CA42D31993400AB720F /* HankenGrotesk-Medium.ttf */; };
+		F8C84CAA2D31993400AB720F /* HankenGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8C84CA52D31993400AB720F /* HankenGrotesk-Regular.ttf */; };
+		F8C84CAB2D31993400AB720F /* HankenGrotesk-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8C84CA62D31993400AB720F /* HankenGrotesk-SemiBold.ttf */; };
+		F8D52E292D57DF390095C932 /* WidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D52E282D57DF360095C932 /* WidgetManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F5ECC592B9F3EE900B666BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653A2545283387FE005D4D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F5ECC452B9F3B5C00B666BC;
+			remoteInfo = BloomPushNotificationsExtension;
+		};
+		6530B1262E88F454004840A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653A2545283387FE005D4D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 653A254C283387FE005D4D48;
+			remoteInfo = Bloom;
+		};
+		F813CA602D5F005F006C2376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653A2545283387FE005D4D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F813CA582D5F005F006C2376;
+			remoteInfo = BloomImageIntent;
+		};
+		F8738A5E2D3C800E00B8EC1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653A2545283387FE005D4D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8738A502D3C800D00B8EC1D;
+			remoteInfo = AmbientDisplayWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F5ECC5B2B9F3EE900B666BC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F8738A602D3C800E00B8EC1D /* BloomWidgetExtension.appex in Embed Foundation Extensions */,
+				5F5ECC582B9F3EE900B666BC /* BloomPushNotificationsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F813CA632D5F005F006C2376 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				F813CA622D5F005F006C2376 /* BloomImageIntent.appex in Embed ExtensionKit Extensions */,
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F5E32BC297E05EA003432F8 /* BloomDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomDelegate.swift; sourceTree = "<group>"; };
+		2FA0BFEC2ACC977500E0EF83 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		2FC94CD4298B0A1D009C8209 /* Bloom.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Bloom.xctestplan; sourceTree = "<group>"; };
+		337C0B3D895E54E1E26030AB /* Pods-Bloom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloom.debug.xcconfig"; path = "Target Support Files/Pods-Bloom/Pods-Bloom.debug.xcconfig"; sourceTree = "<group>"; };
+		45B6DE8F52BB14400869965B /* Pods-Bloom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloom.release.xcconfig"; path = "Target Support Files/Pods-Bloom/Pods-Bloom.release.xcconfig"; sourceTree = "<group>"; };
+		5F5ECC462B9F3B5C00B666BC /* BloomPushNotificationsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BloomPushNotificationsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6530B1202E88F454004840A7 /* BloomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		653A254D283387FE005D4D48 /* Bloom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bloom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		653A2550283387FE005D4D48 /* Bloom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bloom.swift; sourceTree = "<group>"; };
+		653A255428338800005D4D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		656DE8862E793DF4007CFB3C /* BloomDebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomDebugView.swift; sourceTree = "<group>"; };
+		816105E5601DF2A365F9C949 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		879504B3ADA1D2BB1FDDF6E9 /* Pods-Bloom.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloom.test.xcconfig"; path = "Target Support Files/Pods-Bloom/Pods-Bloom.test.xcconfig"; sourceTree = "<group>"; };
+		A1D921B4083835ABF5BDC5AE /* libPods-Bloom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bloom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F813CA592D5F005F006C2376 /* BloomImageIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = BloomImageIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F832A5E22E90AAB300D69031 /* Auth+UID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Auth+UID.swift"; sourceTree = "<group>"; };
+		F832A5E32E90AAB300D69031 /* BloomModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomModule.swift; sourceTree = "<group>"; };
+		F832A5E42E90AAB300D69031 /* BloomStandard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomStandard.swift; sourceTree = "<group>"; };
+		F832A5E52E90AAB300D69031 /* BloomStandard+Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BloomStandard+Account.swift"; sourceTree = "<group>"; };
+		F832A5E62E90AAB300D69031 /* BloomStandard+HealthKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BloomStandard+HealthKit.swift"; sourceTree = "<group>"; };
+		F832A5E72E90AAB300D69031 /* BloomStandard+PushNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BloomStandard+PushNotifications.swift"; sourceTree = "<group>"; };
+		F832A5E82E90AAB300D69031 /* Firestore+Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firestore+Path.swift"; sourceTree = "<group>"; };
+		F832A5E92E90AAB300D69031 /* HealthKitFirebaseUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitFirebaseUploader.swift; sourceTree = "<group>"; };
+		F832A5EA2E90AAB300D69031 /* HKSample+ConvertToFirestoreResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HKSample+ConvertToFirestoreResource.swift"; sourceTree = "<group>"; };
+		F832A5F52E90AAB300D69031 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F832A5F62E90AAB300D69031 /* HealthKitSampleTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitSampleTypes.swift; sourceTree = "<group>"; };
+		F832A5FB2E90AAB300D69031 /* Binding+Negate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Negate.swift"; sourceTree = "<group>"; };
+		F832A5FC2E90AAB300D69031 /* Bundle+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Image.swift"; sourceTree = "<group>"; };
+		F832A5FD2E90AAB300D69031 /* CodableArray+RawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodableArray+RawRepresentable.swift"; sourceTree = "<group>"; };
+		F832A5FE2E90AAB300D69031 /* Date+ISOFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ISOFormat.swift"; sourceTree = "<group>"; };
+		F832A5FF2E90AAB300D69031 /* String+HealthKitIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HealthKitIdentifier.swift"; sourceTree = "<group>"; };
+		F832A6072E90AAB300D69031 /* HKQuantityQueryExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKQuantityQueryExecutor.swift; sourceTree = "<group>"; };
+		F832A6082E90AAB300D69031 /* HKQueryExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKQueryExecutor.swift; sourceTree = "<group>"; };
+		F832A6092E90AAB300D69031 /* HKQueryParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKQueryParameters.swift; sourceTree = "<group>"; };
+		F832A60A2E90AAB300D69031 /* HKSleepQueryExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSleepQueryExecutor.swift; sourceTree = "<group>"; };
+		F832A60B2E90AAB300D69031 /* HKWorkoutFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKWorkoutFetcher.swift; sourceTree = "<group>"; };
+		F832A60C2E90AAB300D69031 /* HKWorkoutQueryExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKWorkoutQueryExecutor.swift; sourceTree = "<group>"; };
+		F832A60E2E90AAB300D69031 /* HKTypeMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKTypeMapper.swift; sourceTree = "<group>"; };
+		F832A60F2E90AAB300D69031 /* HKUnitMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKUnitMapper.swift; sourceTree = "<group>"; };
+		F832A6102E90AAB300D69031 /* HKWorkoutActivityType+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HKWorkoutActivityType+Name.swift"; sourceTree = "<group>"; };
+		F832A6122E90AAB300D69031 /* HealthKitModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitModule.swift; sourceTree = "<group>"; };
+		F832A6142E90AAB300D69031 /* AuthBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthBridge.swift; sourceTree = "<group>"; };
+		F832A6152E90AAB300D69031 /* AuthModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModule.swift; sourceTree = "<group>"; };
+		F832A6162E90AAB300D69031 /* NotificationBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBridge.swift; sourceTree = "<group>"; };
+		F832A6172E90AAB300D69031 /* SpeechToTextModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextModule.swift; sourceTree = "<group>"; };
+		F832A6192E90AAB300D69031 /* Bloom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bloom-Bridging-Header.h"; sourceTree = "<group>"; };
+		F832A61A2E90AAB300D69031 /* ReactNativeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeConfig.swift; sourceTree = "<group>"; };
+		F832A61B2E90AAB300D69031 /* ReactNativeEventEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeEventEmitter.swift; sourceTree = "<group>"; };
+		F832A61C2E90AAB300D69031 /* ReactNativeEventEmitterBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeEventEmitterBridge.m; sourceTree = "<group>"; };
+		F832A61D2E90AAB300D69031 /* ReactNativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeView.swift; sourceTree = "<group>"; };
+		F832A61E2E90AAB300D69031 /* ReactNativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeViewController.swift; sourceTree = "<group>"; };
+		F832A61F2E90AAB300D69031 /* WidgetBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetBridge.swift; sourceTree = "<group>"; };
+		F832A6352E90AAB300D69031 /* PushNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotifications.swift; sourceTree = "<group>"; };
+		F832A6382E90AAB500D69031 /* Bloom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bloom.entitlements; sourceTree = "<group>"; };
+		F832A6392E90AAB500D69031 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F832A63A2E90AAB500D69031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F832A63E2E90AAB800D69031 /* BloomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomUITests.swift; sourceTree = "<group>"; };
+		F832A6412E90AAB800D69031 /* BloomPushNotificationsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BloomPushNotificationsExtension.entitlements; sourceTree = "<group>"; };
+		F832A6422E90AAB800D69031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F832A6432E90AAB800D69031 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		F832A6462E90AAB800D69031 /* BloomImageIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BloomImageIntent.entitlements; sourceTree = "<group>"; };
+		F832A6472E90AAB800D69031 /* BloomImageIntentExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomImageIntentExtension.swift; sourceTree = "<group>"; };
+		F832A6482E90AAB800D69031 /* GenerateAmbientDisplayIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateAmbientDisplayIntent.swift; sourceTree = "<group>"; };
+		F832A6492E90AAB800D69031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F832A64D2E90AAB800D69031 /* AmbientDisplayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientDisplayWidget.swift; sourceTree = "<group>"; };
+		F832A64E2E90AAB800D69031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F832A64F2E90AAB800D69031 /* BloomWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomWidgetBundle.swift; sourceTree = "<group>"; };
+		F832A6502E90AAB800D69031 /* BloomWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BloomWidgetExtension.entitlements; sourceTree = "<group>"; };
+		F832A6512E90AAB800D69031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F832A6522E90AAB800D69031 /* NextWorkoutLockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextWorkoutLockWidget.swift; sourceTree = "<group>"; };
+		F832A6532E90AAB800D69031 /* WeeklyProgressLockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyProgressLockWidget.swift; sourceTree = "<group>"; };
+		F832A6542E90AAB800D69031 /* WidgetHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHelpers.swift; sourceTree = "<group>"; };
+		F832A6552E90AAB800D69031 /* WorkoutSymbolMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSymbolMapper.swift; sourceTree = "<group>"; };
+		F833D6662D4B58930039D7BD /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		F8738A512D3C800D00B8EC1D /* BloomWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BloomWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8738A522D3C800D00B8EC1D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F8738A542D3C800D00B8EC1D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F8C84CA22D31993400AB720F /* HankenGrotesk-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HankenGrotesk-Bold.ttf"; path = "../frontend/assets/fonts/HankenGrotesk-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		F8C84CA32D31993400AB720F /* HankenGrotesk-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HankenGrotesk-Italic.ttf"; path = "../frontend/assets/fonts/HankenGrotesk-Italic.ttf"; sourceTree = SOURCE_ROOT; };
+		F8C84CA42D31993400AB720F /* HankenGrotesk-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HankenGrotesk-Medium.ttf"; path = "../frontend/assets/fonts/HankenGrotesk-Medium.ttf"; sourceTree = SOURCE_ROOT; };
+		F8C84CA52D31993400AB720F /* HankenGrotesk-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HankenGrotesk-Regular.ttf"; path = "../frontend/assets/fonts/HankenGrotesk-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		F8C84CA62D31993400AB720F /* HankenGrotesk-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HankenGrotesk-SemiBold.ttf"; path = "../frontend/assets/fonts/HankenGrotesk-SemiBold.ttf"; sourceTree = SOURCE_ROOT; };
+		F8D52E282D57DF360095C932 /* WidgetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F5ECC432B9F3B5C00B666BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5ECC5E2B9F3F9000B666BC /* FirebaseFirestore in Frameworks */,
+				5F5ECC622B9F53F600B666BC /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530B11D2E88F454004840A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653A254A283387FE005D4D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FECE9592B6CCF0B00C06B13 /* FirebaseMessaging in Frameworks */,
+				656DE87B2E78ED9D007CFB3C /* SpeziHealthKit in Frameworks */,
+				2FB099AF2A875DF100B20952 /* FirebaseAuth in Frameworks */,
+				2FB099B12A875DF100B20952 /* FirebaseFirestore in Frameworks */,
+				2FB099B62A875E2B00B20952 /* HealthKitOnFHIR in Frameworks */,
+				656DE87D2E78ED9D007CFB3C /* SpeziHealthKitBulkExport in Frameworks */,
+				9739A0C62AD7B5730084BEA5 /* FirebaseStorage in Frameworks */,
+				65CA07F62E907B0800DA6305 /* SpeziNotifications in Frameworks */,
+				656DE88A2E793E8F007CFB3C /* SpeziViews in Frameworks */,
+				2F49B7762980407C00BCB272 /* Spezi in Frameworks */,
+				F83A51B42CD175F800C4504D /* SwiftDate in Frameworks */,
+				D22A081428B1029C5F7F1DEF /* libPods-Bloom.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F813CA562D5F005F006C2376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8738A4E2D3C800D00B8EC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8738A552D3C800D00B8EC1D /* SwiftUI.framework in Frameworks */,
+				F8738A532D3C800D00B8EC1D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FE5DC2D29EDD792004B9AB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8C84CA22D31993400AB720F /* HankenGrotesk-Bold.ttf */,
+				F8C84CA32D31993400AB720F /* HankenGrotesk-Italic.ttf */,
+				F8C84CA42D31993400AB720F /* HankenGrotesk-Medium.ttf */,
+				F8C84CA52D31993400AB720F /* HankenGrotesk-Regular.ttf */,
+				F8C84CA62D31993400AB720F /* HankenGrotesk-SemiBold.ttf */,
+				653A255428338800005D4D48 /* Assets.xcassets */,
+				2FA0BFEC2ACC977500E0EF83 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		653A2544283387FE005D4D48 = {
+			isa = PBXGroup;
+			children = (
+				F833D6662D4B58930039D7BD /* Config.xcconfig */,
+				2FC94CD4298B0A1D009C8209 /* Bloom.xctestplan */,
+				816105E5601DF2A365F9C949 /* PrivacyInfo.xcprivacy */,
+				653A254F283387FE005D4D48 /* Bloom */,
+				F832A6562E90AAB800D69031 /* BloomWidgetExtension */,
+				F832A6442E90AAB800D69031 /* BloomPushNotificationsExtension */,
+				F832A64A2E90AAB800D69031 /* BloomImageIntent */,
+				F832A63F2E90AAB800D69031 /* BloomUITests */,
+				653A254E283387FE005D4D48 /* Products */,
+				8DFF33E4A0F3A1DB5DA9B240 /* Pods */,
+				9CBB0FD04F8B4BCB845EC2B2 /* Resources */,
+				ADB27395C7345313937EC470 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		653A254E283387FE005D4D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				653A254D283387FE005D4D48 /* Bloom.app */,
+				5F5ECC462B9F3B5C00B666BC /* BloomPushNotificationsExtension.appex */,
+				F8738A512D3C800D00B8EC1D /* BloomWidgetExtension.appex */,
+				F813CA592D5F005F006C2376 /* BloomImageIntent.appex */,
+				6530B1202E88F454004840A7 /* BloomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		653A254F283387FE005D4D48 /* Bloom */ = {
+			isa = PBXGroup;
+			children = (
+				653A2550283387FE005D4D48 /* Bloom.swift */,
+				2F5E32BC297E05EA003432F8 /* BloomDelegate.swift */,
+				656DE8862E793DF4007CFB3C /* BloomDebugView.swift */,
+				F8D52E282D57DF360095C932 /* WidgetManager.swift */,
+				F832A6202E90AAB300D69031 /* ReactNative */,
+				F832A5EB2E90AAB300D69031 /* Standard */,
+				F832A6362E90AAB300D69031 /* PushNotifications */,
+				F832A5F72E90AAB300D69031 /* SharedContext */,
+				F832A6002E90AAB300D69031 /* Helper */,
+				2FE5DC2D29EDD792004B9AB4 /* Resources */,
+				F832A63B2E90AAB500D69031 /* Supporting Files */,
+			);
+			path = Bloom;
+			sourceTree = "<group>";
+		};
+		8DFF33E4A0F3A1DB5DA9B240 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				337C0B3D895E54E1E26030AB /* Pods-Bloom.debug.xcconfig */,
+				879504B3ADA1D2BB1FDDF6E9 /* Pods-Bloom.test.xcconfig */,
+				45B6DE8F52BB14400869965B /* Pods-Bloom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9CBB0FD04F8B4BCB845EC2B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ADB27395C7345313937EC470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1D921B4083835ABF5BDC5AE /* libPods-Bloom.a */,
+				F8738A522D3C800D00B8EC1D /* WidgetKit.framework */,
+				F8738A542D3C800D00B8EC1D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F832A5EB2E90AAB300D69031 /* Standard */ = {
+			isa = PBXGroup;
+			children = (
+				F832A5E22E90AAB300D69031 /* Auth+UID.swift */,
+				F832A5E32E90AAB300D69031 /* BloomModule.swift */,
+				F832A5E42E90AAB300D69031 /* BloomStandard.swift */,
+				F832A5E52E90AAB300D69031 /* BloomStandard+Account.swift */,
+				F832A5E62E90AAB300D69031 /* BloomStandard+HealthKit.swift */,
+				F832A5E72E90AAB300D69031 /* BloomStandard+PushNotifications.swift */,
+				F832A5E82E90AAB300D69031 /* Firestore+Path.swift */,
+				F832A5E92E90AAB300D69031 /* HealthKitFirebaseUploader.swift */,
+				F832A5EA2E90AAB300D69031 /* HKSample+ConvertToFirestoreResource.swift */,
+			);
+			path = Standard;
+			sourceTree = "<group>";
+		};
+		F832A5F72E90AAB300D69031 /* SharedContext */ = {
+			isa = PBXGroup;
+			children = (
+				F832A5F52E90AAB300D69031 /* Constants.swift */,
+				F832A5F62E90AAB300D69031 /* HealthKitSampleTypes.swift */,
+			);
+			path = SharedContext;
+			sourceTree = "<group>";
+		};
+		F832A6002E90AAB300D69031 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F832A5FB2E90AAB300D69031 /* Binding+Negate.swift */,
+				F832A5FC2E90AAB300D69031 /* Bundle+Image.swift */,
+				F832A5FD2E90AAB300D69031 /* CodableArray+RawRepresentable.swift */,
+				F832A5FE2E90AAB300D69031 /* Date+ISOFormat.swift */,
+				F832A5FF2E90AAB300D69031 /* String+HealthKitIdentifier.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F832A60D2E90AAB300D69031 /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				F832A6072E90AAB300D69031 /* HKQuantityQueryExecutor.swift */,
+				F832A6082E90AAB300D69031 /* HKQueryExecutor.swift */,
+				F832A6092E90AAB300D69031 /* HKQueryParameters.swift */,
+				F832A60A2E90AAB300D69031 /* HKSleepQueryExecutor.swift */,
+				F832A60B2E90AAB300D69031 /* HKWorkoutFetcher.swift */,
+				F832A60C2E90AAB300D69031 /* HKWorkoutQueryExecutor.swift */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+		F832A6112E90AAB300D69031 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F832A60E2E90AAB300D69031 /* HKTypeMapper.swift */,
+				F832A60F2E90AAB300D69031 /* HKUnitMapper.swift */,
+				F832A6102E90AAB300D69031 /* HKWorkoutActivityType+Name.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F832A6132E90AAB300D69031 /* HealthKitModule */ = {
+			isa = PBXGroup;
+			children = (
+				F832A60D2E90AAB300D69031 /* Queries */,
+				F832A6112E90AAB300D69031 /* Utils */,
+				F832A6122E90AAB300D69031 /* HealthKitModule.swift */,
+			);
+			path = HealthKitModule;
+			sourceTree = "<group>";
+		};
+		F832A6182E90AAB300D69031 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F832A6132E90AAB300D69031 /* HealthKitModule */,
+				F832A6142E90AAB300D69031 /* AuthBridge.swift */,
+				F832A6152E90AAB300D69031 /* AuthModule.swift */,
+				F832A6162E90AAB300D69031 /* NotificationBridge.swift */,
+				F832A6172E90AAB300D69031 /* SpeechToTextModule.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F832A6202E90AAB300D69031 /* ReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				F832A6182E90AAB300D69031 /* Modules */,
+				F832A6192E90AAB300D69031 /* Bloom-Bridging-Header.h */,
+				F832A61A2E90AAB300D69031 /* ReactNativeConfig.swift */,
+				F832A61B2E90AAB300D69031 /* ReactNativeEventEmitter.swift */,
+				F832A61C2E90AAB300D69031 /* ReactNativeEventEmitterBridge.m */,
+				F832A61D2E90AAB300D69031 /* ReactNativeView.swift */,
+				F832A61E2E90AAB300D69031 /* ReactNativeViewController.swift */,
+				F832A61F2E90AAB300D69031 /* WidgetBridge.swift */,
+			);
+			path = ReactNative;
+			sourceTree = "<group>";
+		};
+		F832A6362E90AAB300D69031 /* PushNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				F832A6352E90AAB300D69031 /* PushNotifications.swift */,
+			);
+			path = PushNotifications;
+			sourceTree = "<group>";
+		};
+		F832A63B2E90AAB500D69031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F832A6382E90AAB500D69031 /* Bloom.entitlements */,
+				F832A6392E90AAB500D69031 /* GoogleService-Info.plist */,
+				F832A63A2E90AAB500D69031 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F832A63F2E90AAB800D69031 /* BloomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F832A63E2E90AAB800D69031 /* BloomUITests.swift */,
+			);
+			path = BloomUITests;
+			sourceTree = "<group>";
+		};
+		F832A6442E90AAB800D69031 /* BloomPushNotificationsExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F832A6412E90AAB800D69031 /* BloomPushNotificationsExtension.entitlements */,
+				F832A6422E90AAB800D69031 /* Info.plist */,
+				F832A6432E90AAB800D69031 /* NotificationService.swift */,
+			);
+			path = BloomPushNotificationsExtension;
+			sourceTree = "<group>";
+		};
+		F832A64A2E90AAB800D69031 /* BloomImageIntent */ = {
+			isa = PBXGroup;
+			children = (
+				F832A6462E90AAB800D69031 /* BloomImageIntent.entitlements */,
+				F832A6472E90AAB800D69031 /* BloomImageIntentExtension.swift */,
+				F832A6482E90AAB800D69031 /* GenerateAmbientDisplayIntent.swift */,
+				F832A6492E90AAB800D69031 /* Info.plist */,
+			);
+			path = BloomImageIntent;
+			sourceTree = "<group>";
+		};
+		F832A6562E90AAB800D69031 /* BloomWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F832A64D2E90AAB800D69031 /* AmbientDisplayWidget.swift */,
+				F832A64E2E90AAB800D69031 /* Assets.xcassets */,
+				F832A64F2E90AAB800D69031 /* BloomWidgetBundle.swift */,
+				F832A6502E90AAB800D69031 /* BloomWidgetExtension.entitlements */,
+				F832A6512E90AAB800D69031 /* Info.plist */,
+				F832A6522E90AAB800D69031 /* NextWorkoutLockWidget.swift */,
+				F832A6532E90AAB800D69031 /* WeeklyProgressLockWidget.swift */,
+				F832A6542E90AAB800D69031 /* WidgetHelpers.swift */,
+				F832A6552E90AAB800D69031 /* WorkoutSymbolMapper.swift */,
+			);
+			path = BloomWidgetExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F5ECC452B9F3B5C00B666BC /* BloomPushNotificationsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5ECC522B9F3B5C00B666BC /* Build configuration list for PBXNativeTarget "BloomPushNotificationsExtension" */;
+			buildPhases = (
+				5F5ECC422B9F3B5C00B666BC /* Sources */,
+				5F5ECC432B9F3B5C00B666BC /* Frameworks */,
+				5F5ECC442B9F3B5C00B666BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloomPushNotificationsExtension;
+			packageProductDependencies = (
+				5F5ECC5D2B9F3F9000B666BC /* FirebaseFirestore */,
+				5F5ECC612B9F53F600B666BC /* FirebaseAuth */,
+			);
+			productName = BloomPushNotificationsExtension;
+			productReference = 5F5ECC462B9F3B5C00B666BC /* BloomPushNotificationsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6530B11F2E88F454004840A7 /* BloomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6530B12B2E88F454004840A7 /* Build configuration list for PBXNativeTarget "BloomUITests" */;
+			buildPhases = (
+				6530B11C2E88F454004840A7 /* Sources */,
+				6530B11D2E88F454004840A7 /* Frameworks */,
+				6530B11E2E88F454004840A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6530B1272E88F454004840A7 /* PBXTargetDependency */,
+			);
+			name = BloomUITests;
+			productName = BloomUITests;
+			productReference = 6530B1202E88F454004840A7 /* BloomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		653A254C283387FE005D4D48 /* Bloom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653A257128338800005D4D48 /* Build configuration list for PBXNativeTarget "Bloom" */;
+			buildPhases = (
+				57348ABA01851109FBBCFEB2 /* [CP] Check Pods Manifest.lock */,
+				653A2549283387FE005D4D48 /* Sources */,
+				653A254A283387FE005D4D48 /* Frameworks */,
+				F833D6642D4B45120039D7BD /* Bundle React Native code and images */,
+				653A254B283387FE005D4D48 /* Resources */,
+				5F5ECC5B2B9F3EE900B666BC /* Embed Foundation Extensions */,
+				F8BAEAAB2DA340FF835FA6C7 /* Upload Debug Symbols to Sentry */,
+				90E03287AB990A98CB098EFA /* [CP] Embed Pods Frameworks */,
+				A42BF0DA5C55636BAC757947 /* [CP] Copy Pods Resources */,
+				F813CA632D5F005F006C2376 /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F5ECC5A2B9F3EE900B666BC /* PBXTargetDependency */,
+				F8738A5F2D3C800E00B8EC1D /* PBXTargetDependency */,
+				F813CA612D5F005F006C2376 /* PBXTargetDependency */,
+			);
+			name = Bloom;
+			packageProductDependencies = (
+				2F49B7752980407B00BCB272 /* Spezi */,
+				2FB099AE2A875DF100B20952 /* FirebaseAuth */,
+				2FB099B02A875DF100B20952 /* FirebaseFirestore */,
+				2FB099B52A875E2B00B20952 /* HealthKitOnFHIR */,
+				9739A0C52AD7B5730084BEA5 /* FirebaseStorage */,
+				5FECE9582B6CCF0B00C06B13 /* FirebaseMessaging */,
+				F83A51B32CD175F800C4504D /* SwiftDate */,
+				656DE87A2E78ED9D007CFB3C /* SpeziHealthKit */,
+				656DE87C2E78ED9D007CFB3C /* SpeziHealthKitBulkExport */,
+				656DE8892E793E8F007CFB3C /* SpeziViews */,
+				65CA07F52E907B0800DA6305 /* SpeziNotifications */,
+			);
+			productName = Bloom;
+			productReference = 653A254D283387FE005D4D48 /* Bloom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F813CA582D5F005F006C2376 /* BloomImageIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F813CA682D5F005F006C2376 /* Build configuration list for PBXNativeTarget "BloomImageIntent" */;
+			buildPhases = (
+				F813CA552D5F005F006C2376 /* Sources */,
+				F813CA562D5F005F006C2376 /* Frameworks */,
+				F813CA572D5F005F006C2376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloomImageIntent;
+			productName = BloomImageIntent;
+			productReference = F813CA592D5F005F006C2376 /* BloomImageIntent.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+		F8738A502D3C800D00B8EC1D /* BloomWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8738A652D3C800E00B8EC1D /* Build configuration list for PBXNativeTarget "BloomWidgetExtension" */;
+			buildPhases = (
+				F8738A4D2D3C800D00B8EC1D /* Sources */,
+				F8738A4E2D3C800D00B8EC1D /* Frameworks */,
+				F8738A4F2D3C800D00B8EC1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloomWidgetExtension;
+			productName = AmbientDisplayWidgetExtension;
+			productReference = F8738A512D3C800D00B8EC1D /* BloomWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		653A2545283387FE005D4D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					5F5ECC452B9F3B5C00B666BC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					6530B11F2E88F454004840A7 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 653A254C283387FE005D4D48;
+					};
+					653A254C283387FE005D4D48 = {
+						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1540;
+					};
+					F813CA582D5F005F006C2376 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F8738A502D3C800D00B8EC1D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 653A2548283387FE005D4D48 /* Build configuration list for PBXProject "Bloom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 653A2544283387FE005D4D48;
+			packageReferences = (
+				2F49B7742980407B00BCB272 /* XCRemoteSwiftPackageReference "Spezi" */,
+				2FE5DC9029EDD9C3004B9AB4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				2FB099B42A875E2B00B20952 /* XCRemoteSwiftPackageReference "HealthKitOnFHIR" */,
+				F83A51B22CD175F800C4504D /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				656DE8792E78ED9D007CFB3C /* XCRemoteSwiftPackageReference "SpeziHealthKit" */,
+				656DE8882E793E8F007CFB3C /* XCRemoteSwiftPackageReference "SpeziViews" */,
+				65CA07F42E907B0800DA6305 /* XCRemoteSwiftPackageReference "SpeziNotifications" */,
+			);
+			productRefGroup = 653A254E283387FE005D4D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				653A254C283387FE005D4D48 /* Bloom */,
+				5F5ECC452B9F3B5C00B666BC /* BloomPushNotificationsExtension */,
+				F8738A502D3C800D00B8EC1D /* BloomWidgetExtension */,
+				F813CA582D5F005F006C2376 /* BloomImageIntent */,
+				6530B11F2E88F454004840A7 /* BloomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F5ECC442B9F3B5C00B666BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F832A63D2E90AAB500D69031 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530B11E2E88F454004840A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653A254B283387FE005D4D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653A255528338800005D4D48 /* Assets.xcassets in Resources */,
+				F8C84CA72D31993400AB720F /* HankenGrotesk-Italic.ttf in Resources */,
+				F832A63C2E90AAB500D69031 /* GoogleService-Info.plist in Resources */,
+				F8C84CA82D31993400AB720F /* HankenGrotesk-Bold.ttf in Resources */,
+				F8C84CA92D31993400AB720F /* HankenGrotesk-Medium.ttf in Resources */,
+				F8C84CAA2D31993400AB720F /* HankenGrotesk-Regular.ttf in Resources */,
+				F8C84CAB2D31993400AB720F /* HankenGrotesk-SemiBold.ttf in Resources */,
+				2FA0BFED2ACC977500E0EF83 /* Localizable.xcstrings in Resources */,
+				E7FDE99EB96D292C83F13416 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F813CA572D5F005F006C2376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8738A4F2D3C800D00B8EC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F832A65D2E90AAB800D69031 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57348ABA01851109FBBCFEB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bloom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E03287AB990A98CB098EFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bloom/Pods-Bloom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bloom/Pods-Bloom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bloom/Pods-Bloom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A42BF0DA5C55636BAC757947 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bloom/Pods-Bloom-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bloom/Pods-Bloom-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bloom/Pods-Bloom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F833D6642D4B45120039D7BD /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport ENTRY_FILE=\"${PROJECT_DIR}/../index.tsx\"\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\nSENTRY_XCODE=\"../node_modules/@sentry/react-native/scripts/sentry-xcode.sh\"\n\nBUNDLE_REACT_NATIVE=\"/bin/sh $SENTRY_XCODE $REACT_NATIVE_XCODE\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT \\\"$BUNDLE_REACT_NATIVE\\\"\"\n";
+		};
+		F8BAEAAB2DA340FF835FA6C7 /* Upload Debug Symbols to Sentry */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Upload Debug Symbols to Sentry";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# /bin/sh ../node_modules/@sentry/react-native/scripts/sentry-xcode-debug-files.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F5ECC422B9F3B5C00B666BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F832A6062E90AAB300D69031 /* Date+ISOFormat.swift in Sources */,
+				F832A6452E90AAB800D69031 /* NotificationService.swift in Sources */,
+				F832A5FA2E90AAB300D69031 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530B11C2E88F454004840A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F832A6402E90AAB800D69031 /* BloomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653A2549283387FE005D4D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D52E292D57DF390095C932 /* WidgetManager.swift in Sources */,
+				F832A6372E90AAB300D69031 /* PushNotifications.swift in Sources */,
+				F832A5F82E90AAB300D69031 /* Constants.swift in Sources */,
+				F832A5F92E90AAB300D69031 /* HealthKitSampleTypes.swift in Sources */,
+				656DE8872E793DF4007CFB3C /* BloomDebugView.swift in Sources */,
+				F832A6212E90AAB300D69031 /* HKQuantityQueryExecutor.swift in Sources */,
+				F832A6222E90AAB300D69031 /* HKQueryExecutor.swift in Sources */,
+				F832A6232E90AAB300D69031 /* HKQueryParameters.swift in Sources */,
+				F832A6242E90AAB300D69031 /* HKSleepQueryExecutor.swift in Sources */,
+				F832A6252E90AAB300D69031 /* HKWorkoutFetcher.swift in Sources */,
+				F832A6262E90AAB300D69031 /* HKWorkoutQueryExecutor.swift in Sources */,
+				F832A6272E90AAB300D69031 /* HKTypeMapper.swift in Sources */,
+				F832A6282E90AAB300D69031 /* HKUnitMapper.swift in Sources */,
+				F832A6292E90AAB300D69031 /* HKWorkoutActivityType+Name.swift in Sources */,
+				F832A62A2E90AAB300D69031 /* HealthKitModule.swift in Sources */,
+				F832A62B2E90AAB300D69031 /* AuthBridge.swift in Sources */,
+				F832A62C2E90AAB300D69031 /* AuthModule.swift in Sources */,
+				F832A62D2E90AAB300D69031 /* NotificationBridge.swift in Sources */,
+				F832A62E2E90AAB300D69031 /* SpeechToTextModule.swift in Sources */,
+				F832A62F2E90AAB300D69031 /* ReactNativeConfig.swift in Sources */,
+				F832A6302E90AAB300D69031 /* ReactNativeEventEmitter.swift in Sources */,
+				F832A6312E90AAB300D69031 /* ReactNativeEventEmitterBridge.m in Sources */,
+				F832A6322E90AAB300D69031 /* ReactNativeView.swift in Sources */,
+				F832A6332E90AAB300D69031 /* ReactNativeViewController.swift in Sources */,
+				F832A6342E90AAB300D69031 /* WidgetBridge.swift in Sources */,
+				F832A6012E90AAB300D69031 /* Binding+Negate.swift in Sources */,
+				F832A6022E90AAB300D69031 /* Bundle+Image.swift in Sources */,
+				F832A6032E90AAB300D69031 /* CodableArray+RawRepresentable.swift in Sources */,
+				F832A6042E90AAB300D69031 /* Date+ISOFormat.swift in Sources */,
+				F832A6052E90AAB300D69031 /* String+HealthKitIdentifier.swift in Sources */,
+				F832A5EC2E90AAB300D69031 /* Auth+UID.swift in Sources */,
+				F832A5ED2E90AAB300D69031 /* BloomModule.swift in Sources */,
+				F832A5EE2E90AAB300D69031 /* BloomStandard.swift in Sources */,
+				F832A5EF2E90AAB300D69031 /* BloomStandard+Account.swift in Sources */,
+				F832A5F02E90AAB300D69031 /* BloomStandard+HealthKit.swift in Sources */,
+				F832A5F12E90AAB300D69031 /* BloomStandard+PushNotifications.swift in Sources */,
+				F832A5F22E90AAB300D69031 /* Firestore+Path.swift in Sources */,
+				F832A5F32E90AAB300D69031 /* HealthKitFirebaseUploader.swift in Sources */,
+				F832A5F42E90AAB300D69031 /* HKSample+ConvertToFirestoreResource.swift in Sources */,
+				2F5E32BD297E05EA003432F8 /* BloomDelegate.swift in Sources */,
+				653A2551283387FE005D4D48 /* Bloom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F813CA552D5F005F006C2376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F832A64B2E90AAB800D69031 /* BloomImageIntentExtension.swift in Sources */,
+				F832A64C2E90AAB800D69031 /* GenerateAmbientDisplayIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8738A4D2D3C800D00B8EC1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F832A6572E90AAB800D69031 /* AmbientDisplayWidget.swift in Sources */,
+				F832A6582E90AAB800D69031 /* BloomWidgetBundle.swift in Sources */,
+				F832A6592E90AAB800D69031 /* NextWorkoutLockWidget.swift in Sources */,
+				F832A65A2E90AAB800D69031 /* WeeklyProgressLockWidget.swift in Sources */,
+				F832A65B2E90AAB800D69031 /* WidgetHelpers.swift in Sources */,
+				F832A65C2E90AAB800D69031 /* WorkoutSymbolMapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F5ECC5A2B9F3EE900B666BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F5ECC452B9F3B5C00B666BC /* BloomPushNotificationsExtension */;
+			targetProxy = 5F5ECC592B9F3EE900B666BC /* PBXContainerItemProxy */;
+		};
+		6530B1272E88F454004840A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 653A254C283387FE005D4D48 /* Bloom */;
+			targetProxy = 6530B1262E88F454004840A7 /* PBXContainerItemProxy */;
+		};
+		F813CA612D5F005F006C2376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F813CA582D5F005F006C2376 /* BloomImageIntent */;
+			targetProxy = F813CA602D5F005F006C2376 /* PBXContainerItemProxy */;
+		};
+		F8738A5F2D3C800E00B8EC1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8738A502D3C800D00B8EC1D /* BloomWidgetExtension */;
+			targetProxy = F8738A5E2D3C800E00B8EC1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5F5ECC4F2B9F3B5C00B666BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = BloomPushNotificationsExtension/BloomPushNotificationsExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 34;
+				DEVELOPMENT_TEAM = 64FJ2MWNP4;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BloomPushNotificationsExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BloomPushNotificationsExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bloom.pushnotificationsextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5F5ECC512B9F3B5C00B666BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = BloomPushNotificationsExtension/BloomPushNotificationsExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 34;
+				DEVELOPMENT_TEAM = 64FJ2MWNP4;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BloomPushNotificationsExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BloomPushNotificationsExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bloom.pushnotificationsextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6530B1282E88F454004840A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.BloomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Bloom;
+			};
+			name = Debug;
+		};
+		6530B12A2E88F454004840A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.BloomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Bloom;
+			};
+			name = Release;
+		};
+		653A256F28338800005D4D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CC = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CXX = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD = "";
+				LDPLUSPLUS = "";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		653A257028338800005D4D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CC = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CXX = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD = "";
+				LDPLUSPLUS = "";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		653A257228338800005D4D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337C0B3D895E54E1E26030AB /* Pods-Bloom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Bloom/Supporting Files/Bloom.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 34;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bloom/Supporting Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bloom;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This message should never appear. Please adjust this when you start using camera information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This appliction reads and uploads the data sources listed above.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This appliction reads and uploads the data sources listed above.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This message should never appear. Please adjust this when you start using location information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This message should never appear. Please adjust this when you start using location information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to the microphone for speech recognition.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This message should never appear. Please adjust this when you start using motion information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need speech recognition to convert speech to text.";
+				INFOPLIST_KEY_UIBloomlicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIBloomlicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"\"${PODS_ROOT}/DoubleConversion\"",
+					"\"${PODS_ROOT}/RCT-Folly\"",
+					"\"${PODS_ROOT}/RCTDeprecation\"",
+					"\"${PODS_ROOT}/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/React-Core\"",
+					"\"${PODS_ROOT}/React-CoreModules\"",
+					"\"${PODS_ROOT}/React-Fabric\"",
+					"\"${PODS_ROOT}/React-FabricComponents\"",
+					"\"${PODS_ROOT}/React-FabricImage\"",
+					"\"${PODS_ROOT}/React-ImageManager\"",
+					"\"${PODS_ROOT}/React-Mapbuffer\"",
+					"\"${PODS_ROOT}/React-NativeModulesApple\"",
+					"\"${PODS_ROOT}/React-RCTAnimation\"",
+					"\"${PODS_ROOT}/React-RCTAppDelegate\"",
+					"\"${PODS_ROOT}/React-RCTBlob\"",
+					"\"${PODS_ROOT}/React-RCTFabric\"",
+					"\"${PODS_ROOT}/React-RCTImage\"",
+					"\"${PODS_ROOT}/React-RCTLinking\"",
+					"\"${PODS_ROOT}/React-RCTNetwork\"",
+					"\"${PODS_ROOT}/React-RCTSettings\"",
+					"\"${PODS_ROOT}/React-RCTText\"",
+					"\"${PODS_ROOT}/React-RCTVibration\"",
+					"\"${PODS_ROOT}/React-RuntimeApple\"",
+					"\"${PODS_ROOT}/React-RuntimeCore\"",
+					"\"${PODS_ROOT}/React-RuntimeHermes\"",
+					"\"${PODS_ROOT}/React-cxxreact\"",
+					"\"${PODS_ROOT}/React-debug\"",
+					"\"${PODS_ROOT}/React-defaultsnativemodule\"",
+					"\"${PODS_ROOT}/React-domnativemodule\"",
+					"\"${PODS_ROOT}/React-featureflags\"",
+					"\"${PODS_ROOT}/React-featureflagsnativemodule\"",
+					"\"${PODS_ROOT}/React-graphics\"",
+					"\"${PODS_ROOT}/React-hermes\"",
+					"\"${PODS_ROOT}/React-idlecallbacksnativemodule\"",
+					"\"${PODS_ROOT}/React-jserrorhandler\"",
+					"\"${PODS_ROOT}/React-jsi\"",
+					"\"${PODS_ROOT}/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/React-jsinspector\"",
+					"\"${PODS_ROOT}/React-logger\"",
+					"\"${PODS_ROOT}/React-microtasksnativemodule\"",
+					"\"${PODS_ROOT}/React-nativeconfig\"",
+					"\"${PODS_ROOT}/React-perflogger\"",
+					"\"${PODS_ROOT}/React-performancetimeline\"",
+					"\"${PODS_ROOT}/React-rendererconsistency\"",
+					"\"${PODS_ROOT}/React-rendererdebug\"",
+					"\"${PODS_ROOT}/React-runtimescheduler\"",
+					"\"${PODS_ROOT}/React-utils\"",
+					"\"${PODS_ROOT}/ReactCodegen\"",
+					"\"${PODS_ROOT}/ReactCommon\"",
+					"\"${PODS_ROOT}/SocketRocket\"",
+					"\"${PODS_ROOT}/Yoga\"",
+					"\"${PODS_ROOT}/fmt\"",
+					"\"${PODS_ROOT}/glog\"",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bloom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				"SWIFT_ELicenseRef-Bloom_LOC_STRINGS" = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bloom/ReactNative/Bloom-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		653A257328338800005D4D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F833D6662D4B58930039D7BD /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Bloom/Supporting Files/Bloom.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 34;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = CQRZ4E7K9U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bloom/Supporting Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bloom;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This message should never appear. Please adjust this when you start using camera information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This appliction reads and uploads the data sources listed above.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This appliction reads and uploads the data sources listed above.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This message should never appear. Please adjust this when you start using location information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This message should never appear. Please adjust this when you start using location information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to the microphone for speech recognition.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This message should never appear. Please adjust this when you start using motion information. We have to put this in here as ResearchKit has the possibility to use it and not putting it here returns an error on AppStore Connect.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need speech recognition to convert speech to text.";
+				INFOPLIST_KEY_UIBloomlicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIBloomlicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"\"${PODS_ROOT}/DoubleConversion\"",
+					"\"${PODS_ROOT}/RCT-Folly\"",
+					"\"${PODS_ROOT}/RCTDeprecation\"",
+					"\"${PODS_ROOT}/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/React-Core\"",
+					"\"${PODS_ROOT}/React-CoreModules\"",
+					"\"${PODS_ROOT}/React-Fabric\"",
+					"\"${PODS_ROOT}/React-FabricComponents\"",
+					"\"${PODS_ROOT}/React-FabricImage\"",
+					"\"${PODS_ROOT}/React-ImageManager\"",
+					"\"${PODS_ROOT}/React-Mapbuffer\"",
+					"\"${PODS_ROOT}/React-NativeModulesApple\"",
+					"\"${PODS_ROOT}/React-RCTAnimation\"",
+					"\"${PODS_ROOT}/React-RCTAppDelegate\"",
+					"\"${PODS_ROOT}/React-RCTBlob\"",
+					"\"${PODS_ROOT}/React-RCTFabric\"",
+					"\"${PODS_ROOT}/React-RCTImage\"",
+					"\"${PODS_ROOT}/React-RCTLinking\"",
+					"\"${PODS_ROOT}/React-RCTNetwork\"",
+					"\"${PODS_ROOT}/React-RCTSettings\"",
+					"\"${PODS_ROOT}/React-RCTText\"",
+					"\"${PODS_ROOT}/React-RCTVibration\"",
+					"\"${PODS_ROOT}/React-RuntimeApple\"",
+					"\"${PODS_ROOT}/React-RuntimeCore\"",
+					"\"${PODS_ROOT}/React-RuntimeHermes\"",
+					"\"${PODS_ROOT}/React-cxxreact\"",
+					"\"${PODS_ROOT}/React-debug\"",
+					"\"${PODS_ROOT}/React-defaultsnativemodule\"",
+					"\"${PODS_ROOT}/React-domnativemodule\"",
+					"\"${PODS_ROOT}/React-featureflags\"",
+					"\"${PODS_ROOT}/React-featureflagsnativemodule\"",
+					"\"${PODS_ROOT}/React-graphics\"",
+					"\"${PODS_ROOT}/React-hermes\"",
+					"\"${PODS_ROOT}/React-idlecallbacksnativemodule\"",
+					"\"${PODS_ROOT}/React-jserrorhandler\"",
+					"\"${PODS_ROOT}/React-jsi\"",
+					"\"${PODS_ROOT}/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/React-jsinspector\"",
+					"\"${PODS_ROOT}/React-logger\"",
+					"\"${PODS_ROOT}/React-microtasksnativemodule\"",
+					"\"${PODS_ROOT}/React-nativeconfig\"",
+					"\"${PODS_ROOT}/React-perflogger\"",
+					"\"${PODS_ROOT}/React-performancetimeline\"",
+					"\"${PODS_ROOT}/React-rendererconsistency\"",
+					"\"${PODS_ROOT}/React-rendererdebug\"",
+					"\"${PODS_ROOT}/React-runtimescheduler\"",
+					"\"${PODS_ROOT}/React-utils\"",
+					"\"${PODS_ROOT}/ReactCodegen\"",
+					"\"${PODS_ROOT}/ReactCommon\"",
+					"\"${PODS_ROOT}/SocketRocket\"",
+					"\"${PODS_ROOT}/Yoga\"",
+					"\"${PODS_ROOT}/fmt\"",
+					"\"${PODS_ROOT}/glog\"",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bloom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				"SWIFT_ELicenseRef-Bloom_LOC_STRINGS" = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bloom/ReactNative/Bloom-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F813CA642D5F005F006C2376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = BloomImageIntent/BloomImageIntent.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 34;
+				DEVELOPMENT_TEAM = 64FJ2MWNP4;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BloomImageIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BloomImageIntent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bloom.imageintent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F813CA662D5F005F006C2376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = BloomImageIntent/BloomImageIntent.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 34;
+				DEVELOPMENT_TEAM = 64FJ2MWNP4;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BloomImageIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BloomImageIntent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bloom.imageintent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8738A612D3C800E00B8EC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = BloomWidgetExtension/BloomWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 34;
+				DEVELOPMENT_TEAM = 64FJ2MWNP4;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BloomWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BloomWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bloom.widgetextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F8738A632D3C800E00B8EC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = BloomWidgetExtension/BloomWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 34;
+				DEVELOPMENT_TEAM = 64FJ2MWNP4;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BloomWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BloomWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bloom.widgetextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F5ECC522B9F3B5C00B666BC /* Build configuration list for PBXNativeTarget "BloomPushNotificationsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5ECC4F2B9F3B5C00B666BC /* Debug */,
+				5F5ECC512B9F3B5C00B666BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6530B12B2E88F454004840A7 /* Build configuration list for PBXNativeTarget "BloomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6530B1282E88F454004840A7 /* Debug */,
+				6530B12A2E88F454004840A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653A2548283387FE005D4D48 /* Build configuration list for PBXProject "Bloom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653A256F28338800005D4D48 /* Debug */,
+				653A257028338800005D4D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653A257128338800005D4D48 /* Build configuration list for PBXNativeTarget "Bloom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653A257228338800005D4D48 /* Debug */,
+				653A257328338800005D4D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F813CA682D5F005F006C2376 /* Build configuration list for PBXNativeTarget "BloomImageIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F813CA642D5F005F006C2376 /* Debug */,
+				F813CA662D5F005F006C2376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8738A652D3C800E00B8EC1D /* Build configuration list for PBXNativeTarget "BloomWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8738A612D3C800E00B8EC1D /* Debug */,
+				F8738A632D3C800E00B8EC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F49B7742980407B00BCB272 /* XCRemoteSwiftPackageReference "Spezi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordSpezi/Spezi";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.2;
+			};
+		};
+		2FB099B42A875E2B00B20952 /* XCRemoteSwiftPackageReference "HealthKitOnFHIR" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordBDHG/HealthKitOnFHIR.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.1.2;
+			};
+		};
+		2FE5DC9029EDD9C3004B9AB4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.3.0;
+			};
+		};
+		656DE8792E78ED9D007CFB3C /* XCRemoteSwiftPackageReference "SpeziHealthKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordSpezi/SpeziHealthKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.6;
+			};
+		};
+		656DE8882E793E8F007CFB3C /* XCRemoteSwiftPackageReference "SpeziViews" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordSpezi/SpeziViews.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.12.3;
+			};
+		};
+		65CA07F42E907B0800DA6305 /* XCRemoteSwiftPackageReference "SpeziNotifications" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordSpezi/SpeziNotifications.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.8;
+			};
+		};
+		F83A51B22CD175F800C4504D /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F49B7752980407B00BCB272 /* Spezi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F49B7742980407B00BCB272 /* XCRemoteSwiftPackageReference "Spezi" */;
+			productName = Spezi;
+		};
+		2FB099AE2A875DF100B20952 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FE5DC9029EDD9C3004B9AB4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2FB099B02A875DF100B20952 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FE5DC9029EDD9C3004B9AB4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2FB099B52A875E2B00B20952 /* HealthKitOnFHIR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FB099B42A875E2B00B20952 /* XCRemoteSwiftPackageReference "HealthKitOnFHIR" */;
+			productName = HealthKitOnFHIR;
+		};
+		5F5ECC5D2B9F3F9000B666BC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FE5DC9029EDD9C3004B9AB4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5F5ECC612B9F53F600B666BC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FE5DC9029EDD9C3004B9AB4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5FECE9582B6CCF0B00C06B13 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseMessaging;
+		};
+		656DE87A2E78ED9D007CFB3C /* SpeziHealthKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 656DE8792E78ED9D007CFB3C /* XCRemoteSwiftPackageReference "SpeziHealthKit" */;
+			productName = SpeziHealthKit;
+		};
+		656DE87C2E78ED9D007CFB3C /* SpeziHealthKitBulkExport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 656DE8792E78ED9D007CFB3C /* XCRemoteSwiftPackageReference "SpeziHealthKit" */;
+			productName = SpeziHealthKitBulkExport;
+		};
+		656DE8892E793E8F007CFB3C /* SpeziViews */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 656DE8882E793E8F007CFB3C /* XCRemoteSwiftPackageReference "SpeziViews" */;
+			productName = SpeziViews;
+		};
+		65CA07F52E907B0800DA6305 /* SpeziNotifications */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65CA07F42E907B0800DA6305 /* XCRemoteSwiftPackageReference "SpeziNotifications" */;
+			productName = SpeziNotifications;
+		};
+		9739A0C52AD7B5730084BEA5 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FE5DC9029EDD9C3004B9AB4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		F83A51B32CD175F800C4504D /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F83A51B22CD175F800C4504D /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 653A2545283387FE005D4D48 /* Project object */;
+}

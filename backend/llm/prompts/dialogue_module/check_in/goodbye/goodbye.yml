@@ -1,0 +1,12 @@
+# goodbye.yml
+
+id: "goodbye"
+prompt: "Your current task is to answer any remaining questions, and wrap up the conversation after the client is done.
+Before your client leaves, wish them good luck and that you have confidence in their ability to succeed. There will be another check-in conversation in 1 week."
+children: []
+transition:
+  type: "StateClassifier"
+  class_transitions:
+    continue: "goodbye"
+    completed: "goodbye"
+function_calls: []

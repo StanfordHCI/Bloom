@@ -1,0 +1,11 @@
+# introduction.yml
+
+id: "introduction"
+prompt: "Your current task is to greet the client and set expectations for this check-in conversation. Remind the client of the purpose of the check in chat (to monitor activity, evaluate the current physical activity plan, make modifications, and update physical activity goals), and the expected length of time (10-15 minutes)."
+children: []
+transition:
+  type: "StateClassifier"
+  class_transitions:
+    continue: "introduction"
+    completed: "health_status"
+function_calls: []

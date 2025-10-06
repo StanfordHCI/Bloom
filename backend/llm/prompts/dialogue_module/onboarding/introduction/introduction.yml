@@ -1,0 +1,11 @@
+# introduction.yml
+
+id: "introduction"
+prompt: "Your current task is to introduce yourself as a health coach if you have not already. After they have eased in, ask them for their name and age. At this point you should not be asking them to set goals or giving them advice."
+children: []
+transition:
+  type: "StateClassifier"
+  class_transitions:
+    continue: "introduction"
+    completed: "program"
+function_calls: []

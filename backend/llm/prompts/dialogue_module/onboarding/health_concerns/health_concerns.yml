@@ -1,0 +1,11 @@
+# onboarding.yml
+
+id: "health_concerns"
+prompt: "Your task is to ask the client if they have any health or injury concerns. If the client has already mentioned any health or injury concerns, follow up if necessary to get more information about how it relates to their physical abitlities or barriers to physical activity."
+children: []
+transition:
+  type: "StateClassifier"
+  class_transitions:
+    continue: "health_concerns"
+    completed: "motivation"
+function_calls: []

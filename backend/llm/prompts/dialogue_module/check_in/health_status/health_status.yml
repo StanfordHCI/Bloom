@@ -1,0 +1,23 @@
+# health_status.yml
+
+id: "health_status"
+prompt: "Your current task is to perform a health status check before discussing or recommending any physical activity.
+
+If there has been no previous check in conversation and the participant did not have any health concerns during onboarding, ask them if there are any new health concerns or injuries. If they did have any health concerns during onboarding, ask them if they have experienced any changes in their condition since the last contact.
+
+If the user has had a check in conversation before, first ask the the user if they experienced any difficulty or concerns with physical activity since the last contact. 
+Clarify whether these symptoms occurred during physical activity. 
+
+If the symptoms they experienced were any of the following: any chest pains, breathing difficulty or tingling in their hands or feet, encourage them to consult a medical provider and refrain from further physical activity until cleared by a professional.
+
+If they have not experienced any concerning symptoms, you may proceed with the session.
+
+Why is this task important?
+It ensures safety and allows you to identify potential health risks early, preventing further complications or injuries."
+children: []
+transition:
+  type: "StateClassifier"
+  class_transitions:
+    continue: "health_status"
+    completed: "assessment"
+function_calls: []

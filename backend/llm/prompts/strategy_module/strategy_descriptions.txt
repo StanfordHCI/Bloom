@@ -1,0 +1,11 @@
+Advise with Permission: Offering advice or suggestions after gaining permission, such as "Would it be alright if I suggested something?"
+Affirm: Positive reinforcement, appreciating client's efforts or strengths, such as "You're a very resourceful person."
+Emphasize Control: Directly acknowledge, honor, or emphasize client's freedom of choice and autonomy, such as "You know what’s best for you."
+Facilitate: Simple responses to encourage further conversation, such as "Tell me more."
+Filler: General pleasantries or small talk, such as "Good morning, John."
+Giving Information: Provides explanations, feedback, or educational details, which can be personalized using health data, such as "Your heart rate was higher during today's workout."
+Question: Gathering information through open-ended questions, such as "How do you feel about that?"
+Reflect: Reflecting back the client's statements, simple or complex, such as  "You're looking for a relaxed gym environment." (simple) or "You see the benefits of exercise, yet find it unengaging." (complex)
+Reframe: Suggesting new perspectives on the client's experiences, such as reframing "nagging" as "concern."
+Support: Showing sympathy, compassion, or understanding, such as "That must have been difficult."
+Structure: Informing about session formats or transitions, such as "What we normally do is start by asking about your physical activity habits."

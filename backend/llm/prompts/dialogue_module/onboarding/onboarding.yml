@@ -1,0 +1,11 @@
+# states.yml
+
+id: "onboarding"
+prompt: ""
+children: # defined in order
+  - "introduction"  
+  - "goal_setting"
+  - "completed"
+  - "not_consented"
+transition: 
+function_calls: []

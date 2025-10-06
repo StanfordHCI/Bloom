@@ -1,0 +1,38 @@
+[
+  {
+    "name": "introduction_purpose",
+    "Context": "This session has the purpose to monitor activity, evaluate your current physical activity plan, make modifications and update goals. It will take approximately 10 to 15 minutes.",
+    "Question": null,
+    "InputField": false
+  },
+  {
+    "name": "health_status_symptoms",
+    "Question": "Have you experienced chest pains, difficulty breathing, or tingling in your hands or feet since the last contact?",
+    "InputField": true
+  },
+  {
+    "name": "health_status_during_activity",
+    "Question": "If so, were these symptoms during physical activity?",
+    "InputField": true
+  },
+  {
+    "name": "assessment_progress",
+    "Question": "What’s your progress on your planned workouts regarding frequency, intensity, time, and type?",
+    "InputField": true
+  },
+  {
+    "name": "assessment_motivation",
+    "Question": "What is your motivation or intention to become more active?",
+    "InputField": true
+  },
+  {
+    "name": "assessment_tracking",
+    "Question": "Did you track your physical activity using a wearable?",
+    "InputField": true
+  },
+  {
+    "name": "assessment_strength_flexibility",
+    "Question": "Have you been doing any strengthening exercises (e.g., weights, resistance bands, bodyweight work) or flexibility routines (e.g., stretching, yoga)?",
+    "InputField": true
+  }
+]

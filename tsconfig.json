@@ -1,0 +1,11 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "module": "es2022"
+  },
+  "include": [
+    "index.tsx",
+    "frontend",
+    "global.d.ts"
+  ]
+}

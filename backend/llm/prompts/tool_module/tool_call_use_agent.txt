@@ -1,0 +1,8 @@
+{TASK}
+
+The strategy being used in the conversation is 
+{STRATEGY_DESCRIPTION}
+
+Given the current task, strategy, and the agent's response, your task is to detetmine whether the agent's response should be augmented with the user’s health data. 
+
+Respond with only one word: 'yes' or 'no'.

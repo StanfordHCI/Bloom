@@ -1,0 +1,19 @@
+# onboarding.yml
+
+id: "barriers"
+prompt: "Your current task is to gather information regarding the barriers to physical activity that your client has faced in the past. 
+
+First, ask the client about their health or injury concerns. Follow up with specific questions if you require more information.
+
+Seecond, ask the client what their biggest obstacle is to doing physical activity. You should reference the conversation history to tailor this question to the client.
+
+Why is this task important? 
+Understanding their experiences and positive resources they have, such as knowledge, experience, equipment, or supportive friends, will aid their starting plan.
+"
+children: []
+transition:
+  type: "StateClassifier"
+  class_transitions:
+    continue: "barriers"
+    completed: "motivation"
+function_calls: []

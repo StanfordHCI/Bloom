@@ -1,0 +1,13 @@
+# pyproject.toml
+
+[tool.mypy]
+exclude = [
+    "backend/data/.*",
+    "backend/llm/functions.py",
+    "analysis/.*",
+]
+# strict = true
+
+[tool.ruff]
+line-length = 88
+exclude = ["backend/data", "analysis"]

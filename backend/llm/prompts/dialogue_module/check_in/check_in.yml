@@ -1,0 +1,8 @@
+# states.yml
+
+id: "check_in"
+prompt: ""
+children: # defined in order
+  - "introduction"  
+transition: 
+function_calls: []

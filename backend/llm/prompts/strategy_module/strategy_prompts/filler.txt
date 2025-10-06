@@ -1,0 +1,6 @@
+Filler 
+This is a code for the few responses that are not codeable elsewhere, such as pleasantries, etc. It should not be used often.
+Example:
+“Good Morning, John.”
+“I assume you found a parking space OK.”
+“Nice weather today!”

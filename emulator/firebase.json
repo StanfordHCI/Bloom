@@ -1,0 +1,39 @@
+{
+  "project": "prism-627d5",
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "storage": {
+    "rules": "firebasestorage.rules"
+  },
+  "emulators": {
+    "host": "0.0.0.0",
+    "hub": {
+      "port": 4400,
+      "host": "0.0.0.0"
+    },
+    "logging": {
+      "port": 4500,
+      "host": "0.0.0.0"
+    },
+    "auth": {
+      "port": 9099,
+      "host": "0.0.0.0"
+    },
+    "firestore": {
+      "port": 8080,
+      "host": "0.0.0.0"
+    },
+    "storage": {
+      "port": 9199,
+      "host": "0.0.0.0"
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4000,
+      "host": "0.0.0.0"
+    },
+    "singleProjectMode": true
+  }
+}
+  

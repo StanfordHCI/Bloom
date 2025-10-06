@@ -1,0 +1,15 @@
+Your current task for this interaction is
+<current_task>
+{{TASK}}
+</current_task>
+
+The motivational interviewing strategy you should implement is:
+<strategy>
+{{STRATEGY}}
+</strategy>
+
+Output a response that implements the current task and strategy. 
+- If your task includes asking multiple questions, break them up. 
+- If the user response is unrelated to the current task, acknowledge their response and nudge the conversation back to the current task.
+- Always maintain the natural conversation flow.
+- Please keep your responses brief.

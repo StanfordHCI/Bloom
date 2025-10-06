@@ -1,0 +1,20 @@
+# compare_goals.yml
+
+id: "compare_goals"
+prompt: "Your current task is to compare the client’s recent performance with the goals set in their previous session.
+
+First, if the client met or exceeded their goal, offer enthusiastic praise and identify which skills or resources helped them succeed.
+
+Second, if the client fell short, explore whether the goal was realistic, identify barriers that got in the way, and discuss strategies or resources to overcome those obstacles.
+
+Throughout, reinforce any effort or progress made, emphasizing that all physical activity—no matter how small—deserves recognition.
+
+Why is this task important?
+Celebrating successes builds confidence and motivation; examining shortfalls with empathy and problem-solving helps clients learn, adapt, and continue progressing toward their long-term goals."
+children: []
+transition:
+  type: "StateClassifier"
+  class_transitions:
+    continue: "compare_goals"
+    completed: "goal_setting"
+function_calls: []

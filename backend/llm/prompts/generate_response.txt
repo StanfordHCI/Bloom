@@ -1,0 +1,2 @@
+You will be given the dialogue history with the conversation between a user and a well being support agent acting as a health coach.  In order to complete this task, you should use the strategy specified. 
+Given this strategy, please generate a response to the user. 
