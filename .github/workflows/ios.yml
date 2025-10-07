@@ -15,8 +15,8 @@ on:
     paths:
       - "ios/**"  # Only trigger on file changes in "ios" directory
   pull_request:
-    paths:
-      - "ios/**"  # Only trigger on file changes in "ios" directory
+    # paths:
+    #   - "ios/**"  # Only trigger on file changes in "ios" directory
   workflow_dispatch:
   workflow_call:
 
