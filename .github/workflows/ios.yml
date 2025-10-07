@@ -15,8 +15,8 @@ on:
     paths:
       - "ios/**"  # Only trigger on file changes in "ios" directory
   pull_request:
-    # paths:
-    #   - "ios/**"  # Only trigger on file changes in "ios" directory
+    paths:
+      - "ios/**"  # Only trigger on file changes in "ios" directory
   workflow_dispatch:
   workflow_call:
 
@@ -38,7 +38,6 @@ jobs:
     permissions:
       contents: read
     with:
-      # runsonlabels: '["self-hosted","macOS","ARM64"]'
       setupfirebaseemulator: true
       resultBundle: Bloom.xcresult
       artifactname: Bloom.xcresult

@@ -9,10 +9,10 @@ on:
       - 'frontend/**/*.tsx'
       - 'index.tsx'
   pull_request:
-    # paths:
-    #   - 'frontend/**/*.ts'
-    #   - 'frontend/**/*.tsx'
-    #   - 'index.tsx'
+    paths:
+      - 'frontend/**/*.ts'
+      - 'frontend/**/*.tsx'
+      - 'index.tsx'
   workflow_dispatch:
 
 concurrency:

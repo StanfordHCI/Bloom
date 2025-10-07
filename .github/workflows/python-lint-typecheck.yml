@@ -7,8 +7,8 @@ on:
     paths:
       - 'backend/**/*.py'  # Only trigger on Python file changes in backend
   pull_request:
-    # paths:
-    #   - 'backend/**/*.py'  # Only trigger on Python file changes in backend
+    paths:
+      - 'backend/**/*.py'  # Only trigger on Python file changes in backend
   workflow_dispatch:
 
 concurrency:
