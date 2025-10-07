@@ -1,0 +1,45 @@
+#
+# This source file is part of the Stanford Bloom Application based on the Stanford Spezi Template Application project
+# 
+# SPDX-FileCopyrightText: 2025 Stanford University and the project authors (see CONTRIBUTORS.md)
+#
+# SPDX-License-Identifier: MIT
+#
+
+name: iOS
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "ios/**"  # Only trigger on file changes in "ios" directory
+  pull_request:
+    paths:
+      - "ios/**"  # Only trigger on file changes in "ios" directory
+  workflow_dispatch:
+  workflow_call:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  swiftlint:
+    name: SwiftLint
+    uses: StanfordBDHG/.github/.github/workflows/swiftlint.yml@v2
+    permissions:
+      contents: read
+    with:
+      path: ios
+  buildandtest:
+    name: Build and Test
+    uses: StanfordBDHG/.github/.github/workflows/xcodebuild-or-fastlane.yml@v2
+    permissions:
+      contents: read
+    with:
+      runsonlabels: '["self-hosted","macOS","ARM64"]'
+      setupfirebaseemulator: true
+      resultBundle: Bloom.xcresult
+      artifactname: Bloom.xcresult
+      customcommand: "corepack enable && yarn install && { yarn start > server.log 2>&1 & } && cd ios && pod install && fastlane build"
