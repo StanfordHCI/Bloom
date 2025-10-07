@@ -38,7 +38,7 @@ jobs:
     permissions:
       contents: read
     with:
-      runsonlabels: '["self-hosted","macOS","ARM64"]'
+      # runsonlabels: '["self-hosted","macOS","ARM64"]'
       setupfirebaseemulator: true
       resultBundle: Bloom.xcresult
       artifactname: Bloom.xcresult
