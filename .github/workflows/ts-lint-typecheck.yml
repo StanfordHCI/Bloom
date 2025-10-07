@@ -1,0 +1,67 @@
+name: Typescript Lint & Type Check
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'frontend/**/*.ts'
+      - 'frontend/**/*.tsx'
+      - 'index.tsx'
+  pull_request:
+    paths:
+      - 'frontend/**/*.ts'
+      - 'frontend/**/*.tsx'
+      - 'index.tsx'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'  # Or whichever version you're using
+      
+      - name: Enable Corepack and prepare Yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@3.6.4 --activate
+      
+      - name: Install dependencies
+        run: |
+          yarn install
+
+      - name: Run ESLint in frontend and root
+        run: |
+          npx eslint frontend/**/*.ts frontend/**/*.tsx index.tsx
+
+  tsc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'  # Or whichever version you're using
+      
+      - name: Enable Corepack and prepare Yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@3.6.4 --activate
+
+      - name: Install dependencies
+        run: |
+          yarn install
+
+      - name: Run TypeScript compiler to check types
+        run: |
+          npx tsc --noEmit

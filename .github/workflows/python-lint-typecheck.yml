@@ -1,0 +1,59 @@
+name: Python Lint & Type Check
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'backend/**/*.py'  # Only trigger on Python file changes in backend
+  pull_request:
+    paths:
+      - 'backend/**/*.py'  # Only trigger on Python file changes in backend
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ruff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.12
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruff
+
+      - name: Run Ruff in backend
+        run: ruff check backend
+
+  mypy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.12
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mypy
+          pip install -r backend/requirements.txt
+
+      - name: Install missing types for mypy
+        run: |
+          mypy --install-types --non-interactive backend
+          
+      - name: Run mypy in backend
+        run: mypy backend
+
