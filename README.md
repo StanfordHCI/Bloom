@@ -5,8 +5,7 @@
 Bloom is an iOS application for physical activity promotion developed by researchers at Stanford University. The app integrates an LLM-based health coaching chatbot with UI-based interactions such as activity tracking, push notifications, data visualizations, and a garden-based ambient display.
 
 This repository contains all code for the Bloom application and accompanies our publication:
-
-> Matthew Jörke, Defne Genç*, Valentin Teutschbein*, Shardul Sapkota, Sarah Chung, Paul Schmiedmayer, Maria Ines Campero, Abby C. King, Emma Brunskill, James A. Landay. 2025. Bloom: Designing for LLM-Augmented Behavior Change Interactions. (under review)  *equal contribution.
+> **Bloom: Designing for LLM-Augmented Behavior Change Interactions.** Matthew Jörke, Defne Genç*, Valentin Teutschbein*, Shardul Sapkota, Sarah Chung, Paul Schmiedmayer, Maria Ines Campero, Abby C. King, Emma Brunskill, James A. Landay. 2025.  [https://arxiv.org/abs/2510.05449](https://arxiv.org/abs/2510.05449)  *equal contribution.
 
 Please file a [GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/quickstart) for any bugs or issues. For any further questions, contact Matthew Jörke (joerke@stanford.edu).
 
