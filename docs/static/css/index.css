@@ -1,12 +1,12 @@
 /* Modern CSS Variables for consistent theming */
 :root {
-  --primary-color: #2563eb;
-  --primary-hover: #1d4ed8;
+  --primary-color: #266b30;
+  --primary-hover: #266b30;
   --secondary-color: #64748b;
   --accent-color: #0ea5e9;
   --text-primary: #1e293b;
-  --text-secondary: #64748b;
-  --text-light: #94a3b8;
+  --text-secondary: #475569;
+  --text-light: #64748b;
   --background-primary: #ffffff;
   --background-secondary: #f8fafc;
   --background-accent: #f1f5f9;
@@ -21,6 +21,8 @@
   --border-radius: 12px;
   --border-radius-lg: 16px;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --hero-decor-top: 24px;
+  --hero-decor-offset: 250px;
 }
 
 /* Smooth scrolling for better UX */
@@ -29,13 +31,17 @@ html {
 }
 
 body {
-  font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Hanken Grotesk', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--text-primary);
   line-height: 1.6;
   font-size: 16px;
-  background-color: var(--background-primary);
+  background: linear-gradient(180deg, #fffdf5 0%, #e3ffc8 70%, #e3ffc8 100%);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+main img:not(.hero-decor-left):not(.hero-decor-right):not(.bee-fly) {
+  margin: 1.5rem 0;
 }
 
 
@@ -50,7 +56,7 @@ body {
 }
 
 .button.is-dark {
-  background: var(--text-primary) !important;
+  background: #266b30 !important;
   border: none !important;
   color: white !important;
   box-shadow: var(--shadow-md);
@@ -59,7 +65,7 @@ body {
 .button.is-dark:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
-  background: var(--primary-color) !important;
+  background: #266b30 !important;
 }
 
 .button.is-dark:active {
@@ -94,13 +100,15 @@ body {
 }
 
 .hero.is-light {
-  background: var(--background-secondary);
+  background: transparent;
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
 }
 
 .hero-body {
   padding: 4rem 1.5rem;
+  position: relative;
+  z-index: 2;
 }
 
 .teaser .hero-body {
@@ -109,17 +117,132 @@ body {
 }
 
 .teaser {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
 }
 
 
 /* Publication Content Styling */
 .publication-title {
-    font-family: 'Inter', sans-serif !important;
-    font-weight: 800 !important;
-    color: var(--text-primary) !important;
+    font-family: 'Hanken Grotesk', sans-serif !important;
+    font-weight: 600 !important;
+  color: #266b30 !important;
     margin-bottom: 2rem !important;
     line-height: 1.1 !important;
+}
+
+.publication-title .title-accent {
+  font-weight: 800;
+}
+
+.hero-decor-left,
+.hero-decor-right {
+  position: absolute;
+  width: 220px;
+  height: auto;
+  max-width: 35vw;
+  pointer-events: none;
+  user-select: none;
+}
+
+.hero-decor-left {
+  left: 0;
+  top: var(--hero-decor-top);
+  width: 190px;
+}
+
+.hero-decor-right {
+  right: 0;
+  top: var(--hero-decor-top);
+}
+
+.bee-lane {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 260px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.bee-fly {
+  position: absolute;
+  left: 110vw;
+  width: 20px;
+  height: auto;
+  user-select: none;
+  animation: beeFlyRightToLeft 19s linear infinite;
+}
+
+.bee-fly-right {
+  left: -15vw;
+  animation-name: beeFlyLeftToRight;
+}
+
+.bee-fly-1 {
+  top: 18px;
+  animation-delay: 0s;
+}
+
+.bee-fly-2 {
+  top: 78px;
+  animation-delay: -7s;
+  animation-duration: 22s;
+}
+
+.bee-fly-3 {
+  top: 150px;
+  animation-delay: -13s;
+  animation-duration: 20s;
+}
+
+.bee-fly-4 {
+  top: 220px;
+  animation-delay: -5s;
+  animation-duration: 21s;
+}
+
+.teaser-image {
+  width: 100%;
+  max-width: 100%;
+  transform: translateY(-12px) scale(1.03);
+  transform-origin: center;
+}
+
+@keyframes beeFlyRightToLeft {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-35vw, 6px);
+  }
+  50% {
+    transform: translate(-70vw, -5px);
+  }
+  75% {
+    transform: translate(-105vw, 8px);
+  }
+  100% {
+    transform: translate(-130vw, 0);
+  }
+}
+
+@keyframes beeFlyLeftToRight {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(35vw, -4px);
+  }
+  50% {
+    transform: translate(70vw, 7px);
+  }
+  75% {
+    transform: translate(105vw, -6px);
+  }
+  100% {
+    transform: translate(130vw, 0);
+  }
 }
 
 .publication-banner {
@@ -146,7 +269,7 @@ body {
 }
 
 .publication-authors {
-    font-family: 'Inter', sans-serif !important;
+    font-family: 'Hanken Grotesk', sans-serif !important;
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
@@ -174,7 +297,7 @@ body {
 }
 
 .publication-authors a {
-   color: var(--primary-color) !important;
+   color: #266b30 !important;
    text-decoration: none;
    font-weight: 600;
    transition: var(--transition);
@@ -188,7 +311,7 @@ body {
     height: 2px;
     bottom: -2px;
     left: 0;
-    background: var(--gradient-accent);
+    background: currentColor;
     transition: var(--transition);
 }
 
@@ -197,7 +320,7 @@ body {
 }
 
 .publication-authors a:hover {
-    color: var(--primary-hover) !important;
+    color: #266b30 !important;
 }
 
 .author-block {
@@ -310,7 +433,7 @@ body {
 
 /* Section Titles */
 .title.is-3 {
-  font-family: 'Inter', sans-serif !important;
+  font-family: 'Hanken Grotesk', sans-serif !important;
   font-weight: 700 !important;
   color: var(--text-primary);
   margin-bottom: 2rem !important;
@@ -343,14 +466,17 @@ body {
 
 /* Footer Improvements */
 .footer {
-  background: var(--background-secondary);
+  background: transparent;
   border-top: 1px solid var(--border-color);
   padding: 3rem 1.5rem;
+  position: relative;
 }
 
 .footer .content {
   color: var(--text-secondary);
   line-height: 1.7;
+  position: relative;
+  z-index: 1;
 }
 
 .footer a {
@@ -366,7 +492,7 @@ body {
 
 /* BibTeX Styling */
 pre {
-  background: var(--background-accent) !important;
+  background: #ffffff !important;
   border: 1px solid var(--border-color) !important;
   border-radius: var(--border-radius) !important;
   padding: 1.5rem !important;
@@ -416,6 +542,24 @@ code {
 
 .copy-bibtex-btn.copied .copy-text::after {
   content: "ied!";
+}
+
+.plant-decor {
+  position: absolute;
+  bottom: calc(100% - 8px);
+  width: 80px;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+
+.plant-1 {
+  left: 10vw;
+}
+
+.plant-2 {
+  right: 10vw;
 }
 
 /* Scroll to Top Button */
@@ -476,7 +620,7 @@ code {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .more-works-btn:hover {
@@ -654,6 +798,69 @@ code {
   .content.has-text-justified {
     font-size: 1rem;
   }
+
+  .hero-decor-left,
+  .hero-decor-right {
+    width: 160px;
+  }
+
+  .hero-decor-left {
+    top: 0;
+  }
+
+  .hero-decor-right {
+    top: 0;
+  }
+
+  .hero-body {
+    padding-top: 9rem;
+  }
+
+  .plant-decor {
+    bottom: 0;
+    width: 64px;
+  }
+
+  .bee-fly {
+    width: 16px;
+  }
+
+  .bee-lane {
+    height: 220px;
+  }
+
+  .bee-fly-1 {
+    top: 14px;
+  }
+
+  .bee-fly-2 {
+    top: 64px;
+  }
+
+  .bee-fly-3 {
+    top: 124px;
+  }
+
+  .bee-fly-4 {
+    top: 184px;
+  }
+
+  .bee-fly-1 {
+    top: 90px;
+  }
+
+  .bee-fly-2 {
+    top: 135px;
+  }
+
+  .bee-fly-3 {
+    top: 180px;
+  }
+
+  :root {
+    --hero-decor-top: 16px;
+    --hero-decor-offset: 200px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -693,6 +900,69 @@ code {
   .button {
     width: 100%;
     justify-content: center;
+  }
+
+  .hero-decor-left,
+  .hero-decor-right {
+    width: 120px;
+  }
+
+  .hero-decor-left {
+    top: 0;
+  }
+
+  .hero-decor-right {
+    top: 0;
+  }
+
+  .hero-body {
+    padding-top: 8rem;
+  }
+
+  .plant-decor {
+    bottom: 0;
+    width: 56px;
+  }
+
+  .bee-fly {
+    width: 14px;
+  }
+
+  .bee-lane {
+    height: 190px;
+  }
+
+  .bee-fly-1 {
+    top: 12px;
+  }
+
+  .bee-fly-2 {
+    top: 54px;
+  }
+
+  .bee-fly-3 {
+    top: 104px;
+  }
+
+  .bee-fly-4 {
+    top: 154px;
+  }
+
+  .bee-fly-1 {
+    top: 80px;
+  }
+
+  .bee-fly-2 {
+    top: 120px;
+  }
+
+  .bee-fly-3 {
+    top: 160px;
+  }
+
+  :root {
+    --hero-decor-top: 12px;
+    --hero-decor-offset: 160px;
   }
 }
 
