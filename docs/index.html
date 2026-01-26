@@ -193,10 +193,10 @@ Interactions - AUTHOR_NAMES">
       <img class="hero-decor-left" src="static/images/beehive.png" alt="" aria-hidden="true" loading="lazy" />
       <img class="hero-decor-right" src="static/images/birbs.png" alt="" aria-hidden="true" loading="lazy" />
       <div class="bee-lane" aria-hidden="true">
-        <img class="bee-fly bee-fly-1" src="static/images/bee-right-left.png" alt="" loading="lazy" />
-        <img class="bee-fly bee-fly-2" src="static/images/bee-right-left.png" alt="" loading="lazy" />
-        <img class="bee-fly bee-fly-3" src="static/images/bee-right-left.png" alt="" loading="lazy" />
-        <img class="bee-fly bee-fly-right bee-fly-4" src="static/images/bee-left-right.png" alt="" loading="lazy" />
+        <img class="bee-fly bee-fly-1 bee-fly-front" src="static/images/bee-left-right.png" alt="" loading="lazy" />
+        <img class="bee-fly bee-fly-2 bee-fly-back" src="static/images/bee-left-right.png" alt="" loading="lazy" />
+        <img class="bee-fly bee-fly-3 bee-fly-back" src="static/images/bee-left-right.png" alt="" loading="lazy" />
+        <img class="bee-fly bee-fly-right bee-fly-4 bee-fly-front" src="static/images/bee-right-left.png" alt="" loading="lazy" />
       </div>
       <div class="hero-body">
         <div class="container is-max-desktop">
@@ -287,60 +287,111 @@ Interactions - AUTHOR_NAMES">
     </section>
 
 
-    <!-- Teaser video-->
-    <section class="hero teaser">
+    <!-- Teaser hero-->
+    <section class="hero teaser focus-section">
       <div class="container is-max-desktop">
         <div class="hero-body">
-          <img class="teaser-image" src="static/images/teaser.png" alt="Teaser video thumbnail" loading="lazy" />
-          <p class="subtitle">
-          <figcaption>
-            <strong>Bloom integrates an LLM-based physical activity coaching chatbot with established behavior change
-              interactions.</strong>
-            (A) The user begins with an onboarding conversation with Beebo, an LLM coaching chatbot that implements
-            conversational strategies from motivational interviewing and a validated health coaching program.
-            (B) The Today screen, the app's home screen, shows weekly progress, upcoming activities, and proactive
-            messages from Beebo.
-            Conversations with the agent elicit <em>qualitative</em> context, allowing Bloom to personalize various
-            LLM-augmented behavior change interactions, such as
-            (C) LLM-generated physical activity plans, accompanied by progress summaries,
-            (D) LLM-generated notifications that encourage action or reflection,
-            and (E) a garden-based ambient display that updates on the user's lockscreen.
-          </figcaption>
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- End teaser video -->
-    <!-- Paper abstract -->
-    <section class="section hero is-light">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3">Abstract</h2>
-            <div class="content has-text-justified">
-              <p>
-                Large language models (LLMs) offer novel opportunities to support health behavior change, yet existing
-                work has narrowly focused on text-only interactions. Building on decades of HCI research on effective
-                behavior change interactions, we present Bloom, an application for physical activity promotion that
-                integrates an LLM-based health coaching chatbot with established design strategies and UI elements. As
-                part of Bloom's development, we conducted a redteaming evaluation and contribute a safety benchmark
-                dataset. In a four-week randomized field study (N=54) comparing Bloom to a non-LLM control, we observed
-                important shifts in psychological outcomes: participants in the LLM condition reported stronger beliefs
-                that activity was beneficial, greater enjoyment, and more self-compassion. Both conditions significantly
-                increased physical activity levels, doubling the proportion of participants meeting recommended weekly
-                guidelines, though descriptively, we observed no advantage for the LLM condition in short-term physical
-                activity levels. Instead, our findings suggest that LLMs may be more effective at shifting mindsets that
-                precede longer-term behavior change.
-              </p>
+          <div class="abstract-callout">
+            <div class="abstract-callout-header">
+              <span class="abstract-label">Abstract</span>
             </div>
+            <p class="abstract-preview">
+              Large language models (LLMs) offer novel opportunities to support health behavior change, yet existing
+              work has narrowly focused on text-only interactions. Building on decades of HCI research on effective
+              behavior change interactions, we present Bloom, an application for physical activity promotion that
+              integrates an LLM-based health coaching chatbot with established design strategies and UI elements.
+            </p>
+            <details class="abstract-details">
+              <summary>See more</summary>
+              <div class="content has-text-justified">
+                <p>
+                  As part of Bloom's development, we conducted a redteaming evaluation and contribute a safety benchmark
+                  dataset. In a four-week randomized field study (N=54) comparing Bloom to a non-LLM control, we observed
+                  important shifts in psychological outcomes: participants in the LLM condition reported stronger beliefs
+                  that activity was beneficial, greater enjoyment, and more self-compassion. Both conditions significantly
+                  increased physical activity levels, doubling the proportion of participants meeting recommended weekly
+                  guidelines, though descriptively, we observed no advantage for the LLM condition in short-term physical
+                  activity levels. Instead, our findings suggest that LLMs may be more effective at shifting mindsets that
+                  precede longer-term behavior change.
+                </p>
+                <button class="abstract-collapse-btn" type="button">See less</button>
+              </div>
+            </details>
           </div>
         </div>
       </div>
     </section>
-    <!-- End paper abstract -->
+    <!-- End teaser video -->
+    <section class="section carousel-section focus-section">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3 carousel-title">Application Features</h2>
+        <div class="teaser-carousel" role="region" aria-label="Bloom screens carousel">
+          <button class="teaser-carousel-btn teaser-carousel-btn-prev" type="button" data-direction="prev"
+            aria-label="Previous screenshot">
+            <span aria-hidden="true">‹</span>
+          </button>
+          <div class="teaser-carousel-viewport">
+            <div class="teaser-slide" data-label="LLM Health Coach (Beebo)">
+              <figure class="teaser-figure">
+                <img src="static/images/llm-coach.png" alt="LLM Health Coach (Beebo)" loading="lazy" />
+                <figcaption class="teaser-caption">LLM Health Coach (Beebo)</figcaption>
+              </figure>
+            </div>
+            <div class="teaser-slide" data-label="Home Screen (Today)">
+              <figure class="teaser-figure">
+                <img src="static/images/today-screen.png" alt="Home Screen (Today)" loading="lazy" />
+                <figcaption class="teaser-caption">Home Screen (Today)</figcaption>
+              </figure>
+            </div>
+            <div class="teaser-slide" data-label="Plans &amp; Progress Summary">
+              <figure class="teaser-figure">
+                <img src="static/images/plans-progress.png" alt="Plans &amp; Progress Summary" loading="lazy" />
+                <figcaption class="teaser-caption">Plans &amp; Progress Summary</figcaption>
+              </figure>
+            </div>
+            <div class="teaser-slide" data-label="Push Notifications">
+              <figure class="teaser-figure">
+                <img src="static/images/push-notifs.png" alt="Push Notifications" loading="lazy" />
+                <figcaption class="teaser-caption">Push Notifications</figcaption>
+              </figure>
+            </div>
+            <div class="teaser-slide" data-label="Ambient Display (Lockscreen)">
+              <figure class="teaser-figure">
+                <img src="static/images/lockscreen.png" alt="Ambient Display (Lockscreen)" loading="lazy" />
+                <figcaption class="teaser-caption">Ambient Display (Lockscreen)</figcaption>
+              </figure>
+            </div>
+          </div>
+          <button class="teaser-carousel-btn teaser-carousel-btn-next" type="button" data-direction="next"
+            aria-label="Next screenshot">
+            <span aria-hidden="true">›</span>
+          </button>
+          <div class="teaser-carousel-dots" role="tablist" aria-label="Carousel pages">
+            <button class="teaser-dot" type="button" aria-label="LLM Health Coach (Beebo)"></button>
+            <button class="teaser-dot" type="button" aria-label="Home Screen (Today)"></button>
+            <button class="teaser-dot" type="button" aria-label="Plans &amp; Progress Summary"></button>
+            <button class="teaser-dot" type="button" aria-label="Push Notifications"></button>
+            <button class="teaser-dot" type="button" aria-label="Ambient Display (Lockscreen)"></button>
+          </div>
+        </div>
+        <p class="carousel-caption content has-text-justified">
+          <strong>Bloom integrates an LLM-based physical activity coaching chatbot with established behavior change
+            interactions.</strong>
+          (A) The user begins with an onboarding conversation with Beebo, an LLM coaching chatbot that implements
+          conversational strategies from motivational interviewing and a validated health coaching program.
+          (B) The Today screen, the app's home screen, shows weekly progress, upcoming activities, and proactive
+          messages from Beebo.
+          Conversations with the agent elicit <em>qualitative</em> context, allowing Bloom to personalize various
+          LLM-augmented behavior change interactions, such as
+          (C) LLM-generated physical activity plans, accompanied by progress summaries,
+          (D) LLM-generated notifications that encourage action or reflection,
+          and (E) a garden-based ambient display that updates on the user's lockscreen.
+        </p>
+      </div>
+    </section>
 
 
-    <section class="hero">
+    <section class="hero focus-section">
       <div class="container is-max-desktop">
         <div class="hero-body">
           <h2 class="title is-3">System Overview</h2>
@@ -378,7 +429,7 @@ Interactions - AUTHOR_NAMES">
       </div>
     </section>
 
-    <section class="hero is-light">
+    <section class="hero is-light focus-section">
       <div class="container is-max-desktop">
         <div class="hero-body">
           <h2 class="title is-3">Field Study Design</h2>
@@ -405,11 +456,11 @@ Interactions - AUTHOR_NAMES">
       </div>
     </section>
 
-    <section class="hero is-light">
+    <section class="hero is-light focus-section">
       <div class="container is-max-desktop">
         <div class="hero-body">
           <h2 class="title is-3">Study Results</h2>
-          <img src="static/images/mindset.jpg" alt="Mindset-related survey outcomes" loading="lazy" />
+          <img src="static/images/mindset.png" alt="Mindset-related survey outcomes" loading="lazy" />
           <p class="subtitle">
           <figcaption>
             <strong>Mindset-related survey outcomes.</strong>
@@ -423,7 +474,7 @@ Interactions - AUTHOR_NAMES">
             participants.
           </figcaption>
           </p>
-          <img src="static/images/plan-overview.jpg" alt="Plan quality and personalization by condition"
+          <img src="static/images/plan-overview.png" alt="Plan quality and personalization by condition"
             loading="lazy" />
           <p class="subtitle">
           <figcaption>
@@ -443,7 +494,7 @@ Interactions - AUTHOR_NAMES">
 
 
     <!-- Paper abstract -->
-    <section class="section hero">
+    <section class="section hero focus-section">
       <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
@@ -474,7 +525,7 @@ Interactions - AUTHOR_NAMES">
 
 
     <!--BibTex citation -->
-    <section class="section" id="BibTeX">
+    <section class="section focus-section" id="BibTeX">
       <div class="container is-max-desktop content">
         <div class="bibtex-header">
           <h2 class="title">BibTeX</h2>
@@ -495,7 +546,7 @@ Interactions - AUTHOR_NAMES">
     <!--End BibTex citation -->
 
 
-    <footer class="footer">
+    <footer class="footer focus-section">
       <img class="plant-decor plant-1" src="static/images/plant.png" alt="" aria-hidden="true" loading="lazy" />
       <img class="plant-decor plant-2" src="static/images/plant.png" alt="" aria-hidden="true" loading="lazy" />
       <div class="container">
