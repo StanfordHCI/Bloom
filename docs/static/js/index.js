@@ -132,26 +132,27 @@ function setupTeaserCarousel() {
     let index = slides.findIndex(slide => slide.classList.contains('is-active'));
     if (index < 0) index = 0;
 
-    const setActiveDot = (activeIndex) => {
+    const setActive = (activeIndex) => {
+        slides.forEach((slide, slideIndex) => {
+            slide.classList.toggle('is-active', slideIndex === activeIndex);
+        });
         dots.forEach((dot, dotIndex) => {
             dot.classList.toggle('is-active', dotIndex === activeIndex);
         });
     };
 
     const activate = (nextIndex) => {
-        const target = slides[nextIndex];
-        if (!target) return;
-        const left = target.offsetLeft;
-        viewport.scrollTo({ left, behavior: 'smooth' });
-        viewport.scrollLeft = left;
-        setActiveDot(nextIndex);
+        if (nextIndex < 0 || nextIndex >= slides.length) return;
+        setActive(nextIndex);
         index = nextIndex;
     };
 
     activate(index);
+
     const controls = carousel.querySelectorAll('.teaser-carousel-btn');
     controls.forEach(control => {
-        control.addEventListener('click', () => {
+        control.addEventListener('click', (event) => {
+            event.preventDefault();
             const direction = control.getAttribute('data-direction');
             if (direction === 'prev') {
                 index = (index - 1 + slides.length) % slides.length;
@@ -164,21 +165,6 @@ function setupTeaserCarousel() {
 
     dots.forEach((dot, dotIndex) => {
         dot.addEventListener('click', () => activate(dotIndex));
-    });
-
-    let scrollTicking = false;
-    viewport.addEventListener('scroll', () => {
-        if (scrollTicking) return;
-        scrollTicking = true;
-        window.requestAnimationFrame(() => {
-            const width = viewport.clientWidth || 1;
-            const nextIndex = Math.round(viewport.scrollLeft / width);
-            if (nextIndex !== index && nextIndex >= 0 && nextIndex < slides.length) {
-                index = nextIndex;
-                setActiveDot(index);
-            }
-            scrollTicking = false;
-        });
     });
 }
 
@@ -247,7 +233,7 @@ function setupFocusSections() {
     sections.forEach(section => observer.observe(section));
 }
 
-$(document).ready(function() {
+document.addEventListener('DOMContentLoaded', function() {
     // Check for click events on the navbar burger icon
 
     var options = {
@@ -257,13 +243,17 @@ $(document).ready(function() {
 		infinite: true,
 		autoplay: true,
 		autoplaySpeed: 5000,
+    };
+
+	// Initialize all div with carousel class (if bulma carousel is available)
+    if (window.bulmaCarousel) {
+        window.bulmaCarousel.attach('.carousel', options);
     }
 
-	// Initialize all div with carousel class
-    var carousels = bulmaCarousel.attach('.carousel', options);
-	
-    bulmaSlider.attach();
-    
+    if (window.bulmaSlider) {
+        window.bulmaSlider.attach();
+    }
+
     // Setup video autoplay for carousel
     setupVideoCarouselAutoplay();
 
@@ -275,5 +265,4 @@ $(document).ready(function() {
 
     // Abstract collapse
     setupAbstractCollapse();
-
-})
+});

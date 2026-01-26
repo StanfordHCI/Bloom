@@ -188,8 +188,18 @@ Interactions - AUTHOR_NAMES">
     <i class="fas fa-chevron-up"></i>
   </button>
 
+  <nav class="page-legend" aria-label="Page sections">
+    <a href="#abstract">Abstract</a>
+    <a href="#features">Features</a>
+    <a href="#system">System</a>
+    <a href="#study-design">Field Study</a>
+    <a href="#results">Results</a>
+    <a href="#conclusion">Conclusion</a>
+    <a href="#bibtex">BibTeX</a>
+  </nav>
+
   <main id="main-content">
-    <section class="hero">
+    <section class="hero" id="top">
       <img class="hero-decor-left" src="static/images/beehive.png" alt="" aria-hidden="true" loading="lazy" />
       <img class="hero-decor-right" src="static/images/birbs.png" alt="" aria-hidden="true" loading="lazy" />
       <div class="bee-lane" aria-hidden="true">
@@ -205,45 +215,47 @@ Interactions - AUTHOR_NAMES">
               <h1 class="title is-1 publication-title"><span class="title-accent">Bloom</span>: Designing for LLM-Augmented Behavior Change
                 Interactions</h1>
               <div class="is-size-5 publication-authors">
-                <span class="author-block">
+                <span class="author-block author-1">
                   <a href="http://matthewjoerke.com/" target="_blank">Matthew Jörke</a>,</span>
-                <span class="author-block">
+                <span class="author-block author-2">
                   <a href="https://www.defne.io/" target="_blank">Defne Genç</a><sup>*</sup>,</span>
-                <span class="author-block">
+                <span class="author-block author-3">
                   <a href="https://www.valteu.com/" target="_blank">Valentin Teutschbein</a><sup>*</sup>,</span>
-                <span class="author-block">
+                <span class="author-block author-4">
                   <a href="https://shardulsapkota.com/" target="_blank">Shardul Sapkota</a>,</span>
-                <span class="author-block">
+                <span class="author-block author-5">
                   <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Sarah Chung</a>,</span>
-                <span class="author-block">
+                <span class="author-block author-6">
                   <a href="https://profiles.stanford.edu/schmiedmayer" target="_blank">Paul Schmiedmayer</a>,</span>
-                <span class="author-block">
+                <span class="author-block author-7">
                   <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Maria Ines Campero</a>,</span>
-                <span class="author-block">
+                <span class="author-block author-8">
                   <a href="https://med.stanford.edu/profiles/abby-king" target="_blank">Abby C. King</a>,</span>
-                <span class="author-block">
+                <span class="author-block author-9">
                   <a href="https://cs.stanford.edu/people/ebrun/" target="_blank">Emma Brunskill</a>,</span>
-                <span class="author-block">
+                <span class="author-block author-10">
                   <a href="https://profiles.stanford.edu/james-landay" target="_blank">James A. Landay</a></span>
+                <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
               </div>
 
               <div class="is-size-5 publication-authors">
                 <!-- TODO: Replace with your institution and conference/journal info -->
-                <span class="author-block">Stanford University, Hasso Plattner Institute
+                <span class="author-block">
+                  <span class="kicker-pill">Stanford HCI · Hasso Plattner Institute</span>
                     <!-- <br>Conference name and year -->
                 </span>
                 <!-- <span class="author-block">Stanford University, Hasso Plattner Institute<br>CHI 2026</span>  -->
-                <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
               </div>
 
               <div class="column has-text-centered">
                 <div class="publication-links">
                   <span class="link-block">
                     <a href="https://arxiv.org/pdf/2510.05449.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
+                      class="external-link button is-normal is-rounded is-dark btn-paper">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
+                      <span class="critter-spark" aria-hidden="true"></span>
                       <span>Paper</span>
                     </a>
                   </span>
@@ -261,20 +273,22 @@ Interactions - AUTHOR_NAMES">
 
                   <span class="link-block">
                     <a href="https://github.com/StanfordHCI/Bloom" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
+                      class="external-link button is-normal is-rounded is-dark btn-code">
                       <span class="icon">
                         <i class="fab fa-github"></i>
                       </span>
+                      <span class="critter-spark" aria-hidden="true"></span>
                       <span>Code</span>
                     </a>
                   </span>
 
                   <span class="link-block">
                     <a href="https://arxiv.org/abs/2510.05449" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
+                      class="external-link button is-normal is-rounded is-dark btn-arxiv">
                       <span class="icon">
                         <i class="ai ai-arxiv"></i>
                       </span>
+                      <span class="critter-spark" aria-hidden="true"></span>
                       <span>arXiv</span>
                     </a>
                   </span>
@@ -288,7 +302,7 @@ Interactions - AUTHOR_NAMES">
 
 
     <!-- Teaser hero-->
-    <section class="hero teaser focus-section">
+    <section class="hero teaser focus-section" id="abstract">
       <div class="container is-max-desktop">
         <div class="hero-body">
           <div class="abstract-callout">
@@ -322,58 +336,12 @@ Interactions - AUTHOR_NAMES">
       </div>
     </section>
     <!-- End teaser video -->
-    <section class="section carousel-section focus-section">
+    <section class="section carousel-section focus-section" id="features">
       <div class="container is-max-desktop">
         <h2 class="title is-3 carousel-title">Application Features</h2>
-        <div class="teaser-carousel" role="region" aria-label="Bloom screens carousel">
-          <button class="teaser-carousel-btn teaser-carousel-btn-prev" type="button" data-direction="prev"
-            aria-label="Previous screenshot">
-            <span aria-hidden="true">‹</span>
-          </button>
-          <div class="teaser-carousel-viewport">
-            <div class="teaser-slide" data-label="LLM Health Coach (Beebo)">
-              <figure class="teaser-figure">
-                <img src="static/images/llm-coach.png" alt="LLM Health Coach (Beebo)" loading="lazy" />
-                <figcaption class="teaser-caption">LLM Health Coach (Beebo)</figcaption>
-              </figure>
-            </div>
-            <div class="teaser-slide" data-label="Home Screen (Today)">
-              <figure class="teaser-figure">
-                <img src="static/images/today-screen.png" alt="Home Screen (Today)" loading="lazy" />
-                <figcaption class="teaser-caption">Home Screen (Today)</figcaption>
-              </figure>
-            </div>
-            <div class="teaser-slide" data-label="Plans &amp; Progress Summary">
-              <figure class="teaser-figure">
-                <img src="static/images/plans-progress.png" alt="Plans &amp; Progress Summary" loading="lazy" />
-                <figcaption class="teaser-caption">Plans &amp; Progress Summary</figcaption>
-              </figure>
-            </div>
-            <div class="teaser-slide" data-label="Push Notifications">
-              <figure class="teaser-figure">
-                <img src="static/images/push-notifs.png" alt="Push Notifications" loading="lazy" />
-                <figcaption class="teaser-caption">Push Notifications</figcaption>
-              </figure>
-            </div>
-            <div class="teaser-slide" data-label="Ambient Display (Lockscreen)">
-              <figure class="teaser-figure">
-                <img src="static/images/lockscreen.png" alt="Ambient Display (Lockscreen)" loading="lazy" />
-                <figcaption class="teaser-caption">Ambient Display (Lockscreen)</figcaption>
-              </figure>
-            </div>
-          </div>
-          <button class="teaser-carousel-btn teaser-carousel-btn-next" type="button" data-direction="next"
-            aria-label="Next screenshot">
-            <span aria-hidden="true">›</span>
-          </button>
-          <div class="teaser-carousel-dots" role="tablist" aria-label="Carousel pages">
-            <button class="teaser-dot" type="button" aria-label="LLM Health Coach (Beebo)"></button>
-            <button class="teaser-dot" type="button" aria-label="Home Screen (Today)"></button>
-            <button class="teaser-dot" type="button" aria-label="Plans &amp; Progress Summary"></button>
-            <button class="teaser-dot" type="button" aria-label="Push Notifications"></button>
-            <button class="teaser-dot" type="button" aria-label="Ambient Display (Lockscreen)"></button>
-          </div>
-        </div>
+        <figure class="teaser-figure">
+          <img src="static/images/teaser.png" alt="Bloom application teaser" loading="lazy" />
+        </figure>
         <p class="carousel-caption content has-text-justified">
           <strong>Bloom integrates an LLM-based physical activity coaching chatbot with established behavior change
             interactions.</strong>
@@ -391,7 +359,7 @@ Interactions - AUTHOR_NAMES">
     </section>
 
 
-    <section class="hero focus-section">
+    <section class="hero focus-section" id="system">
       <div class="container is-max-desktop">
         <div class="hero-body">
           <h2 class="title is-3">System Overview</h2>
@@ -429,7 +397,7 @@ Interactions - AUTHOR_NAMES">
       </div>
     </section>
 
-    <section class="hero is-light focus-section">
+    <section class="hero is-light focus-section" id="study-design">
       <div class="container is-max-desktop">
         <div class="hero-body">
           <h2 class="title is-3">Field Study Design</h2>
@@ -456,7 +424,7 @@ Interactions - AUTHOR_NAMES">
       </div>
     </section>
 
-    <section class="hero is-light focus-section">
+    <section class="hero is-light focus-section" id="results">
       <div class="container is-max-desktop">
         <div class="hero-body">
           <h2 class="title is-3">Study Results</h2>
@@ -494,12 +462,12 @@ Interactions - AUTHOR_NAMES">
 
 
     <!-- Paper abstract -->
-    <section class="section hero focus-section">
+    <section class="section hero focus-section" id="conclusion">
       <div class="container is-max-desktop">
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
+        <div class="columns is-centered">
+          <div class="column is-four-fifths has-text-left">
             <h2 class="title is-3">Conclusion</h2>
-            <div class="content has-text-justified">
+            <div class="content has-text-justified conclusion-text">
               <p>
                 In this work, we introduce Bloom, a mobile application integrating an LLM-based coaching chatbot with
                 established behavior change interactions. Bloom leverages qualitative context from coaching
@@ -525,48 +493,34 @@ Interactions - AUTHOR_NAMES">
 
 
     <!--BibTex citation -->
-    <section class="section focus-section" id="BibTeX">
+    <section class="section focus-section" id="bibtex">
       <div class="container is-max-desktop content">
-        <div class="bibtex-header">
-          <h2 class="title">BibTeX</h2>
-          <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-            <i class="fas fa-copy"></i>
-            <span class="copy-text">Copy</span>
-          </button>
-        </div>
-        <pre id="bibtex-code"><code>@article{jorke2025bloom,
+        <div class="bibtex-card">
+          <div class="bibtex-header">
+            <h2 class="title">BibTeX</h2>
+            <button class="copy-bibtex-btn copy-bibtex-critter" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+              <i class="fas fa-copy"></i>
+              <span class="copy-text">Copy</span>
+              <span class="critter-spark" aria-hidden="true"></span>
+            </button>
+          </div>
+          <pre id="bibtex-code"><code>@article{jorke2025bloom,
   title={Bloom: Designing for LLM-augmented behavior change interactions},
   author={J{\"o}rke, Matthew and Gen{\c{c}}, Defne and Teutschbein, Valentin and Sapkota, Shardul and Chung,
   Sarah and Schmiedmayer, Paul and Campero, Maria Ines and King, Abby C and Brunskill, Emma and Landay, James A},
   journal={arXiv preprint arXiv:2510.05449},
   year={2025}
 }</code></pre>
+        </div>
       </div>
     </section>
     <!--End BibTex citation -->
 
 
-    <footer class="footer focus-section">
+    <footer class="footer">
       <img class="plant-decor plant-1" src="static/images/plant.png" alt="" aria-hidden="true" loading="lazy" />
       <img class="plant-decor plant-2" src="static/images/plant.png" alt="" aria-hidden="true" loading="lazy" />
       <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-8">
-            <div class="content">
-
-              <p>
-                This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
-                  target="_blank">Academic Project Page Template</a> which was adopted from the <a
-                  href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-                You are free to borrow the source code of this website, we just ask that you link back to this page in
-                the footer. <br> This website is licensed under a <a rel="license"
-                  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-                  Commons Attribution-ShareAlike 4.0 International License</a>.
-              </p>
-
-            </div>
-          </div>
-        </div>
       </div>
     </footer>
 
