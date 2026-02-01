@@ -358,6 +358,25 @@ main img:not(.hero-decor-left):not(.hero-decor-right):not(.bee-fly) {
   font-size: clamp(2.2rem, 3.6vw, 3.4rem) !important;
 }
 
+.publication-title .title-line {
+  display: block;
+}
+
+.publication-title .title-stack {
+  display: inline-block;
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .publication-title .title-line {
+    white-space: nowrap;
+  }
+
+  #top .hero-body {
+    padding-top: 7rem;
+  }
+}
+
 .publication-title .title-accent {
   font-weight: 800;
 }
