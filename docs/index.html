@@ -24,7 +24,7 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Bloom - Research Preview">
-  <meta property="article:published_time" content="2025-01-01T00:00:00.000Z">
+  <meta property="article:published_time" content="2025-10-06T00:00:00.000Z">
   <meta property="article:author" content="Matthew Jörke">
   <meta property="article:section" content="Research">
   <meta property="article:tag" content="LLM">
@@ -187,9 +187,7 @@
   <nav class="page-legend" aria-label="Page sections">
     <a href="#abstract">What is Bloom?</a>
     <a href="#features">Features</a>
-    <a href="#system">System</a>
     <a href="#study-design">Field Study</a>
-    <a href="#results">Results</a>
     <a href="#conclusion">Conclusion</a>
     <a href="#citation">Citation</a>
   </nav>
@@ -319,91 +317,74 @@
           <h2 class="title is-3">What is Bloom?</h2>
           <div class="content has-text-justified abstract-text">
             <p>
-              <strong>Bloom is an LLM-powered physical activity coaching app that makes personalized fitness support
-                scalable and accessible.</strong> We developed it to address a gap that existing approaches have left open.
-              <strong>Only about 1 in 4 U.S. adults meets federal physical activity guidelines</strong> (<a href="https://www.cdc.gov/mmwr/volumes/73/wr/mm7322a3.htm" target="_blank">CDC, 2024</a>). In-person coaching
-              delivers personalized motivation and tailored nudges but is <strong>costly, time-consuming, and inaccessible at
-              scale</strong>. Meanwhile, HCI research has spent decades building digital alternatives: apps and systems built
-              around goal-setting, just-in-time nudges, and ambient feedback. Yet these tools lean heavily on quantitative
-              signals like step counts and disregards context like illness, family responsibilities, injury, or mental
-              hurdles. This can seriously discourage progress for somebody who isn't already active.
+              <strong>Bloom is a mobile app designed to support physical activity behavior change with a large language model (LLM) health coach.</strong> 
+              While prior work on LLMs for behavior change have primarily explored chat as the primary interaction, Bloom was developed to explore
+              how LLM coaching can be <i>integrated</i> with existing UI-based behavior change interactions that are already known to be effective.
             </p>
             <p>
-              Large Language Models (LLMs) can converse, adapt, and personalize in ways that go far beyond what these
-              quantitative measures offer, but existing work has mostly kept them confined to <strong>text-only
-              interactions</strong>. We
-              saw an opportunity to combine that conversational depth with the structured, UI-based interactions that
-              HCI research has proven effective for decades. The result is Bloom: a physical activity app that pairs an
-              LLM-based health coaching chatbot with established interaction patterns, built to be both deeply personal
-              and genuinely scalable.
+              Over half of U.S. adults and over a quarter of adults worldwide fall short of recommended guidelines for physical activity. While in-person
+              coaching can provide personalized support to foster behavior change, it is costly, inaccessible to many, and difficult to scale. Meanwhile,
+              HCI research has spent decades exploring digital health interventions built around goal-setting, data visualization, nudges, or ambient feedback.
+              These interventions are effective and form the basis of many commercial apps and wearables today.
             </p>
             <p>
-              In a four-week randomized study with n=54 participants, Bloom shifted something deeper than habits. Users
-              reported stronger beliefs that activity was beneficial, greater enjoyment, and more self-compassion. Both
-              groups doubled the proportion meeting weekly activity guidelines, but the LLM condition showed promise in
-              shifting how people think about moving. Our findings suggest that's not a side effect, but exactly the
-              mechanism behind lasting behavior change.
+              However, most digital tools rely heavily on <i>quantitative</i> signals like step count or heart, often overlooking the many qualitative factors
+                that shape behavior, such as motivation, family responsibilities, illness, injuries, or shifting life circumstances. A narrow focus on optimizing
+                quantitative outcomes can be highly discouraging, especially for people who are just starting out or returning after a setback.
+            </p>
+            <p>
+              LLMs offer a novel opportunity to engage in conversations that center the user’s motivation and the many qualitative factors that affect change,
+              while also helping them interpret their data. We saw an opportunity to combine this conversational capability with existing UI components. Rather
+              than replacing established interaction designs, Bloom explores how LLMs can augment them.
+            </p>
+            <p>
+              We evaluated Bloom in a four-week randomized field study with N=54 participants, comparing the full system to a control version of the app with all
+              LLM components removed. Both the LLM and non-LLM conditions significantly increased participants’ physical activity relative to a pre-study baseline.
+              However, the LLM condition was associated with larger shifts in psychological measures, including stronger beliefs that physical activity is beneficial,
+              greater enjoyment, and increased self-compassion when goals were missed. These findings suggest that LLM-based health coaching may be particularly
+              effective at influencing how people think and feel about physical activity, not only how much they do.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <!-- End teaser video -->
-    <section class="section carousel-section focus-section" id="features">
-      <div class="container is-max-desktop">
-        <h2 class="title is-3 carousel-title">Application Features</h2>
-        <figure class="figure-block">
-          <picture>
-            <source
-              srcset="static/images/teaser-vertical.png"
-              media="(max-width: 480px)"
-            />
-            <img
-              src="static/images/teaser.png"
-              alt="Bloom application teaser"
-              loading="lazy"
-            />
-          </picture>
-          <figcaption class="figure-caption">
-            <span class="figure-label">Figure 1.</span> Bloom application teaser.
-          </figcaption>
-        </figure>
-        <div class="carousel-caption content has-text-justified">
-          <p>
-            When you first open Bloom, you meet Beebo, the app's <strong>LLM-powered coaching agent</strong>. Beebo kicks things off with
-            a guided onboarding conversation <strong>(A: LLM Health Coach)</strong>, asking about your motivation, past experiences, and
-            struggles with staying active. Beebo follows the <a href="https://med.stanford.edu/healthyaging/active-choices-program.html" target="_blank"><strong>Active Choices Program</strong></a>, a scientifically validated
-            counseling framework developed at Stanford's School of Medicine. By the end of onboarding, you and Beebo
-            have built a <strong>personalized exercise plan</strong> for the upcoming week.
-          </p>
-          <p>
-            That plan lives on Bloom's <strong>Home Screen</strong> <strong>(B: Home Screen)</strong>: a clean overview of today's completed and upcoming
-            workouts, with a chat bar at the bottom to jump straight into a conversation with Beebo whenever you need it.
-            Underneath it all, a garden <strong>Ambient Display</strong> <strong>(E: Ambient Display)</strong> slowly comes to life: every completed workout is
-            auto-detected using wearable data and grows new plants, turning consistency into something you can actually
-            <strong>see</strong>.
-          </p>
-          <p>
-            Need to adjust your plan or make sense of your progress? The <strong>Plans &amp; Progress Summary</strong> <strong>(C)</strong> gives you a
-            <strong>full breakdown</strong> of the week: completed workouts, a day-by-day calendar view, and a personalized written
-            summary from Beebo to keep you motivated and informed. Participants could elect to use the UI to adjust their
-            plans or to chat with Beebo, who could automatically adjust their weekly plan.
-          </p>
-          <p>
-            As a planned workout approaches, Bloom delivers a <strong>push notification</strong> <strong>(D)</strong> — a personalized, LLM-generated
-            nudge from Beebo, written to feel encouraging and speak to the user’s <strong>long-term goals</strong>. Even when the app is
-            closed, your progress stays visible through the <strong>ambient lock screen</strong> <strong>(E)</strong>, showing your garden, weekly
-            progress, and next workout at a glance, growing automatically as you exercise.
-          </p>
-        </div>
-      </div>
-    </section>
 
-
-    <section class="hero focus-section" id="system">
+    <section class="hero focus-section" id="features">
       <div class="container is-max-desktop">
         <div class="hero-body">
-          <h2 class="title is-3">System Overview</h2>
+          <h2 class="title is-3">Application Features</h2>
+          <figure class="figure-block">
+            <picture>
+              <source
+                srcset="static/images/teaser-vertical.png"
+                media="(max-width: 480px)"
+              />
+              <img
+                src="static/images/teaser.png"
+                alt="Bloom application teaser"
+                loading="lazy"
+              />
+            </picture>
+            <figcaption class="figure-caption">
+              <span class="figure-label">Figure 1.</span> Bloom application teaser.
+            </figcaption>
+          </figure>
+            <div class="content has-text-justified">
+            <p>
+              When you first open Bloom, you meet <strong>Beebo</strong>, the app’s LLM coaching agent. Beebo lives in a garden that grows as you make progress
+              toward your weekly plan.
+            </p>
+            <p>
+              Beebo begins with a guided onboarding conversation, asking about your motivation, prior experiences, and barriers to staying active. The conversation
+              follows the structure of the <a href="https://med.stanford.edu/healthyaging/active-choices-program.html" target="_blank"><strong>Active Choices Program</strong></a>
+              , a scientifically validated counseling framework developed at Stanford’s School of Medicine. By the end of onboarding, you and Beebo have created a
+              personalized physical activity plan for the upcoming week.
+            </p>
+            <p>
+              Bloom’s home screen shows completed and upcoming workouts for the week, along with a chat bar that allows you to start a conversation with Beebo at
+              any time. The garden appears in the background of the app and on your phone’s lock screen, making progress visible at a glance without requiring you to open the app. 
+            </p>
+          </div>
           <figure class="figure-block">
             <picture>
               <source
@@ -418,44 +399,33 @@
             </picture>
             <figcaption class="figure-caption"><span class="figure-label">Figure 2.</span> Screens in the Bloom application.</figcaption>
           </figure>
-          <p class="figure-text">
-            <strong>(A)</strong> The <strong>Plan</strong> tab is the user's weekly hub, surfacing their current exercise plan alongside an
-            LLM-generated progress summary, and clearly flags which activities were missed, are upcoming, or already
-            completed.
-            <strong>(B)</strong> The <strong>Insights</strong> tab turns raw wearable data into something meaningful: visualizations of key
-            fitness metrics, each paired with a personalized summary from Beebo highlighting trends and milestones.
-            <strong>(C)</strong> When the user's garden grows (triggered by completing workouts) a celebratory modal pops up, featuring
-            a message from Beebo that ties the visual progress directly to recent activity.
-            <strong>(D)</strong> In at-will chat, users can request plan changes in plain language. Beebo handles the rest, calling the
-            relevant editing tools behind the scenes and surfacing the updates as inline widgets the user can review
-            and confirm.
-          </p>
-          <figure class="figure-block">
-            <picture>
-              <source
-                srcset="static/images/system-vertical.png"
-                media="(max-width: 480px)"
-              />
-              <img
-                src="static/images/system.png"
-                alt="System overview schema"
-                loading="lazy"
-              />
-            </picture>
-            <figcaption class="figure-caption"><span class="figure-label">Figure 3.</span> System Architecture &amp; Context Management.</figcaption>
-          </figure>
-          <p class="figure-text">
-            <strong>(A) System Inputs:</strong> Bloom draws on wearable data from Apple's HealthKit API and natural-language
-            input from LLM chats.
-            <strong>(B) Application Context:</strong> Bloom integrates quantitative context, including wearable data and weekly
-            plan progress, with qualitative context in the form of memory summaries from past conversations.
-            <strong>(C) LLM Chatbot:</strong> Beebo operates in three modes (onboarding, check-in, and at-will chat) and uses
-            dialogue state management and motivational interviewing prompt chains. All responses are passed through
-            safety filters, and the agent can invoke tools to query health data or generate and edit weekly plans.
-            <strong>(D) System Outputs:</strong> The LLM produces push notifications, natural-language plan and data summaries,
-            inline chat widgets in response to tool calls, and celebratory progress messages linked to the ambient
-            display (e.g., garden growth).
-          </p>
+          <div class="content has-text-justified">
+            <p>
+              The Plan tab shows your plan for the week, allowing you to edit the plan either through the UI controls or by chatting with Beebo.
+              The Insights tab shows data visualizations from your wearable, such as step count, exercise time, or calories burned. Beebo also
+              generates a summary for each chart describing patterns and connecting the data to your stated goals. 
+            </p>
+            <p>
+              Beebo also sends personalized notifications at key moments throughout the day, reminding you of upcoming workouts or prompting you
+              to reflect on your progress.
+            </p>
+          </div>
+          <h2 class="title">Safety</h2>
+          <div class="content has-text-justified">
+            <p>
+              LLM coaching introduces several domain-specific risks that are not addressed by existing general-purpose guardrails,
+              such as offering unsafe exercise advice, reinforcing body image concerns, or providing medical guidance. We conducted
+              redteaming interviews with domain experts to develop a taxonomy of harms specific to LLM-based health coaching. Using
+              this taxonomy, we implemented prompt-based safety filters that classify model outputs across multiple harm categories.
+              If a response is classified as harmful in any category, it is rewritten by a revision prompt before being delivered to the user.
+            </p>
+            <p>
+              We constructed a benchmark dataset to tune and evaluate these safety filters. Across validation and held-out test sets,
+              our harmfulness classifiers achieved recall of at least 0.96 in all settings, and only 1% of harmful responses remained
+              harmful after the revision prompt. While no automated system can eliminate safety risks entirely, these results indicate
+              that the filters substantially reduced the likelihood of unsafe outputs prior to deployment.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -478,11 +448,13 @@
             </picture>
             <figcaption class="figure-caption"><span class="figure-label">Figure 4.</span> Treatment and Control Conditions.</figcaption>
           </figure>
-          <p class="figure-text">
-            We conducted a four-week field study with N = 54 participants, comparing Bloom to a control condition where
-            all LLM features were stripped out and replaced with rule-based UI alternatives <strong>(Figure 4)</strong>. This let us
-            isolate what the AI agent specifically contributes beyond a well-designed user interface.
-          </p>
+
+          <div class="content has-text-justified">
+            <p>
+              We conducted a four-week field study with 54 participants to evaluate Bloom. Participants were randomly assigned either to the
+              full Bloom system or to a no-LLM control. The control condition removed the chat and replaced all LLM-based features with rule-based alternatives.
+            </p>
+          </div>
           <figure class="figure-block">
             <picture>
               <source
@@ -497,33 +469,22 @@
             </picture>
             <figcaption class="figure-caption"><span class="figure-label">Figure 5.</span> Field Study Procedures &amp; Data Collection.</figcaption>
           </figure>
-          <p class="figure-text">
-            Participants were randomly assigned to one of the two conditions. Before the study began, we collected three
-            months of Apple HealthKit data to establish an objective baseline for each person's physical activity. The
-            study then kicked off with a one-hour onboarding session, during which a researcher guided participants
-            through app setup and the initial onboarding flow: the same process that, in the Bloom condition, begins with
-            a conversation with Beebo. From there, each week, participants created an exercise plan and aimed to complete
-            it, with weekly check-ins following the Active Choices program to reflect on progress and adjust as needed.
-            Throughout, we gathered both quantitative data through continuous fitness tracking via HealthKit and
-            qualitative feedback through weekly and optional daily surveys. The study closed with an offboarding
-            interview and a final survey. The full timeline is shown in <strong>Figure 5</strong>.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="hero focus-section" id="results">
-      <div class="container is-max-desktop">
-        <div class="hero-body">
-          <h2 class="title is-3">Study Results</h2>
-          <p class="figure-text">
-            We evaluate Bloom's impact across three complementary data sources: survey-based psychological outcomes,
-            objective wearable data, and system interaction logs. Mindset-related survey outcomes exhibited the most
-            prominent differences between conditions <strong>(Figure 6)</strong>. Participants in the Bloom condition
-            reported larger pre-to-post increases in PA adequacy mindset (the belief that physical activity is
-            beneficial to health) as well as <strong>greater enjoyment of exercise</strong> and
-            <strong>increased self-compassion</strong> when goals were missed.
-          </p>
+          <div class="content has-text-justified">
+            <p>
+              We collected three months of pre-study baseline data from participants’ Apple Watches. During the four-week study period, participants
+              created weekly activity plans, used the app in daily life, and completed weekly surveys. We collected three types of data: objective
+              wearable measures, self-report survey measures, and system interaction logs.
+            </p>
+          </div>
+          <h2 class="title">Psychological Outcomes</h2>
+          <div class="content has-text-justified">
+            <p>
+              The most consistent differences between conditions appeared in psychological measures. Participants in the LLM condition reported larger
+              increases in positive physical activity mindsets, such as the belief that their current level of activity is beneficial to their health.
+              They also reported greater enjoyment of exercise and higher levels of self-compassion when planned workouts were missed. These shifts were
+              consistent across daily, weekly, and pre/post survey measures, whereas the control condition showed smaller gains on the same items.
+            </p>
+          </div>
           <figure class="figure-block">
             <img
               src="static/images/mindset.png"
@@ -534,23 +495,48 @@
               <span class="figure-label">Figure 6.</span> Mindset-related survey outcomes.
             </figcaption>
           </figure>
-
-          <p class="figure-text">
-            These shifts were consistent across daily, weekly, and pre/post survey measures, whereas the control
-            condition showed comparatively modest gains on the same items. Plan-level interaction data further supports
-            greater engagement and personalization in the Bloom condition <strong>(Figure 7)</strong>: participants produced plans with more
-            activity categories, a greater number of unique activity types, and slightly higher completion rates. They
-            also made more frequent plan edits, suggesting more active and adaptive use of the planning system.
-            Objective wearable data, however, revealed <strong>no statistically significant differences</strong> between
-            conditions on any of the four PA outcome measures: step count, active energy burned, exercise time, or
-            distance walked. Notably, both conditions demonstrated significant increases relative to the three-month
-            pre-study baseline, with effect sizes in the moderate-to-large range (Cohen's d = 0.59–0.75). These gains
-            translated to a doubling of the proportion of participants meeting the recommended 150 min/week threshold,
-            rising from 36% at baseline to 72% during the study period. Taken together, these findings suggest that
-            while LLM augmentation did not produce significantly greater short-term increases in objective PA, it did
-            produce <strong>meaningful shifts in psychological outcomes and plan engagement</strong> — factors that
-            behavior change theory identifies as predictive of longer-term behavioral maintenance.
-          </p>
+          <div class="content has-text-justified">
+            <p>
+              These outcomes are relevant because behavior change theories link stronger beliefs in the benefits of physical activity to more sustainable,
+              long term change. While our study was not designed to establish long-term effects, shifts in these constructs suggest meaningful differences
+              in how participants interpreted and experienced their behavior over the four-week study period.
+            </p>
+            <p>
+              In our interviews, we found that participants attributed these changes in mindset to Beebo’s approach that centered participants’ own strengths and capacities:
+            </p>
+            <p>
+              <i>“Beebo was persistent but not aggressive. [...] even though it’s not human or real, it made it okay that if you didn’t do what you said you were going to do or
+                  if you did some of it, it’s okay [...] Instead of telling me what I needed to do, [it] worked with me on what I wanted to do.”</i> –P35
+            </p>
+            <p>
+              <i>“My attitude going into this was, well, I don’t do a lot, I’m not doing enough. [...] And this helped me understand that I actually am doing things.
+              When I work out in the garden and I’m digging holes, [...] I didn’t think that it was exercise or fitness in any way.”</i> –P13
+            </p>
+            <p>
+              <i>“I feel like it was finally an app that considered that everybody’s not going to go from zero to workout guru. It was an opportunity for someone
+              like me [...] to incorporate my own fitness in a way that was approachable and reasonable for me.”</i> –P29
+            </p>
+          </div>
+          <h2 class="title">Behavioral Outcomes</h2>
+          <div class="content has-text-justified">
+            <p>
+              Both conditions significantly increased physical activity relative to the three-month baseline period. We <strong>doubled</strong> the proportion of participants
+              meeting the recommended 150 minutes per week of moderate-to-vigorous activity, from 36% at baseline to 72% during the study period. This increase
+              was observed in both the LLM and control conditions.
+            </p>
+            <p>
+              The study was not powered to detect between-condition differences in physical activity levels and we did not observe a clear short-term advantage
+              of the LLM condition in mean activity levels. However, descriptive patterns indicate similar results across all outcome variables we measured. The
+              LLM group showed more gradual initial increases, while the control group’s activity declined more rapidly over time, suggesting possible differences in persistence. 
+            </p>
+        </div>
+        <h2 class="title">App Usage &amp Plan Statistics</h2>
+          <div class="content has-text-justified">
+            <p>
+              System logs revealed clear differences in engagement. Participants in the LLM condition spent more than <strong>five times as much time in the app</strong> as those
+              in the control condition. This increased engagement was not limited to chat, but was observed across all screens.
+            </p>
+          </div>
           <figure class="figure-block">
             <picture>
               <source
@@ -565,41 +551,46 @@
             </picture>
             <figcaption class="figure-caption"><span class="figure-label">Figure 7.</span> Plan Quality and Personalization by Condition.</figcaption>
           </figure>
+          <div class="content has-text-justified">
+            <p>
+              Participants in the LLM condition also created plans with a greater variety of activity types and more personalized structure.
+              They made more frequent edits to their plans over time and showed slightly higher plan completion rates. 
+            </p>
+            <p>
+              In interviews, participants often described the weekly plan as central to their accountability. Several emphasized that the
+              ability to flexibly adjust plans through conversation helped them stay engaged, particularly when life circumstances changed.
+              Rather than replacing structured planning, the LLM appeared to support more adaptive use of it.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-
-    <!-- Paper abstract -->
     <section class="section hero focus-section" id="conclusion">
       <div class="container is-max-desktop">
         <div class="hero-body">
           <h2 class="title is-3">Conclusion</h2>
           <div class="content has-text-justified conclusion-text">
             <p>
-              <strong>Bloom is the first system to combine LLM-based health coaching with established behavior change
-                interactions,</strong> and the first to evaluate that combination in a controlled field study. Our results
-              show that while both conditions significantly increased physical activity, the LLM condition produced
-              <strong>meaningful shifts in how participants think and feel about exercise</strong>, beliefs that behavior
-              change theory links to longer-term sustainability. Notably, these psychological gains weren't driven by
-              chat alone. Participants consistently cited the weekly plans, push notifications, and especially the
-              ambient garden display as central to their motivation, with the LLM serving as the connective tissue that
-              made each of these interactions feel personal and coherent. This points to a broader lesson for the future
-              of AI coaching: the most effective systems may not be the ones that talk the most, but the ones that weave
-              conversational AI into a richer ecosystem of touchpoints, ambient, visual, and timely, that together shape
-              how people relate to behavior change over time.
+              Bloom is a mobile application that integrates an LLM-based health coaching chatbot with established behavior change interactions.
+              In a four-week study with 54 participants, Bloom fostered more positive mindsets toward physical activity and supported more
+              personalized and flexible workout planning compared to a non-LLM control. Participants in the LLM condition reported greater
+              enjoyment, self-confidence, and a stronger sense of agency in managing their goals. Both conditions substantially increased
+              physical activity, doubling the proportion of participants meeting recommended guidelines.
             </p>
             <p>
-              <strong>Longer studies are needed</strong> to confirm whether these mindset shifts translate into lasting
-              behavioral differences, but the design insights here provide a solid foundation for that work.
-              <strong>Bloom is fully open source.</strong> The codebase, safety benchmarks, and prompts are all available on
-              our <a href="https://github.com/StanfordHCI/Bloom" target="_blank">GitHub repository</a>.
+              These findings suggest that LLM coaching may be particularly valuable for shaping how people think about and relate to physical
+              activity. This work has implications for the design of future commercial health and fitness products, and also provides a foundation
+              for longer-term clinical studies to evaluate whether mindset and engagement shifts translate into sustained behavioral outcomes.
+            </p>
+            <p>
+              Bloom is open source and our codebase, safety benchmarks, and prompts are all available on our
+              <a href="https://github.com/StanfordHCI/Bloom" target="_blank">GitHub repository</a>.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <!-- End paper abstract -->
 
 
     <!--BibTex citation -->
@@ -626,9 +617,18 @@
     </section>
     <!--End BibTex citation -->
 
-
-    <footer class="footer">
-      <div class="container">
+    <footer class="section hero focus-section footer">
+      <div class="container is-max-desktop">
+        <div class="hero-body">
+          <div class="content has-text-justified conclusion-text">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>
+              which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a
+             columns  <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
 
