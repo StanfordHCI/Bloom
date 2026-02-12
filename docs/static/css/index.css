@@ -1292,7 +1292,8 @@ main img:not(.hero-decor-left):not(.hero-decor-right):not(.bee-fly) {
 }
 
 .figure-caption {
-  margin-top: 0.6rem;
+  margin-top: 0.1rem;
+  margin-bottom: 1.5rem;
   color: #3d4f3d;
   font-size: 0.85rem;
   line-height: 1.5;
