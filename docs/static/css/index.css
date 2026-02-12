@@ -1297,12 +1297,11 @@ main img:not(.hero-decor-left):not(.hero-decor-right):not(.bee-fly) {
   color: #3d4f3d;
   font-size: 0.85rem;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 
 .figure-label {
-  font-weight: 700;
-  color: var(--text-light);
+  font-weight: bold;
   margin-right: 0.35rem;
 }
 
