@@ -1679,7 +1679,8 @@ code {
 }
 
 .work-venue {
-  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
   color: var(--text-light);
   font-style: italic;
 }

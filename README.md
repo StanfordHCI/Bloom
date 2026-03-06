@@ -5,7 +5,7 @@
 Bloom is an iOS application for physical activity promotion developed by researchers at Stanford University. The app integrates an LLM-based health coaching chatbot with UI-based interactions such as activity tracking, push notifications, data visualizations, and a garden-based ambient display.
 
 This repository contains all code for the Bloom application and accompanies our publication:
-> **Bloom: Designing for LLM-Augmented Behavior Change Interactions.** Matthew Jörke, Defne Genç*, Valentin Teutschbein*, Shardul Sapkota, Sarah Chung, Paul Schmiedmayer, Maria Ines Campero, Abby C. King, Emma Brunskill, James A. Landay. 2025.  [https://arxiv.org/abs/2510.05449](https://arxiv.org/abs/2510.05449)  *equal contribution.
+> **Bloom: Designing for LLM-Augmented Behavior Change Interactions.** Matthew Jörke, Defne Genç*, Valentin Teutschbein*, Shardul Sapkota, Sarah Chung, Paul Schmiedmayer, Maria Ines Campero, Abby C. King, Emma Brunskill, James A. Landay. *Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI 2026).* [https://arxiv.org/abs/2510.05449](https://arxiv.org/abs/2510.05449)  *equal contribution.
 
 Please file a [GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/quickstart) for any bugs or issues. For any further questions, contact Matthew Jörke (joerke@stanford.edu).
 
@@ -191,3 +191,18 @@ We use [Github actions](https://docs.github.com/en/actions/about-github-actions/
 
 ## Acknowledgements
 Bloom was developed by [Matthew Jörke](https://github.com/mjoerke), [Valentin Teutschbein](https://github.com/valteu), [Defne Genç](https://github.com/defnegenc), [Shardul Sapkota](https://github.com/sapkotashardul), [Sarah Chung](https://github.com/isarahchung), [Andrew Sung](https://github.com/drewsungg), and [Paul Schmiedmayer](https://github.com/pschmiedmayer).
+
+## Citation
+
+```
+@inproceedings{joerke2026bloom,
+  author = {J\"{o}rke, Matthew and Gen\c{c}, Defne and Teutschbein, Valentin and Sapkota, Shardul and Chung, Sarah and Schmiedmayer, Paul and Campero, Maria Ines and King, Abby C. and Brunskill, Emma and Landay, James A.},
+  title = {Bloom: Designing for LLM-Augmented Behavior Change Interactions},
+  year = {2026},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
+  location = {Barcelona, Spain},
+  series = {CHI '26}
+}
+```
