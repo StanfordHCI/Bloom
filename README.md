@@ -4,7 +4,7 @@
 
 Bloom is an iOS application for physical activity promotion developed by researchers at Stanford University. The app integrates an LLM-based health coaching chatbot with UI-based interactions such as activity tracking, push notifications, data visualizations, and a garden-based ambient display.
 
-This repository contains all code for the Bloom application and accompanies our publication:
+This repository contains the code for the Bloom application as well as the analysis and evaluation scripts accompanying our publication:
 > **Bloom: Designing for LLM-Augmented Behavior Change Interactions.** Matthew Jörke, Defne Genç*, Valentin Teutschbein*, Shardul Sapkota, Sarah Chung, Paul Schmiedmayer, Maria Ines Campero, Abby C. King, Emma Brunskill, James A. Landay. 2025.  [https://arxiv.org/abs/2510.05449](https://arxiv.org/abs/2510.05449)  *equal contribution.
 
 Please file a [GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/quickstart) for any bugs or issues. For any further questions, contact Matthew Jörke (joerke@stanford.edu).
@@ -13,6 +13,7 @@ Please file a [GitHub issue](https://docs.github.com/en/issues/tracking-your-wor
 - [Quickstart](#quickstart)
 - [Project Overview](#project-overview)
 - [Setup & Configuration](#setup--configuration)
+- [Analysis & Evaluation](#analysis--evaluation)
 - [Licensing](#licensing)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
@@ -156,7 +157,7 @@ We use linting and type checking to maintain code quality. You can run the follo
 **Swift:** You will need to `brew install swiftlint`
 - Linting: `swiftlint ios --strict`
 
-For each of the linting commands, you can simply append `--fix` to autocorrect linting errors. 
+For each of the linting commands, you can simply append `--fix` to autocorrect linting errors.
 
 ### Deployment
 
@@ -174,6 +175,12 @@ bundle exec fastlane ios deploy
 
 **Sentry:** Our app is configured to use [Sentry](https://sentry.io/) for remote error monitoring. After creating a Sentry account, create new React Native and Python projects. You can find your client keys under "Settings > [Project] > Client Keys (DSN)", which you should paste in `SENTRY_DSN_TS` and `SENTRY_DSN_PYTHON` in `.env.production`. Finally, configure `ios/sentry.properties` with the [appropriate values]([url](https://docs.sentry.io/platforms/react-native/manual-setup/manual-setup/#add-sentryproperties)).
 
+## Analysis & Evaluation
+
+The `analysis` directory contains the data collected during our field study as well as the scripts used for analysis and plotting.
+
+- To reproduce the tables and plots, run the notebooks `tables.ipynb` and `plots.ipynb`. Install the required Python packages listed in `analysis/requirements.txt`.
+- Statistical tests are implemented in the R scripts located in the same directory.
 
 ## Licensing
 Our project follows the [REUSE Standard](https://reuse.software). Licensing varies by artifact:
