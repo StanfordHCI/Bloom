@@ -1,0 +1,1314 @@
+Day,UID,Condition,I am satisfied with my current level of physical activity.,I am a physically active person.,I am committed to my physical activity goal.,How hopeful are you about your physical health today?,How was your mood today?,I am satisfied with my current level of physical activity._num,I am a physically active person._num,I am committed to my physical activity goal._num,How hopeful are you about your physical health today?_num,How was your mood today?_num
+0,P4,C,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+1,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+2,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+3,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+4,P4,C,Agree,Agree,Agree,Hopeful,Unpleasant,4.0,4.0,4.0,4.0,2.0
+6,P4,C,Agree,Neither agree nor disagree,Agree,Hopeful,Unpleasant,4.0,3.0,4.0,4.0,2.0
+7,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+8,P4,C,Neither agree nor disagree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,4.0,4.0,4.0,3.0
+9,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+11,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+12,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+13,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+14,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+15,P4,C,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+16,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+17,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+18,P4,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+19,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+20,P4,C,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+21,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+22,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+23,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+24,P4,C,Strongly agree,Agree,Agree,Hopeful,Pleasant,5.0,4.0,4.0,4.0,4.0
+25,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+27,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+28,P4,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+0,P38,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+1,P38,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+2,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+3,P38,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+4,P38,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+5,P38,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+6,P38,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+7,P38,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+8,P38,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+9,P38,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+10,P38,T,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+11,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+12,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+13,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+14,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+15,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+16,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+17,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+18,P38,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+19,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+20,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+21,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+22,P38,T,Disagree,Agree,Agree,Hopeful,Pleasant,2.0,4.0,4.0,4.0,4.0
+23,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+24,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+25,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+26,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+27,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+28,P38,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+0,P34,T,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,4.0,3.0,5.0,5.0,5.0
+1,P34,T,Strongly agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,5.0,3.0,5.0,5.0,5.0
+2,P34,T,Agree,Neither agree nor disagree,Strongly agree,Neither hopeful nor hopeless,Unpleasant,4.0,3.0,5.0,3.0,2.0
+3,P34,T,Strongly agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,5.0,3.0,5.0,5.0,5.0
+4,P34,T,Agree,Neither agree nor disagree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,3.0,5.0,4.0,3.0
+6,P34,T,Strongly agree,Agree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,5.0,4.0,5.0,3.0,3.0
+7,P34,T,Agree,Neither agree nor disagree,Agree,Hopeless,Unpleasant,4.0,3.0,4.0,2.0,2.0
+9,P34,T,Strongly agree,Agree,Strongly agree,Very hopeful,Unpleasant,5.0,4.0,5.0,5.0,2.0
+10,P34,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very unpleasant,5.0,4.0,5.0,5.0,5.0
+12,P34,T,Strongly agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,5.0,3.0,5.0,5.0,5.0
+15,P34,T,Strongly agree,Agree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,5.0,4.0,5.0,3.0,3.0
+17,P34,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+18,P34,T,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Hopeless,Unpleasant,3.0,3.0,5.0,2.0,2.0
+20,P34,T,Disagree,Neither agree nor disagree,Agree,Hopeless,Neither pleasant nor unpleasant,2.0,3.0,4.0,2.0,3.0
+21,P34,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very unpleasant,5.0,4.0,5.0,5.0,5.0
+22,P34,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+23,P34,T,Strongly agree,Agree,Strongly agree,Hopeful,Very pleasant,5.0,4.0,5.0,4.0,5.0
+24,P34,T,Strongly agree,Strongly agree,Strongly agree,Hopeful,Very pleasant,5.0,5.0,5.0,4.0,5.0
+26,P34,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+0,P30,C,Neither agree nor disagree,Disagree,Agree,Hopeful,Pleasant,3.0,2.0,4.0,4.0,4.0
+1,P30,C,Neither agree nor disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,3.0,2.0,3.0,4.0,4.0
+2,P30,C,Agree,Disagree,Agree,Hopeful,Very pleasant,4.0,2.0,4.0,4.0,5.0
+3,P30,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+4,P30,C,Neither agree nor disagree,Disagree,Agree,Hopeful,Pleasant,3.0,2.0,4.0,4.0,4.0
+5,P30,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,4.0,3.0,3.0
+6,P30,C,Neither agree nor disagree,Disagree,Agree,Hopeful,Very pleasant,3.0,2.0,4.0,4.0,5.0
+7,P30,C,Neither agree nor disagree,Disagree,Neither agree nor disagree,Hopeful,Very pleasant,3.0,2.0,3.0,4.0,5.0
+8,P30,C,Neither agree nor disagree,Disagree,Agree,Hopeful,Pleasant,3.0,2.0,4.0,4.0,4.0
+9,P30,C,Neither agree nor disagree,Disagree,Agree,Very hopeful,Pleasant,3.0,2.0,4.0,5.0,4.0
+10,P30,C,Neither agree nor disagree,Disagree,Agree,Hopeful,Pleasant,3.0,2.0,4.0,4.0,4.0
+11,P30,C,Neither agree nor disagree,Disagree,Agree,Very hopeful,Pleasant,3.0,2.0,4.0,5.0,4.0
+12,P30,C,Neither agree nor disagree,Disagree,Agree,Very hopeful,Pleasant,3.0,2.0,4.0,5.0,4.0
+13,P30,C,Neither agree nor disagree,Disagree,Agree,Hopeful,Very pleasant,3.0,2.0,4.0,4.0,5.0
+14,P30,C,Agree,Disagree,Neither agree nor disagree,Hopeful,Very pleasant,4.0,2.0,3.0,4.0,5.0
+15,P30,C,Neither agree nor disagree,Disagree,Agree,Hopeful,Very pleasant,3.0,2.0,4.0,4.0,5.0
+16,P30,C,Neither agree nor disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,3.0,2.0,5.0,5.0,5.0
+17,P30,C,Neither agree nor disagree,Disagree,Agree,Very hopeful,Pleasant,3.0,2.0,4.0,5.0,4.0
+18,P30,C,Agree,Disagree,Agree,Hopeful,Very pleasant,4.0,2.0,4.0,4.0,5.0
+19,P30,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,3.0,3.0,4.0,4.0,5.0
+20,P30,C,Neither agree nor disagree,Disagree,Agree,Very hopeful,Very pleasant,3.0,2.0,4.0,5.0,5.0
+21,P30,C,Neither agree nor disagree,Disagree,Agree,Hopeful,Pleasant,3.0,2.0,4.0,4.0,4.0
+22,P30,C,Neither agree nor disagree,Disagree,Agree,Very hopeful,Very pleasant,3.0,2.0,4.0,5.0,5.0
+23,P30,C,Neither agree nor disagree,Disagree,Agree,Very hopeful,Pleasant,3.0,2.0,4.0,5.0,4.0
+24,P30,C,Neither agree nor disagree,Agree,Agree,Hopeful,Very pleasant,3.0,4.0,4.0,4.0,5.0
+25,P30,C,Neither agree nor disagree,Disagree,Agree,Hopeful,Very pleasant,3.0,2.0,4.0,4.0,5.0
+26,P30,C,Neither agree nor disagree,Disagree,Agree,Hopeful,Very pleasant,3.0,2.0,4.0,4.0,5.0
+27,P30,C,Agree,Neither agree nor disagree,Agree,Very hopeful,Very pleasant,4.0,3.0,4.0,5.0,5.0
+28,P30,C,Agree,Neither agree nor disagree,Agree,Very hopeful,Very pleasant,4.0,3.0,4.0,5.0,5.0
+0,P10,T,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+1,P10,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+2,P10,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+3,P10,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+4,P10,T,Agree,Agree,Strongly agree,Hopeful,Very pleasant,4.0,4.0,5.0,4.0,5.0
+5,P10,T,Agree,Agree,Strongly agree,Neither hopeful nor hopeless,Pleasant,4.0,4.0,5.0,3.0,4.0
+6,P10,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+7,P10,T,Agree,Agree,Strongly agree,Hopeful,Very pleasant,4.0,4.0,5.0,4.0,5.0
+8,P10,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+9,P10,T,Agree,Agree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,5.0,4.0,3.0
+10,P10,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+11,P10,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+12,P10,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+13,P10,T,Agree,Agree,Strongly agree,Very hopeful,Pleasant,4.0,4.0,5.0,5.0,4.0
+14,P10,T,Agree,Agree,Strongly agree,Hopeful,Very pleasant,4.0,4.0,5.0,4.0,5.0
+15,P10,T,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+16,P10,T,Agree,Agree,Strongly agree,Hopeful,Very pleasant,4.0,4.0,5.0,4.0,5.0
+17,P10,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+18,P10,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+19,P10,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+20,P10,T,Agree,Agree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,5.0,4.0,3.0
+21,P10,T,Agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,4.0,5.0,5.0,5.0,4.0
+22,P10,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+23,P10,T,Agree,Agree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,5.0,4.0,3.0
+24,P10,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+25,P10,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+26,P10,T,Agree,Agree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,5.0,4.0,3.0
+27,P10,T,Strongly agree,Agree,Strongly agree,Hopeful,Very pleasant,5.0,4.0,5.0,4.0,5.0
+28,P10,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+0,P46,T,Disagree,Agree,Agree,Hopeful,Pleasant,2.0,4.0,4.0,4.0,4.0
+1,P46,T,Disagree,Agree,Strongly agree,Hopeful,Pleasant,2.0,4.0,5.0,4.0,4.0
+2,P46,T,Disagree,Agree,Strongly agree,Hopeful,Pleasant,2.0,4.0,5.0,4.0,4.0
+3,P46,T,Neither agree nor disagree,Agree,Strongly agree,Hopeful,Pleasant,3.0,4.0,5.0,4.0,4.0
+4,P46,T,Neither agree nor disagree,Agree,Strongly agree,Hopeful,Very unpleasant,3.0,4.0,5.0,4.0,5.0
+5,P46,T,Agree,Strongly agree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,5.0,5.0,4.0,3.0
+6,P46,T,Agree,Agree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,5.0,4.0,3.0
+7,P46,T,Disagree,Agree,Agree,Hopeful,Pleasant,2.0,4.0,4.0,4.0,4.0
+8,P46,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+9,P46,T,Neither agree nor disagree,Agree,Strongly agree,Hopeful,Pleasant,3.0,4.0,5.0,4.0,4.0
+10,P46,T,Neither agree nor disagree,Agree,Agree,Neither hopeful nor hopeless,Unpleasant,3.0,4.0,4.0,3.0,2.0
+11,P46,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+12,P46,T,Disagree,Agree,Agree,Hopeful,Pleasant,2.0,4.0,4.0,4.0,4.0
+13,P46,T,Agree,Strongly agree,Agree,Hopeful,Pleasant,4.0,5.0,4.0,4.0,4.0
+14,P46,T,Disagree,Agree,Agree,Hopeful,Pleasant,2.0,4.0,4.0,4.0,4.0
+15,P46,T,Disagree,Agree,Strongly agree,Hopeful,Pleasant,2.0,4.0,5.0,4.0,4.0
+17,P46,T,Agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,4.0,5.0,5.0,5.0,4.0
+18,P46,T,Agree,Strongly agree,Agree,Hopeful,Pleasant,4.0,5.0,4.0,4.0,4.0
+19,P46,T,Agree,Strongly agree,Strongly agree,Hopeful,Very pleasant,4.0,5.0,5.0,4.0,5.0
+20,P46,T,Agree,Strongly agree,Strongly agree,Hopeful,Pleasant,4.0,5.0,5.0,4.0,4.0
+21,P46,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+22,P46,T,Agree,Strongly agree,Agree,Hopeful,Pleasant,4.0,5.0,4.0,4.0,4.0
+23,P46,T,Agree,Strongly agree,Agree,Hopeful,Pleasant,4.0,5.0,4.0,4.0,4.0
+24,P46,T,Agree,Agree,Strongly agree,Very hopeful,Pleasant,4.0,4.0,5.0,5.0,4.0
+25,P46,T,Agree,Agree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,5.0,4.0,3.0
+26,P46,T,Agree,Strongly agree,Strongly agree,Hopeful,Unpleasant,4.0,5.0,5.0,4.0,2.0
+27,P46,T,Agree,Agree,Strongly agree,Neither hopeful nor hopeless,Pleasant,4.0,4.0,5.0,3.0,4.0
+28,P46,T,Agree,Strongly agree,Strongly agree,Hopeful,Pleasant,4.0,5.0,5.0,4.0,4.0
+0,P7,C,Disagree,Disagree,Disagree,Hopeful,Pleasant,2.0,2.0,2.0,4.0,4.0
+1,P7,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,3.0,4.0,3.0
+2,P7,C,Disagree,Disagree,Disagree,Hopeless,Pleasant,2.0,2.0,2.0,2.0,4.0
+3,P7,C,Disagree,Disagree,Disagree,Hopeful,Pleasant,2.0,2.0,2.0,4.0,4.0
+4,P7,C,Disagree,Disagree,Disagree,Hopeless,,2.0,2.0,2.0,2.0,
+5,P7,C,Disagree,Disagree,Disagree,Neither hopeful nor hopeless,Very pleasant,2.0,2.0,2.0,3.0,5.0
+6,P7,C,Disagree,Disagree,Disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,2.0,3.0,4.0
+7,P7,C,Strongly disagree,Disagree,Disagree,Very hopeless,Pleasant,1.0,2.0,2.0,1.0,4.0
+8,P7,C,Disagree,Disagree,Disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,2.0,3.0,4.0
+9,P7,C,Disagree,Disagree,Disagree,Hopeful,Pleasant,2.0,2.0,2.0,4.0,4.0
+10,P7,C,Disagree,Disagree,Disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,2.0,3.0,4.0
+11,P7,C,Disagree,Disagree,Disagree,Hopeful,Pleasant,2.0,2.0,2.0,4.0,4.0
+12,P7,C,Disagree,Disagree,Disagree,Neither hopeful nor hopeless,Very pleasant,2.0,2.0,2.0,3.0,5.0
+13,P7,C,Disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Very pleasant,2.0,3.0,3.0,3.0,5.0
+14,P7,C,Neither agree nor disagree,Neither agree nor disagree,Disagree,Hopeful,Pleasant,3.0,3.0,2.0,4.0,4.0
+15,P7,C,Disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,3.0,3.0,4.0,4.0
+16,P7,C,Disagree,Neither agree nor disagree,Disagree,Neither hopeful nor hopeless,Pleasant,2.0,3.0,2.0,3.0,4.0
+17,P7,C,Disagree,Disagree,Disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,2.0,3.0,4.0
+18,P7,C,Disagree,Disagree,Disagree,Hopeless,Unpleasant,2.0,2.0,2.0,2.0,2.0
+19,P7,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+20,P7,C,Disagree,Disagree,Disagree,Hopeful,Very pleasant,2.0,2.0,2.0,4.0,5.0
+21,P7,C,Disagree,Disagree,Agree,Hopeful,Very pleasant,2.0,2.0,4.0,4.0,5.0
+22,P7,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+23,P7,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+24,P7,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+25,P7,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+26,P7,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+27,P7,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+28,P7,C,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+0,P14,C,Agree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,4.0,3.0,4.0,4.0,5.0
+1,P14,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,3.0,4.0,4.0,3.0
+2,P14,C,Strongly agree,Agree,Agree,Hopeful,Pleasant,5.0,4.0,4.0,4.0,4.0
+3,P14,C,Neither agree nor disagree,Agree,Agree,Hopeful,Pleasant,3.0,4.0,4.0,4.0,4.0
+4,P14,C,Neither agree nor disagree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,4.0,3.0,3.0,3.0
+5,P14,C,Disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeless,Neither pleasant nor unpleasant,2.0,3.0,3.0,2.0,3.0
+7,P14,C,Disagree,Neither agree nor disagree,Disagree,Hopeless,Neither pleasant nor unpleasant,2.0,3.0,2.0,2.0,3.0
+8,P14,C,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+9,P14,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+10,P14,C,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,3.0,3.0,3.0,4.0,4.0
+11,P14,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+12,P14,C,Agree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,4.0,3.0,3.0,3.0,4.0
+13,P14,C,Agree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,4.0,3.0,3.0,4.0,4.0
+15,P14,C,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+16,P14,C,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+17,P14,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+18,P14,C,Agree,Agree,Agree,Hopeless,Neither pleasant nor unpleasant,4.0,4.0,4.0,2.0,3.0
+19,P14,C,Neither agree nor disagree,Agree,Agree,Hopeless,Pleasant,3.0,4.0,4.0,2.0,4.0
+20,P14,C,Agree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,4.0,3.0,3.0,4.0,4.0
+21,P14,C,Agree,Neither agree nor disagree,Neither agree nor disagree,Hopeless,Pleasant,4.0,3.0,3.0,2.0,4.0
+22,P14,C,Agree,Agree,Agree,Neither hopeful nor hopeless,Pleasant,4.0,4.0,4.0,3.0,4.0
+23,P14,C,Agree,Neither agree nor disagree,Neither agree nor disagree,Hopeless,Pleasant,4.0,3.0,3.0,2.0,4.0
+24,P14,C,Neither agree nor disagree,Neither agree nor disagree,Disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,2.0,3.0,4.0
+25,P14,C,Neither agree nor disagree,Agree,Agree,Neither hopeful nor hopeless,Pleasant,3.0,4.0,4.0,3.0,4.0
+26,P14,C,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,2.0,3.0
+27,P14,C,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,2.0,3.0
+28,P14,C,Disagree,Neither agree nor disagree,Disagree,Hopeless,Neither pleasant nor unpleasant,2.0,3.0,2.0,2.0,3.0
+0,P47,C,Disagree,Neither agree nor disagree,Agree,Very hopeful,Very pleasant,2.0,3.0,4.0,5.0,5.0
+2,P47,C,Neither agree nor disagree,Agree,Agree,Hopeful,Unpleasant,3.0,4.0,4.0,4.0,2.0
+3,P47,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+5,P47,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+7,P47,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+8,P47,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+9,P47,C,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+11,P47,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+12,P47,C,Agree,Strongly agree,Strongly agree,Hopeful,Pleasant,4.0,5.0,5.0,4.0,4.0
+14,P47,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+16,P47,C,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+18,P47,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+19,P47,C,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+21,P47,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+23,P47,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+24,P47,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+26,P47,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+28,P47,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+0,P16,T,Strongly disagree,Strongly disagree,Strongly agree,Very hopeful,Very pleasant,1.0,1.0,5.0,5.0,5.0
+1,P16,T,Strongly disagree,Strongly disagree,Strongly agree,Very hopeful,Very pleasant,1.0,1.0,5.0,5.0,5.0
+2,P16,T,Strongly disagree,Strongly disagree,Strongly agree,Very hopeful,Pleasant,1.0,1.0,5.0,5.0,4.0
+3,P16,T,Neither agree nor disagree,Strongly disagree,Strongly agree,Very hopeful,Very pleasant,3.0,1.0,5.0,5.0,5.0
+4,P16,T,Disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,2.0,2.0,5.0,5.0,5.0
+5,P16,T,Disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,2.0,2.0,5.0,5.0,5.0
+6,P16,T,Disagree,Disagree,Strongly agree,Very hopeful,Pleasant,2.0,2.0,5.0,5.0,4.0
+8,P16,T,Disagree,Disagree,Strongly agree,Very hopeful,Pleasant,2.0,2.0,5.0,5.0,4.0
+9,P16,T,Disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,2.0,2.0,5.0,5.0,5.0
+11,P16,T,Disagree,Disagree,Strongly agree,Very hopeful,Pleasant,2.0,2.0,5.0,5.0,4.0
+12,P16,T,Disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,2.0,2.0,5.0,5.0,5.0
+13,P16,T,Disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,2.0,2.0,5.0,5.0,5.0
+14,P16,T,Disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,2.0,3.0,5.0,5.0,5.0
+15,P16,T,Disagree,Disagree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,2.0,2.0,5.0,5.0,3.0
+16,P16,T,Disagree,Disagree,Strongly agree,Very hopeful,Pleasant,2.0,2.0,5.0,5.0,4.0
+17,P16,T,Disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,2.0,3.0,5.0,5.0,5.0
+19,P16,T,Neither agree nor disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,3.0,2.0,5.0,5.0,5.0
+20,P16,T,Neither agree nor disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,3.0,2.0,5.0,5.0,5.0
+21,P16,T,Neither agree nor disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,3.0,2.0,5.0,5.0,5.0
+22,P16,T,Neither agree nor disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,3.0,2.0,5.0,5.0,5.0
+23,P16,T,Neither agree nor disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,3.0,2.0,5.0,5.0,5.0
+24,P16,T,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,3.0,3.0,5.0,5.0,5.0
+27,P16,T,Neither agree nor disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,3.0,2.0,5.0,5.0,5.0
+28,P16,T,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,3.0,3.0,5.0,5.0,5.0
+1,P2,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,4.0,3.0,2.0
+2,P2,C,Neither agree nor disagree,Disagree,Strongly agree,Neither hopeful nor hopeless,Pleasant,3.0,2.0,5.0,3.0,4.0
+3,P2,C,Neither agree nor disagree,Disagree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,2.0,5.0,3.0,3.0
+5,P2,C,Agree,Disagree,Strongly agree,Hopeful,Pleasant,4.0,2.0,5.0,4.0,4.0
+7,P2,C,Agree,Disagree,Strongly agree,Hopeful,Pleasant,4.0,2.0,5.0,4.0,4.0
+10,P2,C,Agree,Disagree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,2.0,5.0,4.0,3.0
+12,P2,C,Agree,Disagree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,2.0,5.0,4.0,3.0
+17,P2,C,Agree,Disagree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,2.0,5.0,4.0,3.0
+18,P2,C,Neither agree nor disagree,Disagree,Strongly agree,Hopeful,Pleasant,3.0,2.0,5.0,4.0,4.0
+19,P2,C,Agree,Disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,4.0,2.0,4.0,3.0,3.0
+20,P2,C,Agree,Disagree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,4.0,2.0,5.0,3.0,3.0
+21,P2,C,Neither agree nor disagree,Strongly disagree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,1.0,5.0,3.0,3.0
+22,P2,C,Neither agree nor disagree,Disagree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,2.0,5.0,3.0,3.0
+23,P2,C,Agree,Strongly disagree,Strongly agree,Hopeful,Pleasant,4.0,1.0,5.0,4.0,4.0
+24,P2,C,Agree,Disagree,Strongly agree,Neither hopeful nor hopeless,Pleasant,4.0,2.0,5.0,3.0,4.0
+25,P2,C,Neither agree nor disagree,Disagree,Strongly agree,Neither hopeful nor hopeless,Pleasant,3.0,2.0,5.0,3.0,4.0
+26,P2,C,Neither agree nor disagree,Disagree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,2.0,5.0,3.0,3.0
+0,P53,T,Strongly agree,Agree,Strongly agree,Hopeful,Pleasant,5.0,4.0,5.0,4.0,4.0
+1,P53,T,Agree,Agree,Strongly agree,Hopeful,Very pleasant,4.0,4.0,5.0,4.0,5.0
+2,P53,T,Agree,Agree,Strongly agree,Hopeful,Very pleasant,4.0,4.0,5.0,4.0,5.0
+3,P53,T,Agree,Agree,Strongly agree,Very hopeful,Pleasant,4.0,4.0,5.0,5.0,4.0
+4,P53,T,Strongly agree,Agree,Strongly agree,Very hopeful,Pleasant,5.0,4.0,5.0,5.0,4.0
+5,P53,T,Strongly agree,Agree,Strongly agree,Very hopeful,Pleasant,5.0,4.0,5.0,5.0,4.0
+6,P53,T,Strongly agree,Agree,Strongly agree,Very hopeful,Pleasant,5.0,4.0,5.0,5.0,4.0
+7,P53,T,Strongly agree,Agree,Strongly agree,Very hopeful,Pleasant,5.0,4.0,5.0,5.0,4.0
+8,P53,T,Strongly agree,Agree,Strongly agree,Hopeful,Pleasant,5.0,4.0,5.0,4.0,4.0
+9,P53,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+10,P53,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+11,P53,T,Strongly agree,Agree,Strongly agree,Hopeful,Pleasant,5.0,4.0,5.0,4.0,4.0
+12,P53,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+13,P53,T,Agree,Agree,Strongly agree,Very hopeful,Pleasant,4.0,4.0,5.0,5.0,4.0
+14,P53,T,Strongly agree,Agree,Strongly agree,Very hopeful,Pleasant,5.0,4.0,5.0,5.0,4.0
+15,P53,T,Strongly agree,Agree,Strongly agree,Very hopeful,Pleasant,5.0,4.0,5.0,5.0,4.0
+16,P53,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+17,P53,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,5.0,5.0,5.0,5.0,4.0
+18,P53,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+19,P53,T,Agree,Agree,Strongly agree,Very hopeful,Pleasant,4.0,4.0,5.0,5.0,4.0
+20,P53,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,5.0,5.0,5.0,5.0,4.0
+21,P53,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,5.0,5.0,5.0,5.0,4.0
+22,P53,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+23,P53,T,Agree,Agree,Strongly agree,Very hopeful,Pleasant,4.0,4.0,5.0,5.0,4.0
+24,P53,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,5.0,5.0,5.0,5.0,4.0
+25,P53,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,5.0,5.0,5.0,5.0,4.0
+26,P53,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+28,P53,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+0,P18,T,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+1,P18,T,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+2,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+3,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+4,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+5,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+6,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+7,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+8,P18,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+9,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+10,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+11,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+12,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+13,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+14,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+15,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+16,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+17,P18,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+18,P18,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+19,P18,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+20,P18,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+21,P18,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+22,P18,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,5.0,5.0,5.0,5.0,4.0
+23,P18,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,5.0,5.0,5.0,5.0,4.0
+24,P18,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+25,P18,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+26,P18,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+27,P18,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+28,P18,T,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,5.0,5.0,5.0,5.0,5.0
+0,P20,C,Disagree,Disagree,Strongly agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,5.0,3.0,4.0
+1,P20,C,Disagree,Disagree,Strongly agree,Hopeful,Very pleasant,2.0,2.0,5.0,4.0,5.0
+2,P20,C,Disagree,Disagree,Strongly agree,Hopeful,Pleasant,2.0,2.0,5.0,4.0,4.0
+3,P20,C,Disagree,Disagree,Strongly agree,Hopeful,Very pleasant,2.0,2.0,5.0,4.0,5.0
+4,P20,C,Disagree,Disagree,Strongly agree,Hopeful,Pleasant,2.0,2.0,5.0,4.0,4.0
+5,P20,C,Disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,4.0,4.0,3.0
+6,P20,C,Disagree,Disagree,Agree,Hopeful,Unpleasant,2.0,2.0,4.0,4.0,2.0
+7,P20,C,Neither agree nor disagree,Disagree,Agree,Hopeful,Pleasant,3.0,2.0,4.0,4.0,4.0
+8,P20,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+9,P20,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,3.0,3.0,2.0
+10,P20,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+11,P20,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+12,P20,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Very pleasant,2.0,2.0,3.0,3.0,5.0
+13,P20,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+14,P20,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Unpleasant,2.0,2.0,3.0,4.0,2.0
+15,P20,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,3.0,4.0,3.0
+16,P20,C,Disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,4.0,4.0,3.0
+17,P20,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+18,P20,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+19,P20,C,Neither agree nor disagree,Disagree,Agree,Hopeful,Very pleasant,3.0,2.0,4.0,4.0,5.0
+20,P20,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,3.0,4.0,3.0
+21,P20,C,Disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,4.0,4.0,3.0
+22,P20,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,3.0,4.0,3.0
+23,P20,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+24,P20,C,Disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,4.0,4.0,3.0
+25,P20,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+26,P20,C,Neither agree nor disagree,Disagree,Neither agree nor disagree,Hopeful,Very pleasant,3.0,2.0,3.0,4.0,5.0
+27,P20,C,Strongly disagree,Disagree,Disagree,Neither hopeful nor hopeless,Pleasant,1.0,2.0,2.0,3.0,4.0
+28,P20,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,3.0,3.0,3.0
+0,P42,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+1,P42,T,Disagree,Disagree,Agree,Very hopeful,Very pleasant,2.0,2.0,4.0,5.0,5.0
+2,P42,T,Disagree,Disagree,Agree,Hopeful,Very pleasant,2.0,2.0,4.0,4.0,5.0
+3,P42,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+4,P42,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+5,P42,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+6,P42,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+7,P42,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+8,P42,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,4.0,3.0,3.0
+9,P42,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+10,P42,T,Disagree,Disagree,Agree,Hopeless,Unpleasant,2.0,2.0,4.0,2.0,2.0
+11,P42,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,4.0,3.0,3.0
+12,P42,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+13,P42,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+14,P42,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+15,P42,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+16,P42,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+17,P42,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+18,P42,T,Disagree,Disagree,Agree,Hopeless,Pleasant,2.0,2.0,4.0,2.0,4.0
+19,P42,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+20,P42,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+21,P42,T,Neither agree nor disagree,Agree,Agree,Hopeful,Pleasant,3.0,4.0,4.0,4.0,4.0
+22,P42,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+23,P42,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeless,Pleasant,3.0,3.0,4.0,2.0,4.0
+24,P42,T,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+26,P42,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+27,P42,T,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+28,P42,T,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+0,P9,T,Neither agree nor disagree,Strongly disagree,Agree,Hopeful,Pleasant,3.0,1.0,4.0,4.0,4.0
+1,P9,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,2.0,4.0,4.0,3.0
+2,P9,T,Disagree,Strongly disagree,Agree,Hopeful,Pleasant,2.0,1.0,4.0,4.0,4.0
+3,P9,T,Neither agree nor disagree,Strongly disagree,Agree,Hopeful,Pleasant,3.0,1.0,4.0,4.0,4.0
+4,P9,T,Neither agree nor disagree,Strongly disagree,Agree,Hopeful,Pleasant,3.0,1.0,4.0,4.0,4.0
+5,P9,T,Neither agree nor disagree,Strongly disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,1.0,4.0,4.0,3.0
+6,P9,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,2.0,4.0,4.0,3.0
+7,P9,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Unpleasant,3.0,2.0,4.0,4.0,2.0
+8,P9,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,2.0,4.0,4.0,3.0
+9,P9,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Unpleasant,3.0,2.0,4.0,4.0,2.0
+10,P9,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,2.0,4.0,4.0,3.0
+11,P9,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,2.0,4.0,4.0,3.0
+12,P9,T,Disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,4.0,4.0,3.0
+13,P9,T,Disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,4.0,4.0,3.0
+15,P9,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+16,P9,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+18,P9,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,3.0,4.0,4.0,3.0
+19,P9,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+20,P9,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+21,P9,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+22,P9,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+23,P9,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+24,P9,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+25,P9,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+26,P9,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,3.0,4.0,4.0,3.0
+28,P9,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,3.0,4.0,4.0,3.0
+0,P5,T,Strongly disagree,Disagree,Agree,Hopeful,Pleasant,1.0,2.0,4.0,4.0,4.0
+1,P5,T,Strongly disagree,Disagree,Agree,Hopeful,Unpleasant,1.0,2.0,4.0,4.0,2.0
+2,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Pleasant,2.0,1.0,4.0,4.0,4.0
+3,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Pleasant,2.0,1.0,4.0,4.0,4.0
+4,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Very pleasant,2.0,1.0,4.0,4.0,5.0
+5,P5,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+6,P5,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+7,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,1.0,4.0,4.0,3.0
+8,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Pleasant,2.0,1.0,4.0,4.0,4.0
+9,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Unpleasant,2.0,1.0,4.0,4.0,2.0
+10,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Unpleasant,2.0,1.0,4.0,4.0,2.0
+11,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,1.0,4.0,4.0,3.0
+12,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Pleasant,2.0,1.0,4.0,4.0,4.0
+13,P5,T,Disagree,Strongly disagree,Agree,Neither hopeful nor hopeless,Very unpleasant,2.0,1.0,4.0,3.0,5.0
+14,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,1.0,4.0,4.0,3.0
+15,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,1.0,4.0,4.0,3.0
+16,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Pleasant,2.0,1.0,4.0,4.0,4.0
+17,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Unpleasant,2.0,1.0,4.0,4.0,2.0
+18,P5,T,Disagree,Strongly disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,1.0,3.0,3.0,4.0
+19,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Very unpleasant,2.0,1.0,4.0,4.0,5.0
+20,P5,T,Disagree,Strongly disagree,Neither agree nor disagree,Hopeful,Neither pleasant nor unpleasant,2.0,1.0,3.0,4.0,3.0
+21,P5,T,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+22,P5,T,Disagree,Strongly disagree,Agree,Hopeful,Unpleasant,2.0,1.0,4.0,4.0,2.0
+23,P5,T,Disagree,Strongly disagree,Neither agree nor disagree,Hopeful,Neither pleasant nor unpleasant,2.0,1.0,3.0,4.0,3.0
+24,P5,T,Disagree,Strongly disagree,Neither agree nor disagree,Hopeful,Neither pleasant nor unpleasant,2.0,1.0,3.0,4.0,3.0
+25,P5,T,Disagree,Strongly disagree,Neither agree nor disagree,Hopeful,Neither pleasant nor unpleasant,2.0,1.0,3.0,4.0,3.0
+26,P5,T,Disagree,Strongly disagree,Neither agree nor disagree,Hopeful,Neither pleasant nor unpleasant,2.0,1.0,3.0,4.0,3.0
+27,P5,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Pleasant,3.0,2.0,4.0,4.0,4.0
+28,P5,T,Disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,4.0,4.0,3.0
+0,P41,C,Agree,Disagree,Agree,Hopeful,Pleasant,4.0,2.0,4.0,4.0,4.0
+1,P41,C,Agree,Neither agree nor disagree,Agree,Hopeful,Unpleasant,4.0,3.0,4.0,4.0,2.0
+2,P41,C,Disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Unpleasant,2.0,3.0,4.0,3.0,2.0
+3,P41,C,Agree,Disagree,Agree,Hopeful,Pleasant,4.0,2.0,4.0,4.0,4.0
+4,P41,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+5,P41,C,Agree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Pleasant,4.0,3.0,4.0,3.0,4.0
+7,P41,C,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+8,P41,C,Disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,2.0,3.0,4.0,4.0,4.0
+9,P41,C,Agree,Agree,Agree,Very hopeful,Pleasant,4.0,4.0,4.0,5.0,4.0
+10,P41,C,Strongly agree,Agree,Agree,Hopeful,Pleasant,5.0,4.0,4.0,4.0,4.0
+11,P41,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+12,P41,C,Agree,Agree,Agree,Very hopeful,Pleasant,4.0,4.0,4.0,5.0,4.0
+13,P41,C,Agree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,3.0,4.0,4.0,3.0
+14,P41,C,Agree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,4.0,3.0,4.0,3.0,3.0
+15,P41,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+16,P41,C,Neither agree nor disagree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,4.0,3.0,3.0,4.0
+17,P41,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+18,P41,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+19,P41,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+20,P41,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+21,P41,C,Agree,Agree,Agree,Very hopeful,Pleasant,4.0,4.0,4.0,5.0,4.0
+22,P41,C,Neither agree nor disagree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,4.0,4.0,4.0,3.0
+23,P41,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+24,P41,C,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+25,P41,C,Agree,Agree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,5.0,4.0,3.0
+26,P41,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+28,P41,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+0,P27,T,Strongly disagree,Disagree,Agree,Hopeful,Pleasant,1.0,2.0,4.0,4.0,4.0
+1,P27,T,Disagree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,2.0,3.0,5.0,4.0,4.0
+3,P27,T,Strongly disagree,Disagree,Strongly agree,Very hopeful,Pleasant,1.0,2.0,5.0,5.0,4.0
+4,P27,T,Disagree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,2.0,3.0,5.0,4.0,4.0
+5,P27,T,Disagree,Neither agree nor disagree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,2.0,3.0,5.0,4.0,3.0
+6,P27,T,Disagree,Disagree,Strongly agree,Hopeful,Unpleasant,2.0,2.0,5.0,4.0,2.0
+7,P27,T,Disagree,Disagree,Strongly agree,Hopeful,Pleasant,2.0,2.0,5.0,4.0,4.0
+9,P27,T,Disagree,Neither agree nor disagree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,3.0,5.0,3.0,3.0
+10,P27,T,Strongly disagree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,1.0,3.0,5.0,4.0,4.0
+11,P27,T,Disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,2.0,3.0,5.0,5.0,4.0
+12,P27,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,3.0,4.0,4.0,3.0
+13,P27,T,Disagree,Disagree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,5.0,4.0,3.0
+16,P27,T,Disagree,Neither agree nor disagree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,2.0,3.0,5.0,4.0,3.0
+18,P27,T,,,,,,,,,,
+19,P27,T,,,,,,,,,,
+20,P27,T,Disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,3.0,4.0,3.0,3.0
+23,P27,T,Strongly disagree,Neither agree nor disagree,Strongly agree,Neither hopeful nor hopeless,Pleasant,1.0,3.0,5.0,3.0,4.0
+26,P27,T,Strongly disagree,Neither agree nor disagree,Strongly agree,Neither hopeful nor hopeless,Pleasant,1.0,3.0,5.0,3.0,4.0
+27,P27,T,,,,,,,,,,
+0,P52,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+1,P52,T,Agree,Neither agree nor disagree,Agree,Very hopeful,Pleasant,4.0,3.0,4.0,5.0,4.0
+2,P52,T,Agree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,4.0,3.0,5.0,4.0,4.0
+3,P52,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+4,P52,T,Agree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,4.0,3.0,4.0,4.0,5.0
+5,P52,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+6,P52,T,Agree,Agree,Strongly agree,Hopeful,Very pleasant,4.0,4.0,5.0,4.0,5.0
+7,P52,T,Agree,Agree,Strongly agree,Hopeful,Very pleasant,4.0,4.0,5.0,4.0,5.0
+8,P52,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+9,P52,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+10,P52,T,Strongly agree,Agree,Strongly agree,Hopeful,Very pleasant,5.0,4.0,5.0,4.0,5.0
+13,P52,T,Agree,Agree,Neither agree nor disagree,Hopeful,Very pleasant,4.0,4.0,3.0,4.0,5.0
+14,P52,T,Agree,Agree,Strongly agree,Hopeful,Very pleasant,4.0,4.0,5.0,4.0,5.0
+15,P52,T,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+16,P52,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+17,P52,T,Agree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,4.0,3.0,4.0,4.0,5.0
+18,P52,T,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+19,P52,T,Neither agree nor disagree,Agree,Agree,Hopeful,Very pleasant,3.0,4.0,4.0,4.0,5.0
+21,P52,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+22,P52,T,Strongly agree,Agree,Agree,Very hopeful,Very pleasant,5.0,4.0,4.0,5.0,5.0
+23,P52,T,Agree,Agree,Agree,Very hopeful,Very pleasant,4.0,4.0,4.0,5.0,5.0
+24,P52,T,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+25,P52,T,Agree,Agree,Neither agree nor disagree,Hopeful,Very pleasant,4.0,4.0,3.0,4.0,5.0
+26,P52,T,Disagree,Neither agree nor disagree,Disagree,Neither hopeful nor hopeless,Pleasant,2.0,3.0,2.0,3.0,4.0
+27,P52,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+1,P23,C,Disagree,Disagree,Strongly agree,Hopeful,Pleasant,2.0,2.0,5.0,4.0,4.0
+2,P23,C,Disagree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,2.0,3.0,5.0,4.0,4.0
+3,P23,C,Disagree,Disagree,Strongly agree,Very hopeful,Pleasant,2.0,2.0,5.0,5.0,4.0
+5,P23,C,Disagree,Disagree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,5.0,4.0,3.0
+6,P23,C,Disagree,Disagree,Strongly agree,Hopeful,Unpleasant,2.0,2.0,5.0,4.0,2.0
+8,P23,C,Disagree,Disagree,Strongly agree,Hopeful,Pleasant,2.0,2.0,5.0,4.0,4.0
+9,P23,C,Disagree,Disagree,Strongly agree,Hopeful,Pleasant,2.0,2.0,5.0,4.0,4.0
+10,P23,C,Disagree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,2.0,3.0,5.0,4.0,4.0
+12,P23,C,Disagree,Agree,Strongly agree,Very hopeful,Pleasant,2.0,4.0,5.0,5.0,4.0
+13,P23,C,Disagree,Agree,Strongly agree,Hopeful,Pleasant,2.0,4.0,5.0,4.0,4.0
+14,P23,C,Disagree,Agree,Strongly agree,Hopeful,Pleasant,2.0,4.0,5.0,4.0,4.0
+16,P23,C,Disagree,Agree,Strongly agree,Hopeful,Pleasant,2.0,4.0,5.0,4.0,4.0
+18,P23,C,Disagree,Agree,Strongly agree,Hopeful,Pleasant,2.0,4.0,5.0,4.0,4.0
+20,P23,C,Disagree,Agree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,4.0,5.0,3.0,3.0
+22,P23,C,Disagree,Agree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,4.0,5.0,3.0,3.0
+23,P23,C,Strongly disagree,Agree,Strongly agree,Neither hopeful nor hopeless,Unpleasant,1.0,4.0,5.0,3.0,2.0
+24,P23,C,Disagree,Agree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,4.0,5.0,3.0,3.0
+26,P23,C,Disagree,Agree,Strongly agree,Hopeful,Pleasant,2.0,4.0,5.0,4.0,4.0
+27,P23,C,Disagree,Agree,Strongly agree,Hopeful,Pleasant,2.0,4.0,5.0,4.0,4.0
+28,P23,C,Disagree,Agree,Strongly agree,Hopeful,Pleasant,2.0,4.0,5.0,4.0,4.0
+1,P24,C,Disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,2.0,3.0,4.0,4.0,4.0
+2,P24,C,Disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,2.0,3.0,4.0,4.0,4.0
+3,P24,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Hopeful,Very pleasant,3.0,3.0,5.0,4.0,5.0
+4,P24,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,3.0,3.0,5.0,5.0,5.0
+6,P24,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,4.0,3.0,5.0,5.0,5.0
+7,P24,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,3.0,3.0,5.0,5.0,5.0
+8,P24,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Hopeful,Very unpleasant,3.0,3.0,5.0,4.0,5.0
+9,P24,C,Disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very unpleasant,2.0,3.0,5.0,5.0,5.0
+10,P24,C,Disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Unpleasant,2.0,3.0,5.0,5.0,2.0
+11,P24,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,4.0,3.0,5.0,5.0,3.0
+13,P24,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,3.0,3.0,5.0,5.0,3.0
+14,P24,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Very hopeful,Neither pleasant nor unpleasant,3.0,3.0,4.0,5.0,3.0
+15,P24,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,3.0,3.0,5.0,5.0,4.0
+16,P24,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,3.0,3.0,5.0,5.0,4.0
+17,P24,C,Neither agree nor disagree,Agree,Strongly agree,Very hopeful,Pleasant,3.0,4.0,5.0,5.0,4.0
+18,P24,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,4.0,3.0,5.0,5.0,4.0
+19,P24,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,4.0,3.0,5.0,5.0,4.0
+20,P24,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,4.0,3.0,5.0,5.0,4.0
+21,P24,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,4.0,3.0,5.0,5.0,3.0
+22,P24,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,4.0,3.0,5.0,5.0,3.0
+23,P24,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,4.0,3.0,5.0,5.0,4.0
+24,P24,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,3.0,3.0,5.0,5.0,5.0
+25,P24,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,4.0,3.0,5.0,5.0,3.0
+26,P24,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,3.0,3.0,5.0,5.0,4.0
+27,P24,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,3.0,3.0,5.0,5.0,4.0
+28,P24,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Unpleasant,3.0,3.0,5.0,5.0,2.0
+0,P28,C,Agree,Agree,Agree,Very hopeful,Pleasant,4.0,4.0,4.0,5.0,4.0
+1,P28,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+2,P28,C,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+3,P28,C,Agree,Agree,Agree,Very hopeful,Very pleasant,4.0,4.0,4.0,5.0,5.0
+4,P28,C,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+5,P28,C,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+6,P28,C,Agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,4.0,5.0,5.0,5.0,4.0
+7,P28,C,Agree,Strongly agree,Agree,Very hopeful,Very pleasant,4.0,5.0,4.0,5.0,5.0
+8,P28,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+9,P28,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+10,P28,C,Agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,4.0,5.0,5.0,5.0,4.0
+11,P28,C,Agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,4.0,5.0,5.0,5.0,4.0
+12,P28,C,Agree,Strongly agree,Agree,Hopeful,Pleasant,4.0,5.0,4.0,4.0,4.0
+13,P28,C,Strongly agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,5.0,5.0,5.0,5.0,4.0
+14,P28,C,Agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,4.0,5.0,5.0,5.0,4.0
+15,P28,C,Agree,Strongly agree,Strongly agree,Hopeful,Very pleasant,4.0,5.0,5.0,4.0,5.0
+16,P28,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+17,P28,C,Agree,Strongly agree,Strongly agree,Hopeful,Pleasant,4.0,5.0,5.0,4.0,4.0
+18,P28,C,Agree,Strongly agree,Agree,Very hopeful,Pleasant,4.0,5.0,4.0,5.0,4.0
+19,P28,C,Agree,Strongly agree,Strongly agree,Very hopeful,Pleasant,4.0,5.0,5.0,5.0,4.0
+20,P28,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+21,P28,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+22,P28,C,Strongly agree,Strongly agree,Strongly agree,Hopeful,Very pleasant,5.0,5.0,5.0,4.0,5.0
+23,P28,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+24,P28,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+25,P28,C,Agree,Strongly agree,Agree,Hopeful,Pleasant,4.0,5.0,4.0,4.0,4.0
+26,P28,C,Agree,Strongly agree,Agree,Hopeful,Very pleasant,4.0,5.0,4.0,4.0,5.0
+27,P28,C,Agree,Strongly agree,Strongly agree,Very hopeful,Very pleasant,4.0,5.0,5.0,5.0,5.0
+28,P28,C,Agree,Agree,Agree,Very hopeful,Pleasant,4.0,4.0,4.0,5.0,4.0
+0,P39,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+1,P39,T,Neither agree nor disagree,Disagree,Agree,Very hopeful,Very pleasant,3.0,2.0,4.0,5.0,5.0
+2,P39,T,Disagree,Disagree,Strongly agree,Hopeful,Pleasant,2.0,2.0,5.0,4.0,4.0
+3,P39,T,Agree,Disagree,Strongly agree,Very hopeful,Very pleasant,4.0,2.0,5.0,5.0,5.0
+4,P39,T,Neither agree nor disagree,Disagree,Strongly agree,Hopeful,Pleasant,3.0,2.0,5.0,4.0,4.0
+5,P39,T,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,4.0,3.0,5.0,5.0,5.0
+6,P39,T,Agree,Disagree,Strongly agree,Very hopeful,Pleasant,4.0,2.0,5.0,5.0,4.0
+7,P39,T,Agree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,4.0,3.0,5.0,4.0,4.0
+8,P39,T,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,3.0,3.0,5.0,5.0,5.0
+9,P39,T,Agree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,4.0,3.0,5.0,4.0,4.0
+10,P39,T,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,4.0,3.0,5.0,5.0,4.0
+11,P39,T,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,4.0,3.0,5.0,5.0,4.0
+13,P39,T,Agree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,4.0,3.0,5.0,4.0,4.0
+14,P39,T,Agree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,4.0,3.0,5.0,4.0,4.0
+15,P39,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+16,P39,T,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,4.0,3.0,5.0,5.0,4.0
+17,P39,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Very hopeful,Pleasant,3.0,3.0,4.0,5.0,4.0
+18,P39,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+19,P39,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+20,P39,T,Agree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,4.0,3.0,5.0,4.0,4.0
+21,P39,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+22,P39,T,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,4.0,3.0,5.0,5.0,4.0
+23,P39,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+24,P39,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+25,P39,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+26,P39,T,Agree,Neither agree nor disagree,Agree,Very hopeful,Very pleasant,4.0,3.0,4.0,5.0,5.0
+27,P39,T,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,4.0,3.0,5.0,5.0,5.0
+28,P39,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+0,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,3.0,3.0,4.0,4.0,5.0
+1,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+2,P35,C,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+3,P35,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,3.0,3.0,5.0,4.0,4.0
+4,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+5,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+6,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,4.0,3.0,4.0
+7,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,3.0,3.0,4.0,4.0,5.0
+8,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+9,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+10,P35,C,Disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,2.0,3.0,4.0,4.0,4.0
+12,P35,C,Agree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,4.0,3.0,4.0,4.0,5.0
+15,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,3.0,4.0,4.0,3.0
+16,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+18,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+19,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+22,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,3.0,3.0,4.0,4.0,5.0
+23,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+25,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,3.0,4.0,4.0,3.0
+26,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+27,P35,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+0,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,4.0,3.0,4.0
+1,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,4.0,3.0,4.0
+2,P51,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+3,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,4.0,3.0,4.0
+4,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+5,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,3.0,3.0,4.0,4.0,5.0
+6,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+7,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,3.0,3.0,4.0,4.0,5.0
+8,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+9,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+10,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+11,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+12,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+13,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+14,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,4.0,3.0,4.0
+15,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+16,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+17,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,4.0,3.0,3.0
+18,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+19,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+20,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+21,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,4.0,3.0,4.0
+22,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,4.0,3.0,4.0
+23,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,3.0,4.0,4.0,3.0
+24,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Unpleasant,3.0,3.0,4.0,4.0,2.0
+25,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+26,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+27,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,3.0,3.0,4.0,4.0,5.0
+28,P51,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+1,P6,T,Neither agree nor disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,3.0,2.0,4.0,3.0,4.0
+2,P6,T,Disagree,Strongly disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,1.0,4.0,3.0,4.0
+3,P6,T,Disagree,Strongly disagree,Strongly agree,Neither hopeful nor hopeless,Unpleasant,2.0,1.0,5.0,3.0,2.0
+4,P6,T,Disagree,Strongly disagree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,1.0,5.0,3.0,3.0
+5,P6,T,Disagree,Strongly disagree,Agree,Neither hopeful nor hopeless,Unpleasant,2.0,1.0,4.0,3.0,2.0
+7,P6,T,Strongly disagree,Strongly disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,1.0,1.0,4.0,3.0,3.0
+8,P6,T,Disagree,Strongly disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,1.0,4.0,3.0,3.0
+9,P6,T,Strongly disagree,Strongly disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,1.0,1.0,4.0,3.0,3.0
+12,P6,T,Strongly disagree,Strongly disagree,Agree,Neither hopeful nor hopeless,Unpleasant,1.0,1.0,4.0,3.0,2.0
+13,P6,T,Disagree,Strongly disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,1.0,4.0,3.0,4.0
+15,P6,T,Strongly disagree,Strongly disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,1.0,1.0,4.0,3.0,3.0
+16,P6,T,Disagree,Strongly disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,1.0,4.0,3.0,3.0
+17,P6,T,Strongly disagree,Disagree,Neither agree nor disagree,Hopeless,Neither pleasant nor unpleasant,1.0,2.0,3.0,2.0,3.0
+18,P6,T,Strongly disagree,Strongly disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,1.0,1.0,3.0,3.0,3.0
+19,P6,T,Disagree,Strongly disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,1.0,3.0,3.0,3.0
+22,P6,T,Strongly disagree,Strongly disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,1.0,1.0,3.0,3.0,4.0
+23,P6,T,Disagree,Strongly disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,1.0,3.0,3.0,4.0
+25,P6,T,Disagree,Strongly disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,1.0,3.0,3.0,4.0
+27,P6,T,Disagree,Strongly disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,1.0,3.0,3.0,4.0
+28,P6,T,Disagree,Strongly disagree,Neither agree nor disagree,Hopeless,Pleasant,2.0,1.0,3.0,2.0,4.0
+0,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+1,P12,C,Disagree,Disagree,Agree,Hopeless,Very unpleasant,2.0,2.0,4.0,2.0,5.0
+2,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,4.0,3.0,2.0
+3,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,4.0,3.0,2.0
+4,P12,C,Disagree,Disagree,Agree,Hopeless,Neither pleasant nor unpleasant,2.0,2.0,4.0,2.0,3.0
+5,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+6,P12,C,Disagree,Disagree,Agree,Hopeful,Very pleasant,2.0,2.0,4.0,4.0,5.0
+7,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,4.0,3.0,3.0
+8,P12,C,Disagree,Disagree,Agree,Hopeless,Unpleasant,2.0,2.0,4.0,2.0,2.0
+9,P12,C,Strongly disagree,Disagree,Agree,Very hopeless,Very unpleasant,1.0,2.0,4.0,1.0,5.0
+11,P12,C,Disagree,Disagree,Agree,Hopeless,Unpleasant,2.0,2.0,4.0,2.0,2.0
+12,P12,C,Disagree,Disagree,Agree,Hopeless,Unpleasant,2.0,2.0,4.0,2.0,2.0
+14,P12,C,Disagree,Disagree,Agree,Very hopeless,Unpleasant,2.0,2.0,4.0,1.0,2.0
+15,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+16,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,4.0,3.0,3.0
+17,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,4.0,3.0,3.0
+18,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,4.0,3.0,3.0
+19,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+20,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+21,P12,C,Disagree,Disagree,Agree,Hopeless,Unpleasant,2.0,2.0,4.0,2.0,2.0
+22,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,4.0,3.0,2.0
+23,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+24,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+25,P12,C,Disagree,Disagree,Agree,Hopeless,Neither pleasant nor unpleasant,2.0,2.0,4.0,2.0,3.0
+26,P12,C,Disagree,Disagree,Agree,Hopeless,Neither pleasant nor unpleasant,2.0,2.0,4.0,2.0,3.0
+27,P12,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+1,P15,T,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+2,P15,T,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,3.0,3.0,5.0,4.0,4.0
+3,P15,T,Disagree,Agree,Strongly agree,Very hopeful,Pleasant,2.0,4.0,5.0,5.0,4.0
+4,P15,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,2.0,3.0,4.0,4.0,4.0
+5,P15,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+6,P15,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,3.0,4.0,4.0,3.0
+7,P15,T,Neither agree nor disagree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,4.0,4.0,4.0,3.0
+8,P15,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,3.0,4.0,4.0,3.0
+9,P15,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,2.0,3.0,4.0,4.0,4.0
+10,P15,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,3.0,4.0,4.0,3.0
+11,P15,T,Disagree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,4.0,4.0,4.0,3.0
+12,P15,T,Neither agree nor disagree,Agree,Strongly agree,Hopeful,Pleasant,3.0,4.0,5.0,4.0,4.0
+13,P15,T,Neither agree nor disagree,Agree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,3.0,4.0,5.0,5.0,3.0
+14,P15,T,Neither agree nor disagree,Agree,Strongly agree,Hopeful,Pleasant,3.0,4.0,5.0,4.0,4.0
+15,P15,T,Neither agree nor disagree,Agree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,3.0,4.0,5.0,4.0,3.0
+16,P15,T,Neither agree nor disagree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,4.0,4.0,4.0,3.0
+17,P15,T,Neither agree nor disagree,Agree,Agree,Hopeful,Pleasant,3.0,4.0,4.0,4.0,4.0
+18,P15,T,Neither agree nor disagree,Agree,Strongly agree,Hopeful,Pleasant,3.0,4.0,5.0,4.0,4.0
+19,P15,T,Neither agree nor disagree,Agree,Agree,Hopeful,Pleasant,3.0,4.0,4.0,4.0,4.0
+20,P15,T,Disagree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,4.0,4.0,4.0,3.0
+21,P15,T,Neither agree nor disagree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,4.0,4.0,4.0,3.0
+22,P15,T,Disagree,Agree,Agree,Hopeful,Pleasant,2.0,4.0,4.0,4.0,4.0
+23,P15,T,Neither agree nor disagree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,4.0,4.0,4.0,3.0
+24,P15,T,Neither agree nor disagree,Agree,Agree,Hopeful,Pleasant,3.0,4.0,4.0,4.0,4.0
+25,P15,T,Neither agree nor disagree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,4.0,4.0,4.0,3.0
+26,P15,T,Disagree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,4.0,4.0,4.0,3.0
+27,P15,T,Disagree,Agree,Disagree,Hopeful,Neither pleasant nor unpleasant,2.0,4.0,2.0,4.0,3.0
+28,P15,T,Disagree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,4.0,4.0,4.0,3.0
+0,P37,C,Disagree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,2.0,4.0,3.0,3.0,2.0
+1,P37,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+2,P37,C,Disagree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,4.0,3.0,3.0,3.0
+3,P37,C,Neither agree nor disagree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,4.0,3.0,3.0,3.0
+4,P37,C,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+6,P37,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+7,P37,C,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+8,P37,C,Agree,Agree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,4.0,4.0,4.0,3.0,3.0
+10,P37,C,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+11,P37,C,Disagree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,4.0,3.0,3.0,3.0
+12,P37,C,Disagree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,2.0,4.0,3.0,3.0,2.0
+14,P37,C,Neither agree nor disagree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,4.0,3.0,3.0,3.0
+15,P37,C,Disagree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,4.0,3.0,3.0,3.0
+16,P37,C,Agree,Agree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,4.0,4.0,4.0,3.0,3.0
+18,P37,C,Agree,Agree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,4.0,4.0,4.0,3.0,3.0
+19,P37,C,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,3.0,3.0,3.0,3.0,2.0
+20,P37,C,Disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Neither pleasant nor unpleasant,2.0,3.0,3.0,4.0,3.0
+21,P37,C,Neither agree nor disagree,Agree,Agree,Hopeful,Pleasant,3.0,4.0,4.0,4.0,4.0
+22,P37,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+23,P37,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+24,P37,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+26,P37,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+0,P3,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+1,P3,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+2,P3,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+3,P3,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+4,P3,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+6,P3,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+8,P3,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+9,P3,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+10,P3,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+11,P3,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+12,P3,C,Agree,Agree,Agree,Neither hopeful nor hopeless,Pleasant,4.0,4.0,4.0,3.0,4.0
+13,P3,C,Agree,Agree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,4.0,4.0,4.0,3.0,3.0
+14,P3,C,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+15,P3,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+16,P3,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+17,P3,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+18,P3,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+19,P3,C,Agree,Agree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,4.0,4.0,4.0,3.0,3.0
+20,P3,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+21,P3,C,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+22,P3,C,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+23,P3,C,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+24,P3,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+25,P3,C,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+26,P3,C,Agree,Agree,Neither agree nor disagree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,3.0,4.0,3.0
+27,P3,C,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+28,P3,C,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+0,P25,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Pleasant,3.0,2.0,4.0,4.0,4.0
+1,P25,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Pleasant,3.0,2.0,4.0,4.0,4.0
+2,P25,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Pleasant,3.0,2.0,4.0,4.0,4.0
+3,P25,T,Agree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,2.0,4.0,4.0,3.0
+4,P25,T,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,4.0,3.0,3.0
+5,P25,T,Disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,4.0,4.0,3.0
+6,P25,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Pleasant,3.0,2.0,4.0,4.0,4.0
+7,P25,T,Disagree,Disagree,Agree,Hopeful,Very pleasant,2.0,2.0,4.0,4.0,5.0
+8,P25,T,Neither agree nor disagree,Disagree,Agree,Very hopeful,Very pleasant,3.0,2.0,4.0,5.0,5.0
+9,P25,T,Agree,Disagree,Agree,Very hopeful,Very pleasant,4.0,2.0,4.0,5.0,5.0
+10,P25,T,Disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,4.0,4.0,3.0
+11,P25,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,3.0,2.0,4.0,4.0,3.0
+12,P25,T,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,4.0,3.0,5.0,5.0,5.0
+13,P25,T,Agree,Neither agree nor disagree,Strongly agree,Hopeful,Very pleasant,4.0,3.0,5.0,4.0,5.0
+14,P25,T,Agree,Neither agree nor disagree,Agree,Very hopeful,Very pleasant,4.0,3.0,4.0,5.0,5.0
+15,P25,T,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,4.0,3.0,5.0,5.0,5.0
+16,P25,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+17,P25,T,Agree,Neither agree nor disagree,Agree,Very hopeful,Pleasant,4.0,3.0,4.0,5.0,4.0
+18,P25,T,Strongly agree,Agree,Agree,Very hopeful,Neither pleasant nor unpleasant,5.0,4.0,4.0,5.0,3.0
+19,P25,T,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,3.0,3.0,5.0,4.0,3.0
+20,P25,T,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,4.0,3.0,5.0,5.0,5.0
+21,P25,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,3.0,3.0,4.0,4.0,5.0
+22,P25,T,Agree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,3.0,4.0,4.0,3.0
+23,P25,T,Agree,Neither agree nor disagree,Agree,Very hopeful,Very pleasant,4.0,3.0,4.0,5.0,5.0
+24,P25,T,Strongly agree,Agree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,5.0,4.0,5.0,4.0,3.0
+25,P25,T,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+27,P25,T,Agree,Agree,Agree,Very hopeful,Very pleasant,4.0,4.0,4.0,5.0,5.0
+28,P25,T,Agree,Neither agree nor disagree,Agree,Very hopeful,Very pleasant,4.0,3.0,4.0,5.0,5.0
+0,P1,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+1,P1,C,Neither agree nor disagree,Strongly disagree,Agree,Very hopeful,Neither pleasant nor unpleasant,3.0,1.0,4.0,5.0,3.0
+2,P1,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+3,P1,C,Disagree,Strongly disagree,Agree,Hopeful,Very pleasant,2.0,1.0,4.0,4.0,5.0
+4,P1,C,Disagree,Disagree,Agree,Very hopeful,Pleasant,2.0,2.0,4.0,5.0,4.0
+5,P1,C,Disagree,Strongly disagree,Agree,Very hopeful,Pleasant,2.0,1.0,4.0,5.0,4.0
+6,P1,C,Disagree,Strongly disagree,Agree,Very hopeful,Pleasant,2.0,1.0,4.0,5.0,4.0
+8,P1,C,Disagree,Strongly disagree,Agree,Very hopeful,Neither pleasant nor unpleasant,2.0,1.0,4.0,5.0,3.0
+9,P1,C,Disagree,Strongly disagree,Agree,Hopeful,Very pleasant,2.0,1.0,4.0,4.0,5.0
+10,P1,C,Disagree,Strongly disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,1.0,3.0,4.0,4.0
+11,P1,C,Strongly disagree,Strongly disagree,Disagree,Neither hopeful nor hopeless,Unpleasant,1.0,1.0,2.0,3.0,2.0
+13,P1,C,Disagree,Strongly disagree,Neither agree nor disagree,Hopeful,Very pleasant,2.0,1.0,3.0,4.0,5.0
+14,P1,C,Strongly disagree,Strongly disagree,Neither agree nor disagree,Hopeful,Pleasant,1.0,1.0,3.0,4.0,4.0
+15,P1,C,Disagree,Strongly disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,1.0,3.0,3.0,4.0
+16,P1,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Very pleasant,2.0,2.0,3.0,3.0,5.0
+17,P1,C,Strongly disagree,Disagree,Neither agree nor disagree,Hopeful,Very pleasant,1.0,2.0,3.0,4.0,5.0
+18,P1,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+19,P1,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+20,P1,C,Disagree,Strongly disagree,Disagree,Hopeful,Pleasant,2.0,1.0,2.0,4.0,4.0
+21,P1,C,Disagree,Strongly disagree,Strongly disagree,Neither hopeful nor hopeless,Very unpleasant,2.0,1.0,1.0,3.0,5.0
+22,P1,C,Disagree,Disagree,Agree,Hopeful,Very pleasant,2.0,2.0,4.0,4.0,5.0
+23,P1,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+24,P1,C,Disagree,Strongly disagree,Agree,Hopeful,Pleasant,2.0,1.0,4.0,4.0,4.0
+25,P1,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+26,P1,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+27,P1,C,Strongly disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,1.0,2.0,3.0,3.0,4.0
+28,P1,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+1,P26,C,Disagree,Disagree,Agree,Very hopeful,Pleasant,2.0,2.0,4.0,5.0,4.0
+2,P26,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+3,P26,C,Disagree,Neither agree nor disagree,Agree,Very hopeful,Pleasant,2.0,3.0,4.0,5.0,4.0
+5,P26,C,Disagree,Agree,Agree,Very hopeful,Pleasant,2.0,4.0,4.0,5.0,4.0
+6,P26,C,Disagree,Disagree,Strongly agree,Hopeful,Pleasant,2.0,2.0,5.0,4.0,4.0
+7,P26,C,Agree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,4.0,3.0,4.0,4.0,5.0
+8,P26,C,Disagree,Disagree,Agree,Very hopeful,Pleasant,2.0,2.0,4.0,5.0,4.0
+9,P26,C,Disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,2.0,2.0,5.0,5.0,5.0
+10,P26,C,Disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,2.0,2.0,5.0,5.0,5.0
+11,P26,C,Disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,2.0,2.0,5.0,5.0,5.0
+12,P26,C,Disagree,Disagree,Strongly agree,Hopeful,Very pleasant,2.0,2.0,5.0,4.0,5.0
+13,P26,C,Disagree,Disagree,Strongly agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,5.0,3.0,4.0
+14,P26,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+15,P26,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+17,P26,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+18,P26,C,Disagree,Disagree,Strongly agree,Very hopeful,Pleasant,2.0,2.0,5.0,5.0,4.0
+19,P26,C,Disagree,Disagree,Agree,Hopeful,Unpleasant,2.0,2.0,4.0,4.0,2.0
+22,P26,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,4.0,3.0,2.0
+23,P26,C,Disagree,Neither agree nor disagree,Agree,Very hopeful,Pleasant,2.0,3.0,4.0,5.0,4.0
+25,P26,C,Neither agree nor disagree,Disagree,Agree,Very hopeful,Very pleasant,3.0,2.0,4.0,5.0,5.0
+26,P26,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,4.0,3.0,5.0,5.0,5.0
+27,P26,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,4.0,3.0,5.0,5.0,5.0
+28,P26,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,4.0,3.0,5.0,5.0,4.0
+0,P49,C,Strongly disagree,Strongly disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,1.0,1.0,3.0,3.0,3.0
+1,P49,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+2,P49,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,3.0,3.0,5.0,5.0,4.0
+3,P49,C,Agree,Agree,Strongly agree,Very hopeful,Pleasant,4.0,4.0,5.0,5.0,4.0
+4,P49,C,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+5,P49,C,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+6,P49,C,Agree,Agree,Strongly agree,Neither hopeful nor hopeless,Pleasant,4.0,4.0,5.0,3.0,4.0
+7,P49,C,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+8,P49,C,Strongly agree,Agree,Strongly agree,Very hopeful,Pleasant,5.0,4.0,5.0,5.0,4.0
+9,P49,C,Strongly agree,Agree,Strongly agree,Very hopeful,Unpleasant,5.0,4.0,5.0,5.0,2.0
+10,P49,C,Strongly agree,Agree,Strongly agree,Neither hopeful nor hopeless,Pleasant,5.0,4.0,5.0,3.0,4.0
+11,P49,C,Agree,Agree,Strongly agree,Neither hopeful nor hopeless,Unpleasant,4.0,4.0,5.0,3.0,2.0
+12,P49,C,Agree,Agree,Strongly agree,Neither hopeful nor hopeless,Pleasant,4.0,4.0,5.0,3.0,4.0
+13,P49,C,Agree,Agree,Strongly agree,Neither hopeful nor hopeless,Pleasant,4.0,4.0,5.0,3.0,4.0
+14,P49,C,Strongly agree,Agree,Strongly agree,Hopeful,Pleasant,5.0,4.0,5.0,4.0,4.0
+15,P49,C,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+17,P49,C,Agree,Agree,Strongly agree,Neither hopeful nor hopeless,Very pleasant,4.0,4.0,5.0,3.0,5.0
+18,P49,C,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+20,P49,C,Agree,Agree,Strongly agree,Neither hopeful nor hopeless,Pleasant,4.0,4.0,5.0,3.0,4.0
+21,P49,C,Agree,Agree,Strongly agree,Neither hopeful nor hopeless,Pleasant,4.0,4.0,5.0,3.0,4.0
+22,P49,C,Agree,Agree,Strongly agree,Neither hopeful nor hopeless,Pleasant,4.0,4.0,5.0,3.0,4.0
+23,P49,C,Agree,Agree,Strongly agree,Neither hopeful nor hopeless,Pleasant,4.0,4.0,5.0,3.0,4.0
+25,P49,C,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+26,P49,C,Agree,Agree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,4.0,4.0,5.0,3.0,3.0
+27,P49,C,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+28,P49,C,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+1,P29,T,Disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,3.0,3.0,4.0,4.0
+2,P29,T,Disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,3.0,3.0,3.0,3.0
+3,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,3.0,3.0,3.0,4.0,4.0
+5,P29,T,Disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,3.0,3.0,3.0,4.0
+6,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+7,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+8,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+9,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+10,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+11,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+12,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,3.0,3.0,3.0,4.0,4.0
+13,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,3.0,3.0,3.0,4.0,4.0
+14,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,3.0,3.0,3.0,4.0,4.0
+15,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,3.0,3.0,3.0,4.0,4.0
+16,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,3.0,3.0,3.0,4.0,4.0
+17,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+18,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+19,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+20,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+22,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+23,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+24,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+25,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+27,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,3.0,3.0,3.0,3.0,4.0
+28,P29,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,3.0,3.0,3.0,3.0,2.0
+0,P36,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+1,P36,C,Disagree,Agree,Neither agree nor disagree,Very hopeful,Very pleasant,2.0,4.0,3.0,5.0,5.0
+2,P36,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+3,P36,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Very hopeful,Pleasant,3.0,3.0,4.0,5.0,4.0
+4,P36,C,Neither agree nor disagree,Agree,Agree,Hopeful,Pleasant,3.0,4.0,4.0,4.0,4.0
+5,P36,C,Neither agree nor disagree,Agree,Agree,Hopeful,Pleasant,3.0,4.0,4.0,4.0,4.0
+6,P36,C,Agree,Neither agree nor disagree,Agree,Very hopeful,Pleasant,4.0,3.0,4.0,5.0,4.0
+8,P36,C,Neither agree nor disagree,Agree,Agree,Hopeful,Pleasant,3.0,4.0,4.0,4.0,4.0
+9,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+10,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+11,P36,C,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+12,P36,C,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+13,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+14,P36,C,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+15,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+16,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+17,P36,C,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+18,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+19,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+20,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+21,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+22,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+23,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+24,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+26,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+27,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+28,P36,C,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+0,P13,C,Strongly agree,Agree,Strongly agree,Hopeful,Pleasant,5.0,4.0,5.0,4.0,4.0
+1,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Very pleasant,5.0,4.0,3.0,3.0,5.0
+2,P13,C,Strongly agree,Strongly agree,Neither agree nor disagree,Hopeful,Very pleasant,5.0,5.0,3.0,4.0,5.0
+3,P13,C,Strongly agree,Strongly agree,Neither agree nor disagree,Very hopeful,Pleasant,5.0,5.0,3.0,5.0,4.0
+4,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,5.0,4.0,3.0,3.0,3.0
+5,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,5.0,4.0,3.0,3.0,4.0
+6,P13,C,Strongly agree,Agree,Neither agree nor disagree,Hopeful,Neither pleasant nor unpleasant,5.0,4.0,3.0,4.0,3.0
+7,P13,C,Strongly agree,Agree,Neither agree nor disagree,Hopeful,Very pleasant,5.0,4.0,3.0,4.0,5.0
+8,P13,C,Strongly agree,Agree,Neither agree nor disagree,Hopeful,Pleasant,5.0,4.0,3.0,4.0,4.0
+9,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,5.0,4.0,3.0,3.0,2.0
+10,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,5.0,4.0,3.0,3.0,4.0
+11,P13,C,Strongly agree,Agree,Neither agree nor disagree,Hopeful,Pleasant,5.0,4.0,3.0,4.0,4.0
+12,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,5.0,4.0,3.0,3.0,2.0
+13,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,5.0,4.0,3.0,3.0,2.0
+14,P13,C,Strongly agree,Agree,Agree,Neither hopeful nor hopeless,Unpleasant,5.0,4.0,4.0,3.0,2.0
+15,P13,C,Strongly agree,Agree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,5.0,4.0,4.0,3.0,3.0
+16,P13,C,Strongly agree,Agree,Neither agree nor disagree,Hopeful,Pleasant,5.0,4.0,3.0,4.0,4.0
+17,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,5.0,4.0,3.0,3.0,3.0
+18,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,5.0,4.0,3.0,3.0,4.0
+19,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,5.0,4.0,3.0,3.0,4.0
+20,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,5.0,4.0,3.0,3.0,4.0
+21,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,5.0,4.0,3.0,3.0,4.0
+22,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,5.0,4.0,3.0,3.0,2.0
+23,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Very pleasant,5.0,4.0,3.0,3.0,5.0
+24,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,5.0,4.0,3.0,3.0,4.0
+25,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,5.0,4.0,3.0,3.0,4.0
+26,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,5.0,4.0,3.0,3.0,3.0
+27,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,5.0,4.0,3.0,3.0,4.0
+28,P13,C,Strongly agree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,5.0,4.0,3.0,3.0,4.0
+0,P31,C,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+1,P31,C,Agree,Disagree,Agree,Hopeful,Very unpleasant,4.0,2.0,4.0,4.0,5.0
+2,P31,C,Agree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,3.0,4.0,4.0,3.0
+3,P31,C,Neither agree nor disagree,Disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,2.0,4.0,3.0,3.0
+4,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,3.0,3.0,2.0
+5,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,3.0,3.0,3.0
+6,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Very unpleasant,2.0,2.0,3.0,3.0,5.0
+7,P31,C,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+8,P31,C,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+9,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,3.0,3.0,2.0
+10,P31,C,Disagree,Disagree,Disagree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,2.0,3.0,2.0
+11,P31,C,Strongly disagree,Disagree,Disagree,Hopeless,Very unpleasant,1.0,2.0,2.0,2.0,5.0
+14,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+15,P31,C,Neither agree nor disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Very pleasant,3.0,2.0,3.0,3.0,5.0
+16,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,3.0,3.0,3.0
+17,P31,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+18,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,3.0,3.0,2.0
+19,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Very unpleasant,2.0,2.0,3.0,3.0,5.0
+20,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,3.0,3.0,2.0
+21,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,3.0,3.0,3.0
+22,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Very unpleasant,2.0,2.0,3.0,3.0,5.0
+23,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,3.0,3.0,2.0
+24,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,3.0,3.0,2.0
+25,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,3.0,3.0,2.0
+26,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,3.0,3.0,2.0
+27,P31,C,Neither agree nor disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,3.0,2.0,3.0,3.0,2.0
+28,P31,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+0,P32,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+1,P32,T,Disagree,Agree,Agree,Hopeful,Pleasant,2.0,4.0,4.0,4.0,4.0
+2,P32,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+3,P32,T,Neither agree nor disagree,Agree,Agree,Hopeless,Unpleasant,3.0,4.0,4.0,2.0,2.0
+4,P32,T,Agree,Agree,Agree,Very hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,5.0,3.0
+5,P32,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,4.0,3.0,3.0
+6,P32,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+7,P32,T,Strongly agree,Agree,Agree,Very hopeful,Very pleasant,5.0,4.0,4.0,5.0,5.0
+8,P32,T,Neither agree nor disagree,Agree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,4.0,4.0,3.0,3.0
+9,P32,T,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+10,P32,T,Agree,Agree,Agree,Very hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,5.0,3.0
+11,P32,T,Agree,Agree,Agree,Hopeful,Unpleasant,4.0,4.0,4.0,4.0,2.0
+12,P32,T,Neither agree nor disagree,Agree,Agree,Hopeful,Pleasant,3.0,4.0,4.0,4.0,4.0
+13,P32,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+14,P32,T,Agree,Agree,Agree,Very hopeful,Pleasant,4.0,4.0,4.0,5.0,4.0
+15,P32,T,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+16,P32,T,Agree,Agree,Agree,Hopeful,Unpleasant,4.0,4.0,4.0,4.0,2.0
+17,P32,T,Agree,Agree,Agree,Hopeful,Unpleasant,4.0,4.0,4.0,4.0,2.0
+18,P32,T,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+19,P32,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+20,P32,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+21,P32,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+22,P32,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+23,P32,T,Agree,Agree,Agree,Hopeful,Very unpleasant,4.0,4.0,4.0,4.0,5.0
+24,P32,T,Agree,Agree,Agree,Neither hopeful nor hopeless,Very unpleasant,4.0,4.0,4.0,3.0,5.0
+25,P32,T,Agree,Agree,Agree,Hopeful,Unpleasant,4.0,4.0,4.0,4.0,2.0
+26,P32,T,Agree,Agree,Agree,Hopeful,Very unpleasant,4.0,4.0,4.0,4.0,5.0
+27,P32,T,Agree,Agree,Agree,Hopeful,Unpleasant,4.0,4.0,4.0,4.0,2.0
+28,P32,T,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+0,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+1,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,3.0,3.0,3.0,3.0,2.0
+2,P11,T,Neither agree nor disagree,Agree,Agree,Hopeful,Pleasant,3.0,4.0,4.0,4.0,4.0
+3,P11,T,Neither agree nor disagree,Agree,Agree,Neither hopeful nor hopeless,Pleasant,3.0,4.0,4.0,3.0,4.0
+4,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,3.0,3.0,3.0,3.0,2.0
+5,P11,T,Strongly agree,Strongly agree,Agree,Hopeful,Neither pleasant nor unpleasant,5.0,5.0,4.0,4.0,3.0
+6,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+7,P11,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,4.0,3.0,3.0
+8,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+9,P11,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,4.0,3.0,3.0
+10,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+11,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+12,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+14,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+15,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+16,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Very unpleasant,3.0,3.0,3.0,3.0,5.0
+17,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+18,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+19,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+20,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+21,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+22,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+23,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+24,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+25,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+26,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+27,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+28,P11,T,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,3.0,3.0,3.0,3.0
+0,P22,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,2.0,3.0,4.0,4.0,5.0
+1,P22,T,Disagree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,2.0,3.0,5.0,4.0,4.0
+2,P22,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,3.0,4.0,4.0,3.0
+3,P22,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,2.0,3.0,4.0,4.0,4.0
+5,P22,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,2.0,3.0,4.0,4.0,4.0
+6,P22,T,Disagree,Neither agree nor disagree,Strongly agree,Hopeful,Very pleasant,2.0,3.0,5.0,4.0,5.0
+7,P22,T,Disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,2.0,3.0,5.0,5.0,5.0
+8,P22,T,Disagree,Neither agree nor disagree,Agree,Very hopeful,Very pleasant,2.0,3.0,4.0,5.0,5.0
+9,P22,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,2.0,3.0,4.0,4.0,5.0
+10,P22,T,Disagree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,2.0,3.0,5.0,4.0,4.0
+11,P22,T,Disagree,Neither agree nor disagree,Agree,Very hopeful,Pleasant,2.0,3.0,4.0,5.0,4.0
+12,P22,T,Disagree,Agree,Strongly agree,Very hopeful,Very pleasant,2.0,4.0,5.0,5.0,5.0
+13,P22,T,Disagree,Agree,Strongly agree,Very hopeful,Very pleasant,2.0,4.0,5.0,5.0,5.0
+15,P22,T,Disagree,Agree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,4.0,5.0,3.0,3.0
+16,P22,T,Disagree,Agree,Agree,Hopeful,Unpleasant,2.0,4.0,4.0,4.0,2.0
+17,P22,T,Disagree,Agree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,2.0,4.0,5.0,4.0,3.0
+18,P22,T,Disagree,Agree,Strongly agree,Very hopeful,Pleasant,2.0,4.0,5.0,5.0,4.0
+20,P22,T,Disagree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,4.0,4.0,4.0,3.0
+21,P22,T,Disagree,Agree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,4.0,4.0,3.0,4.0
+22,P22,T,Disagree,Agree,Agree,Very hopeful,Very pleasant,2.0,4.0,4.0,5.0,5.0
+23,P22,T,Disagree,Agree,Agree,Hopeful,Very pleasant,2.0,4.0,4.0,4.0,5.0
+24,P22,T,Disagree,Agree,Strongly agree,Very hopeful,Very pleasant,2.0,4.0,5.0,5.0,5.0
+25,P22,T,Disagree,Agree,Strongly agree,Hopeful,Pleasant,2.0,4.0,5.0,4.0,4.0
+26,P22,T,Disagree,Agree,Agree,Hopeful,Pleasant,2.0,4.0,4.0,4.0,4.0
+27,P22,T,Disagree,Neither agree nor disagree,Agree,Very hopeful,Very pleasant,2.0,3.0,4.0,5.0,5.0
+28,P22,T,Neither agree nor disagree,Agree,Strongly agree,Very hopeful,Very pleasant,3.0,4.0,5.0,5.0,5.0
+0,P19,T,Disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,4.0,4.0,3.0
+1,P19,T,Disagree,Disagree,Agree,Hopeful,Unpleasant,2.0,2.0,4.0,4.0,2.0
+2,P19,T,Disagree,Disagree,Strongly agree,Very hopeful,Pleasant,2.0,2.0,5.0,5.0,4.0
+3,P19,T,Disagree,Disagree,Disagree,Hopeful,Pleasant,2.0,2.0,2.0,4.0,4.0
+4,P19,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+5,P19,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+6,P19,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+7,P19,T,Disagree,Disagree,Strongly agree,Very hopeful,Pleasant,2.0,2.0,5.0,5.0,4.0
+8,P19,T,Strongly disagree,Disagree,Agree,Hopeless,Unpleasant,1.0,2.0,4.0,2.0,2.0
+9,P19,T,Disagree,Agree,Agree,Hopeful,Unpleasant,2.0,4.0,4.0,4.0,2.0
+10,P19,T,Disagree,Disagree,Agree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,4.0,4.0,3.0
+11,P19,T,Disagree,Disagree,Agree,Hopeful,Unpleasant,2.0,2.0,4.0,4.0,2.0
+12,P19,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Pleasant,3.0,2.0,4.0,4.0,4.0
+13,P19,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+14,P19,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+15,P19,T,Disagree,Disagree,Agree,Hopeless,Pleasant,2.0,2.0,4.0,2.0,4.0
+16,P19,T,Disagree,Disagree,Agree,Hopeful,Pleasant,2.0,2.0,4.0,4.0,4.0
+17,P19,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+18,P19,T,Agree,Agree,Agree,Hopeful,Unpleasant,4.0,4.0,4.0,4.0,2.0
+19,P19,T,Agree,Agree,Strongly agree,Very hopeful,Pleasant,4.0,4.0,5.0,5.0,4.0
+20,P19,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+21,P19,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+22,P19,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+23,P19,T,Agree,Agree,Agree,Hopeful,Unpleasant,4.0,4.0,4.0,4.0,2.0
+24,P19,T,Neither agree nor disagree,Disagree,Agree,Hopeful,Unpleasant,3.0,2.0,4.0,4.0,2.0
+25,P19,T,Agree,Agree,Agree,Very hopeful,Pleasant,4.0,4.0,4.0,5.0,4.0
+26,P19,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+27,P19,T,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+28,P19,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+0,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+1,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+2,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+3,P40,T,Agree,Agree,Agree,Very hopeful,Pleasant,4.0,4.0,4.0,5.0,4.0
+4,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+5,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+6,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+7,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+8,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+9,P40,T,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+10,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+11,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+12,P40,T,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+13,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+14,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+15,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+16,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+17,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+18,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+19,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+20,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+21,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+22,P40,T,Agree,Agree,Agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,4.0,4.0,3.0
+23,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+24,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+25,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+26,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+27,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+28,P40,T,Agree,Agree,Agree,Hopeful,Pleasant,4.0,4.0,4.0,4.0,4.0
+0,P0,T,Disagree,Neither agree nor disagree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,3.0,5.0,3.0,3.0
+1,P0,T,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Hopeful,Pleasant,3.0,3.0,5.0,4.0,4.0
+2,P0,T,Neither agree nor disagree,Agree,Strongly agree,Hopeful,Unpleasant,3.0,4.0,5.0,4.0,2.0
+3,P0,T,Agree,Agree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,5.0,4.0,3.0
+4,P0,T,Neither agree nor disagree,Agree,Agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,3.0,4.0,4.0,3.0,3.0
+6,P0,T,Strongly agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,5.0,3.0,5.0,5.0,5.0
+7,P0,T,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,3.0,3.0,5.0,5.0,4.0
+8,P0,T,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,4.0,3.0,5.0,5.0,4.0
+9,P0,T,Agree,Neither agree nor disagree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,3.0,5.0,4.0,3.0
+10,P0,T,Strongly agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,5.0,3.0,5.0,5.0,4.0
+11,P0,T,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,4.0,3.0,5.0,5.0,4.0
+12,P0,T,Agree,Neither agree nor disagree,Strongly agree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,4.0,3.0,5.0,3.0,3.0
+14,P0,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+15,P0,T,Agree,Agree,Strongly agree,Very hopeful,Pleasant,4.0,4.0,5.0,5.0,4.0
+16,P0,T,Agree,Agree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,4.0,4.0,5.0,5.0,3.0
+17,P0,T,Agree,Agree,Strongly agree,Very hopeful,Pleasant,4.0,4.0,5.0,5.0,4.0
+18,P0,T,Agree,Agree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,4.0,5.0,4.0,3.0
+19,P0,T,Strongly agree,Agree,Strongly agree,Very hopeful,Pleasant,5.0,4.0,5.0,5.0,4.0
+20,P0,T,Agree,Agree,Strongly agree,Hopeful,Pleasant,4.0,4.0,5.0,4.0,4.0
+21,P0,T,Strongly agree,Agree,Strongly agree,Very hopeful,Pleasant,5.0,4.0,5.0,5.0,4.0
+22,P0,T,Strongly agree,Agree,Strongly agree,Very hopeful,Pleasant,5.0,4.0,5.0,5.0,4.0
+23,P0,T,Strongly agree,Agree,Strongly agree,Very hopeful,Pleasant,5.0,4.0,5.0,5.0,4.0
+25,P0,T,Strongly agree,Agree,Strongly agree,Very hopeful,Pleasant,5.0,4.0,5.0,5.0,4.0
+26,P0,T,Strongly agree,Agree,Strongly agree,Hopeful,Pleasant,5.0,4.0,5.0,4.0,4.0
+27,P0,T,Strongly agree,Agree,Strongly agree,Very hopeful,Very pleasant,5.0,4.0,5.0,5.0,5.0
+28,P0,T,Strongly agree,Agree,Strongly agree,Very hopeful,Pleasant,5.0,4.0,5.0,5.0,4.0
+10,P21,C,Strongly disagree,Disagree,Disagree,Neither hopeful nor hopeless,Very unpleasant,1.0,2.0,2.0,3.0,5.0
+11,P21,C,Strongly disagree,Strongly disagree,Disagree,Hopeless,Unpleasant,1.0,1.0,2.0,2.0,2.0
+12,P21,C,Strongly disagree,Strongly disagree,Disagree,Very hopeless,Pleasant,1.0,1.0,2.0,1.0,4.0
+13,P21,C,Agree,Disagree,Disagree,Neither hopeful nor hopeless,Pleasant,4.0,2.0,2.0,3.0,4.0
+14,P21,C,Disagree,Disagree,Disagree,Neither hopeful nor hopeless,Very pleasant,2.0,2.0,2.0,3.0,5.0
+15,P21,C,Disagree,Disagree,Neither agree nor disagree,Hopeless,Neither pleasant nor unpleasant,2.0,2.0,3.0,2.0,3.0
+16,P21,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+17,P21,C,Disagree,Strongly disagree,Neither agree nor disagree,Hopeless,Pleasant,2.0,1.0,3.0,2.0,4.0
+18,P21,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+19,P21,C,Strongly disagree,Disagree,Disagree,Very hopeless,Neither pleasant nor unpleasant,1.0,2.0,2.0,1.0,3.0
+20,P21,C,Agree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,4.0,3.0,3.0,4.0,4.0
+21,P21,C,Neither agree nor disagree,Disagree,Agree,Hopeful,Pleasant,3.0,2.0,4.0,4.0,4.0
+22,P21,C,Disagree,Disagree,Disagree,Hopeless,Pleasant,2.0,2.0,2.0,2.0,4.0
+23,P21,C,Strongly disagree,Disagree,Neither agree nor disagree,Very hopeless,Pleasant,1.0,2.0,3.0,1.0,4.0
+24,P21,C,Disagree,Disagree,Neither agree nor disagree,Hopeless,Pleasant,2.0,2.0,3.0,2.0,4.0
+25,P21,C,Disagree,Disagree,Disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,2.0,3.0,4.0
+26,P21,C,Agree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,4.0,3.0,4.0,4.0,5.0
+27,P21,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Very unpleasant,2.0,2.0,3.0,3.0,5.0
+28,P21,C,Disagree,Disagree,Neither agree nor disagree,Hopeless,Pleasant,2.0,2.0,3.0,2.0,4.0
+10,P50,C,Strongly disagree,Strongly disagree,Strongly agree,Very hopeful,Pleasant,1.0,1.0,5.0,5.0,4.0
+11,P50,C,Strongly disagree,Disagree,Strongly agree,Hopeful,Pleasant,1.0,2.0,5.0,4.0,4.0
+12,P50,C,Strongly disagree,Strongly disagree,Strongly agree,Very hopeful,Pleasant,1.0,1.0,5.0,5.0,4.0
+13,P50,C,Strongly disagree,Strongly disagree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,1.0,1.0,5.0,5.0,3.0
+14,P50,C,Strongly disagree,Strongly disagree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,1.0,1.0,5.0,5.0,3.0
+15,P50,C,Strongly disagree,Strongly disagree,Strongly agree,Neither hopeful nor hopeless,Unpleasant,1.0,1.0,5.0,3.0,2.0
+16,P50,C,Strongly disagree,Disagree,Strongly agree,Hopeful,Unpleasant,1.0,2.0,5.0,4.0,2.0
+17,P50,C,Strongly disagree,Strongly disagree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,1.0,1.0,5.0,5.0,3.0
+18,P50,C,Strongly disagree,Disagree,Strongly agree,Very hopeful,Pleasant,1.0,2.0,5.0,5.0,4.0
+19,P50,C,Strongly disagree,Strongly disagree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,1.0,1.0,5.0,4.0,3.0
+20,P50,C,Disagree,Disagree,Strongly agree,Very hopeful,Very pleasant,2.0,2.0,5.0,5.0,5.0
+21,P50,C,Disagree,Strongly disagree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,2.0,1.0,5.0,5.0,3.0
+22,P50,C,Strongly disagree,Strongly disagree,Strongly agree,Very hopeful,Pleasant,1.0,1.0,5.0,5.0,4.0
+23,P50,C,Disagree,Strongly disagree,Strongly agree,Very hopeful,Pleasant,2.0,1.0,5.0,5.0,4.0
+24,P50,C,Strongly disagree,Strongly disagree,Strongly agree,Neither hopeful nor hopeless,Pleasant,1.0,1.0,5.0,3.0,4.0
+25,P50,C,Disagree,Disagree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,2.0,2.0,5.0,5.0,3.0
+27,P50,C,Strongly disagree,Strongly disagree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,1.0,1.0,5.0,4.0,3.0
+28,P50,C,Strongly disagree,Strongly disagree,Strongly agree,Very hopeful,Pleasant,1.0,1.0,5.0,5.0,4.0
+10,P8,C,Disagree,Agree,Strongly agree,Hopeful,Pleasant,2.0,4.0,5.0,4.0,4.0
+11,P8,C,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+12,P8,C,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+13,P8,C,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+14,P8,C,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+15,P8,C,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+16,P8,C,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+17,P8,C,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+20,P8,C,Agree,Agree,Agree,Very hopeful,Very pleasant,4.0,4.0,4.0,5.0,5.0
+21,P8,C,Agree,Agree,Strongly agree,Very hopeful,Pleasant,4.0,4.0,5.0,5.0,4.0
+23,P8,C,Agree,Agree,Agree,Very hopeful,Very pleasant,4.0,4.0,4.0,5.0,5.0
+24,P8,C,Agree,Agree,Agree,Very hopeful,Very pleasant,4.0,4.0,4.0,5.0,5.0
+25,P8,C,Agree,Agree,Agree,Very hopeful,Very pleasant,4.0,4.0,4.0,5.0,5.0
+26,P8,C,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+27,P8,C,Agree,Agree,Agree,Very hopeful,Very pleasant,4.0,4.0,4.0,5.0,5.0
+28,P8,C,Agree,Agree,Agree,Very hopeful,Very pleasant,4.0,4.0,4.0,5.0,5.0
+10,P33,C,Neither agree nor disagree,Agree,Strongly agree,Neither hopeful nor hopeless,Very pleasant,3.0,4.0,5.0,3.0,5.0
+11,P33,C,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+12,P33,C,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+14,P33,C,Agree,Agree,Agree,Very hopeful,Very pleasant,4.0,4.0,4.0,5.0,5.0
+15,P33,C,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+17,P33,C,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+18,P33,C,Neither agree nor disagree,Agree,Agree,Hopeful,Very pleasant,3.0,4.0,4.0,4.0,5.0
+20,P33,C,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+21,P33,C,Neither agree nor disagree,Agree,Agree,Hopeful,Pleasant,3.0,4.0,4.0,4.0,4.0
+24,P33,C,Agree,Agree,Agree,Very hopeful,Very pleasant,4.0,4.0,4.0,5.0,5.0
+25,P33,C,Agree,Agree,Agree,Hopeful,Very pleasant,4.0,4.0,4.0,4.0,5.0
+26,P33,C,Agree,Agree,Strongly agree,Very hopeful,Very pleasant,4.0,4.0,5.0,5.0,5.0
+28,P33,C,Neither agree nor disagree,Agree,Agree,Neither hopeful nor hopeless,Pleasant,3.0,4.0,4.0,3.0,4.0
+10,P17,C,Disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,3.0,4.0,3.0,4.0
+11,P17,C,Disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,3.0,3.0,3.0,4.0
+12,P17,C,Disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,3.0,3.0,3.0,4.0
+14,P17,C,Disagree,Disagree,Neither agree nor disagree,Hopeless,Neither pleasant nor unpleasant,2.0,2.0,3.0,2.0,3.0
+16,P17,C,Disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,3.0,3.0,3.0,4.0
+17,P17,C,Neither agree nor disagree,Agree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,3.0,4.0,3.0,3.0,2.0
+18,P17,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,3.0,3.0,3.0
+19,P17,C,Disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,3.0,3.0,3.0,4.0
+20,P17,C,Disagree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Very unpleasant,2.0,3.0,3.0,3.0,5.0
+21,P17,C,Disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeless,Very unpleasant,2.0,3.0,3.0,2.0,5.0
+22,P17,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+23,P17,C,Disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,3.0,3.0,4.0,4.0
+24,P17,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,3.0,3.0,4.0,4.0,5.0
+25,P17,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Very unpleasant,3.0,3.0,4.0,4.0,5.0
+26,P17,C,Neither agree nor disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeless,Very unpleasant,3.0,3.0,3.0,2.0,5.0
+27,P17,C,Disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,2.0,3.0,4.0,4.0,4.0
+28,P17,C,Neither agree nor disagree,Neither agree nor disagree,Agree,Neither hopeful nor hopeless,Very unpleasant,3.0,3.0,4.0,3.0,5.0
+10,P48,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,2.0,3.0,4.0,4.0,4.0
+11,P48,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+12,P48,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,2.0,3.0,4.0,4.0,4.0
+14,P48,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+17,P48,T,Agree,Neither agree nor disagree,Strongly agree,Hopeful,Neither pleasant nor unpleasant,4.0,3.0,5.0,4.0,3.0
+20,P48,T,Neither agree nor disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,3.0,3.0,4.0,4.0,4.0
+25,P48,T,Agree,Neither agree nor disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,4.0,3.0,3.0,3.0,4.0
+27,P48,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+28,P48,T,Disagree,Neither agree nor disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,3.0,3.0,4.0,4.0
+10,P43,C,Disagree,Strongly disagree,Agree,Hopeful,Pleasant,2.0,1.0,4.0,4.0,4.0
+11,P43,C,Disagree,Disagree,Agree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,4.0,3.0,4.0
+12,P43,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Unpleasant,2.0,2.0,3.0,3.0,2.0
+13,P43,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Neither pleasant nor unpleasant,2.0,2.0,3.0,4.0,3.0
+15,P43,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+16,P43,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+17,P43,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+18,P43,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+19,P43,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+24,P43,C,Disagree,Disagree,Neither agree nor disagree,Hopeful,Pleasant,2.0,2.0,3.0,4.0,4.0
+26,P43,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,3.0,3.0,3.0
+27,P43,C,Disagree,Disagree,Neither agree nor disagree,Neither hopeful nor hopeless,Pleasant,2.0,2.0,3.0,3.0,4.0
+28,P43,C,Disagree,Disagree,Disagree,Neither hopeful nor hopeless,Neither pleasant nor unpleasant,2.0,2.0,2.0,3.0,3.0
+0,P45,T,Strongly disagree,Agree,Strongly agree,Very hopeful,Very pleasant,1.0,4.0,5.0,5.0,5.0
+1,P45,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,2.0,3.0,4.0,4.0,4.0
+10,P45,T,Disagree,Neither agree nor disagree,Agree,Hopeful,Pleasant,2.0,3.0,4.0,4.0,4.0
+11,P45,T,Disagree,Agree,Agree,Hopeful,Pleasant,2.0,4.0,4.0,4.0,4.0
+12,P45,T,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,3.0,3.0,5.0,5.0,5.0
+13,P45,T,Agree,Neither agree nor disagree,Agree,Hopeful,Pleasant,4.0,3.0,4.0,4.0,4.0
+14,P45,T,Disagree,Agree,Strongly agree,Very hopeful,Very pleasant,2.0,4.0,5.0,5.0,5.0
+16,P45,T,Disagree,Agree,Strongly agree,Very hopeful,Very pleasant,2.0,4.0,5.0,5.0,5.0
+17,P45,T,Disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,2.0,3.0,5.0,5.0,5.0
+18,P45,T,Disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,2.0,3.0,5.0,5.0,5.0
+19,P45,T,Disagree,Neither agree nor disagree,Agree,Very hopeful,Very pleasant,2.0,3.0,4.0,5.0,5.0
+20,P45,T,Disagree,Agree,Agree,Very hopeful,Very pleasant,2.0,4.0,4.0,5.0,5.0
+21,P45,T,Disagree,Agree,Strongly agree,Very hopeful,Very pleasant,2.0,4.0,5.0,5.0,5.0
+22,P45,T,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,4.0,3.0,5.0,5.0,5.0
+24,P45,T,Disagree,Agree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,2.0,4.0,5.0,5.0,3.0
+25,P45,T,Disagree,Agree,Strongly agree,Very hopeful,Very pleasant,2.0,4.0,5.0,5.0,5.0
+26,P45,T,Disagree,Agree,Agree,Very hopeful,Very pleasant,2.0,4.0,4.0,5.0,5.0
+27,P45,T,Disagree,Agree,Strongly agree,Very hopeful,Very pleasant,2.0,4.0,5.0,5.0,5.0
+28,P45,T,Disagree,Agree,Agree,Very hopeful,Very pleasant,2.0,4.0,4.0,5.0,5.0
+10,P44,C,Disagree,Agree,Strongly agree,Hopeful,Very pleasant,2.0,4.0,5.0,4.0,5.0
+11,P44,C,Disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,2.0,3.0,5.0,5.0,5.0
+12,P44,C,Disagree,Neither agree nor disagree,Agree,Hopeful,Very pleasant,2.0,3.0,4.0,4.0,5.0
+13,P44,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,3.0,3.0,5.0,5.0,5.0
+14,P44,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,3.0,3.0,5.0,5.0,5.0
+15,P44,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,3.0,3.0,5.0,5.0,3.0
+16,P44,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,3.0,3.0,5.0,5.0,5.0
+17,P44,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,4.0,3.0,5.0,5.0,5.0
+18,P44,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,3.0,3.0,5.0,5.0,5.0
+19,P44,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,3.0,3.0,5.0,5.0,4.0
+20,P44,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,3.0,3.0,5.0,5.0,4.0
+21,P44,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,3.0,3.0,5.0,5.0,4.0
+22,P44,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,3.0,3.0,5.0,5.0,4.0
+23,P44,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,4.0,3.0,5.0,5.0,4.0
+24,P44,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Very pleasant,4.0,3.0,5.0,5.0,5.0
+25,P44,C,Agree,Agree,Strongly agree,Very hopeful,Pleasant,4.0,4.0,5.0,5.0,4.0
+26,P44,C,Agree,Neither agree nor disagree,Strongly agree,Very hopeful,Pleasant,4.0,3.0,5.0,5.0,4.0
+27,P44,C,Neither agree nor disagree,Neither agree nor disagree,Strongly agree,Very hopeful,Neither pleasant nor unpleasant,3.0,3.0,5.0,5.0,3.0
+28,P44,C,Disagree,Neither agree nor disagree,Strongly agree,Hopeful,Unpleasant,2.0,3.0,5.0,4.0,2.0
