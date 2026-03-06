@@ -16,6 +16,7 @@ Please file a [GitHub issue](https://docs.github.com/en/issues/tracking-your-wor
 - [Licensing](#licensing)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
+- [Citation](#citation)
 
 ## Quickstart
 This section provides a brief overview to get the app running locally. For further details, see [Setup & Configuration](#setup--configuration).
